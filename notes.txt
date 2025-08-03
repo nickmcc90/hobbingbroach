@@ -40,3 +40,14 @@ How I set this up in github:
 10j. Retype git push origin main
 10k. When it asks for the password, paste the password given to you by the token.
 10l. You can upload versions to github now !!!
+
+
+How to install tailwindcss into this environment:
+1. go to the terminal in VScode and type npm install tailwindcss @tailwindcss/vite
+2. In the vite.config.js file, put "tailwindcss()," inside the 'plugins' brackets and put import tailwindcss from '@tailwindcss/vite'
+at the top of the file.
+3. Go to App.css and index.css and put @import "tailwindcss"; at the top of both.
+4. Test out the tailwind on the starter page in App.jsx
+
+
+
