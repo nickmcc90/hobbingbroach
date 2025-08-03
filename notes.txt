@@ -57,4 +57,12 @@ Now we can start doing this !!
 I was looking at my gym-app in the Desktop folder for help and examples for the utils folder
 and broaching data.
 
+NOTES
 
+- I want to organize by type, series, ID diameter.
+- the length of a bar and quill could be important
+- A per_bobby variable that indicates whether the info in the object is only true bc bobby wrote
+it and not that we actually tested it.
+- A beginning number series variable, and an object for the kind of item it is. The kind of item
+it is might have a series attached to it too.
+- tolerance for each drawing parameter
