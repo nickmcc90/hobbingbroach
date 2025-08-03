@@ -15,4 +15,28 @@ How I set this interface up:
 9. Copy and paste the website link into a browser !
 
 
+How I set this up in github:
+1. Went to terminal in Apple computer and navigated to 'project name'
+2. git init
+3. git add .
+4. git commit -m "commit notes"
+5. git log (to see that it worked)
+6. Go to github and create a new repository
+7. Copy the HTTPS link that it gives you
+8. Go back to the terminal in apple computer and type git remote add origin "link"
+9. Type git remote to see that it worked
+10. git push origin main
 
+**If step 10 doesn't work, we need to create a personal access token**
+10a. Go to github profile icon
+10b. Click settings
+10c. Scroll down the left side banner and click developer settings
+10d. Click personal access tokens and choose tokens (classic) 
+10e. Click generate new token, and choose the classic version
+10f. Name the token and only select all the checkmarks for the "repo" category
+10g. Choose an expiration date of 90 days preferably. 
+10h. Generate the token with the green button
+10i. Copy the access token link and paste it in your notes. You'll need it for step 10 again.
+10j. Retype git push origin main
+10k. When it asks for the password, paste the password given to you by the token.
+10l. You can upload versions to github now !!!
