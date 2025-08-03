@@ -48,6 +48,13 @@ How to install tailwindcss into this environment:
 at the top of the file.
 3. Go to App.css and index.css and put @import "tailwindcss"; at the top of both.
 4. Test out the tailwind on the starter page in App.jsx
+5. Gut out index.css and app.css and leave only the top tailwindcss import there.
+6. Gut out all the app.jsx stuff within the return brackets and make your own deal.
 
+
+Now we can start doing this !!
+
+I was looking at my gym-app in the Desktop folder for help and examples for the utils folder
+and broaching data.
 
 
