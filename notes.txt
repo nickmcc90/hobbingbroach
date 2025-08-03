@@ -1,0 +1,18 @@
+I'm making a website with code because I find this to be an easy way to organize data 
+with a clean interface using javascript.
+
+How I set this interface up:
+1. Open up VScode
+2. Open up a terminal inside VScode
+3. Type in the terminal " npm create vite@latest ‘project name’ "
+3.5 Choose what you want in the terminal in your react app
+3.9 Open up the folder you just created in VScode
+4. cd 'project name'
+5. npm install
+6. npm install node
+7. sudo npm install n -g
+8. npm run dev
+9. Copy and paste the website link into a browser !
+
+
+
