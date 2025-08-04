@@ -66,3 +66,17 @@ it and not that we actually tested it.
 - A beginning number series variable, and an object for the kind of item it is. The kind of item
 it is might have a series attached to it too.
 - tolerance for each drawing parameter
+- If there is info at all in an object item, there will be a boolean value variable that denotes
+so.
+- Having a "goes_with" variable to the arbors, bars, adapters, etc.s
+
+WHILE AT WORK:
+- collect all the info within the utils js files to put into digital form
+- come up with colors for each broaching bar based on keyway width. Inscribe a simple number to
+further deliniate the same color bars.
+- as for the arbors, we can separate them based on item series, and further separate them based on 
+"dia_mesh_w_part" size.
+
+
+WHERE I LEFT OFF:
+I'm putting more objects in, about to do backside of page 2.
