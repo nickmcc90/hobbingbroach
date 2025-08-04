@@ -4,6 +4,7 @@ export const ITEMS = {
   new999: {
     broach_info: true,
     per_bobby: true,
+    done_irl: false,
     page_in_old_notes: "int",
     bar: "",
     arbor: "",

@@ -69,6 +69,7 @@ it is might have a series attached to it too.
 - If there is info at all in an object item, there will be a boolean value variable that denotes
 so.
 - Having a "goes_with" variable to the arbors, bars, adapters, etc.s
+- "und" as a type of item means that I don't know what it is.
 
 WHILE AT WORK:
 - collect all the info within the utils js files to put into digital form
@@ -76,7 +77,9 @@ WHILE AT WORK:
 further deliniate the same color bars.
 - as for the arbors, we can separate them based on item series, and further separate them based on 
 "dia_mesh_w_part" size.
+- Is there a MOD adapter ? That says MOD on it ?
 
 
 WHERE I LEFT OFF:
 I'm putting more objects in, about to do backside of page 2.
+Just finished page 5. Going to keep doing page 6 and on
