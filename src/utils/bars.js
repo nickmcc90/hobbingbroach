@@ -7,7 +7,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-40": {
-    goes_with: ["M03FRG09", "M03FRG15", "M03FRG25"],
+    goes_with: ["M03FRG09", "M03FRG15", "M03FRG25", "DJ0060", "HE0235"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -42,7 +42,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-139": {
-    goes_with: ["M09FRG15", "M10FRG15", "M08FRG15", "M08FRG25"],
+    goes_with: ["M09FRG15", "M10FRG15", "M08FRG15", "M08FRG25", "M07FRG15", "M07FRG25", "DK0162", "M05FRG09", "M05FRG15", "M05FRG25", "MSC01OUH", "DK0156"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -63,7 +63,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "HL0225": {
-    goes_with: ["M06OUH"],
+    goes_with: ["M06OUH", "HL0225", "HG0305", "M06OUHstraight"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -83,8 +83,8 @@ export const BARS = {
     keyway_width: "integer",
     bar_length: "integer"
   },
-  "HK0225": {
-    goes_with: ["M06OHG"],
+  "HK0225/HK0215": {
+    goes_with: ["M06OHG", "MO7OHG", "M245094", "M243272"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -97,5 +97,144 @@ export const BARS = {
     keyway_width: "integer",
     bar_length: "integer"
   },
-  
+  "15-19-163": {
+    goes_with: ["KK0101", "M245112", "MSC05OUH", "M05OHG"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "1695-R3": {
+    goes_with: ["DK0086"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "15-19-197": {
+    goes_with: ["KM0079", "DM0078", "HC0305", "M02OHG", "MSC02OUH", "MSC03OUH"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "HE0300": {
+    goes_with: ["KJ0101", "M04OUH"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "T20202": {
+    goes_with: ["DM0084"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "HW21": {
+    goes_with: ["M06FRG09", "M06FRG15", "M06FRG25"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "15-41-197": {
+    goes_with: ["M03OUH"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "D16378": {
+    goes_with: ["M03OHG"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "00876-950F": {
+    goes_with: ["DT0084"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "T-21630": {
+    goes_with: ["079207-04-C"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "15-19-194": {
+    goes_with: ["DK0083", "DK0084"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "92T2093": {
+    goes_with: ["DJ0062"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "HS0035": {
+    goes_with: ["M244115"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "HG0299": {
+    goes_with: ["HG0299"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "15-41-206": {
+    goes_with: ["HD0215"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "KM0101": {
+    goes_with: ["MSC07OUH"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "BARFORSTEEL": {
+    goes_with: ["HF0299"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "#5190": {
+    goes_with: ["DL0071"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "15-19-148": {
+    goes_with: ["HC0299"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "K062409": {
+    goes_with: ["DI0099"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
 }
