@@ -11,15 +11,15 @@ export const ITEMS = {
     shim_data: {
       shims_used: [],
       shim_pulls: {
-        one: [],
-        two: [],
-        three: [],
+        one: [.03],
+        two: [.120],
+        three: [.005, .03, .120],
       }
     },
     extra_info: "",
     part_info: {
       type: "quill",
-      series: 5,
+      begin_num_series: 5,
       kind: {
         kind: "OUH",
         kind_num_series: null
@@ -52,7 +52,7 @@ export const ITEMS = {
     extra_info: "",
     part_info: {
       type: "gear",
-      series: 3,
+      begin_num_series: 3,
       kind: {
         kind: "FRG",
         kind_num_series: 9
@@ -85,7 +85,7 @@ export const ITEMS = {
     extra_info: "",
     part_info: {
       type: "gear",
-      series: 3,
+      begin_num_series: 3,
       kind: {
         kind: "FRG",
         kind_num_series: 25
@@ -118,7 +118,7 @@ export const ITEMS = {
     extra_info: "",
     part_info: {
       type: "gear",
-      series: 3,
+      begin_num_series: 3,
       kind: {
         kind: "FRG",
         kind_num_series: 9
@@ -2376,7 +2376,7 @@ export const ITEMS = {
     }
   },
 
-
+/* binder pages start below */
 
   HC0299: {
     broach_info: true,
@@ -2477,5 +2477,2651 @@ export const ITEMS = {
       keyway_width: 0.1876
     }
   },
+
+  /* started diversifying */
+  DI0107: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 103,
+    bar: "K062409",
+    arbor: "T66891",
+    adapter: "8203",
+    puller: "",
+    shim_data: {
+      shims_used: [.167],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "adapters says 1.25-2 then 2-3inch then 8203",
+    part_info: {
+      type: "worm gear",
+      begin_num_series: "0107",
+      kind: {
+        kind: "DI",
+        kind_num_series: null
+      },
+      bore_dia: 0.938,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 1.032,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.1775,
+      keyway_width: 0.1876
+    }
+  },
+  DK0153: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 104,
+    bar: "15-19-139",
+    arbor: "T66070",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "2 INCH TO 3 INCH THEN 8203",
+    part_info: {
+      type: "",
+      begin_num_series: "0153",
+      kind: {
+        kind: "DK",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DK0159: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 105,
+    bar: "15-19-139",
+    arbor: "T66070",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "2 INCH TO 3 INCH THEN 8203",
+    part_info: {
+      type: "",
+      begin_num_series: "0159",
+      kind: {
+        kind: "DK",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DK0160: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 106,
+    bar: "15-19-139",
+    arbor: "T66070",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "2 INCH TO 3 INCH THEN 8203",
+    part_info: {
+      type: "",
+      begin_num_series: "0160",
+      kind: {
+        kind: "DK",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DL0151: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 107,
+    bar: "15-19-139",
+    arbor: "T28840",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "0151",
+      kind: {
+        kind: "DL",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DL0153: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 108,
+    bar: "15-19-139",
+    arbor: "T28840",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "0153",
+      kind: {
+        kind: "DL",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DL0155: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 109,
+    bar: "15-19-139",
+    arbor: "T28840",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "0155",
+      kind: {
+        kind: "DL",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DL0156: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 110,
+    bar: "15-19-139",
+    arbor: "T28840",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "0156",
+      kind: {
+        kind: "DL",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DL0157: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 111,
+    bar: "15-19-139",
+    arbor: "T28840",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "0157",
+      kind: {
+        kind: "DL",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DL0160: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 112,
+    bar: "15-19-139",
+    arbor: "T28840",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "0160",
+      kind: {
+        kind: "DL",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DN0630: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 113,
+    bar: "K4752",
+    arbor: "551280",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [0.09, 0.07],
+        two: [0.09, 0.120],
+        three: [0.09, 0.170],
+        four: [0.09, 0.120, 0.110],
+        five: [0.09, 0.170, 0.130]
+      }
+    },
+    extra_info: "551280 the 2.188 1/2 one",
+    part_info: {
+      type: "",
+      begin_num_series: "0630",
+      kind: {
+        kind: "DN",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DP0136: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 114,
+    bar: "Y014687",
+    arbor: "T10940",
+    adapter: "8203",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "In addtion to T10940 it could be BF-744",
+    part_info: {
+      type: "",
+      begin_num_series: "0136",
+      kind: {
+        kind: "DP",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DP0137: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 115,
+    bar: "Y014687",
+    arbor: "T10940",
+    adapter: "8203",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "In addtion to T10940 it could be BF-744",
+    part_info: {
+      type: "",
+      begin_num_series: "0137",
+      kind: {
+        kind: "DP",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DS0132: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 116,
+    bar: "15-19-172",
+    arbor: "T66871",
+    adapter: "8203",
+    puller: "T-6021700-13",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "0132",
+      kind: {
+        kind: "DS",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DS0135: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 117,
+    bar: "15-19-172",
+    arbor: "T66871",
+    adapter: "8203",
+    puller: "T-6021700-13",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "0135",
+      kind: {
+        kind: "DS",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DT0087: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 118,
+    bar: "15-19-172",
+    arbor: "T66872",
+    adapter: "8203",
+    puller: "T-6021700-13",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "0087",
+      kind: {
+        kind: "DT",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DU0075: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 119,
+    bar: "K969174",
+    arbor: "",
+    adapter: "8203",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [.150],
+        two: [.150, .115],
+        three: [.475],
+      }
+    },
+    extra_info: "arbor is listed as FOR 4.1243 BORE + SHIMS",
+    part_info: {
+      type: "",
+      begin_num_series: "0075",
+      kind: {
+        kind: "DU",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  DV0038: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 120,
+    bar: "K969174",
+    arbor: "",
+    adapter: "8203",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: ["none"],
+        two: [.150],
+        three: [.250],
+        four: [.335]
+      }
+    },
+    extra_info: "arbor isn't listed, says FOR 4.4992 BORE",
+    part_info: {
+      type: "",
+      begin_num_series: "0038",
+      kind: {
+        kind: "DV",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  FA0018: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 121,
+    bar: "KINGSFORD 550290",
+    arbor: "",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "arbor isn't listed, says 1.125 BORE. Also adapter says 1 inch to 2 inch then 2 inch to 3 inch then 8203",
+    part_info: {
+      type: "",
+      begin_num_series: "0018",
+      kind: {
+        kind: "FA",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  FA0063: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 122,
+    bar: "KINGSFORD 550290",
+    arbor: "",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "arbor isn't listed, says 1.125 BORE. Also adapter says 1 inch to 2 inch then 2 inch to 3 inch then 8203",
+    part_info: {
+      type: "",
+      begin_num_series: "0063",
+      kind: {
+        kind: "FA",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  FD0975: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 123,
+    bar: "15-19-206",
+    arbor: "2013T005",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [.160],
+        two: [.300],
+        three: [],
+      }
+    },
+    extra_info: "locate keyway from lifting holes. arbor says 2.538 + shims",
+    part_info: {
+      type: "",
+      begin_num_series: "0975",
+      kind: {
+        kind: "FD",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  FD1456: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 124,
+    bar: "15-19-163",
+    arbor: "73T44304",
+    adapter: "8203",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [.250],
+        two: [.250, .115],
+        three: [.250, .115, .120],
+      }
+    },
+    extra_info: "arbor says 3.290 INCH. ",
+    part_info: {
+      type: "",
+      begin_num_series: "1456",
+      kind: {
+        kind: "FD",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  KJ1052: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 125,
+    bar: "15-19-139",
+    arbor: "M-5163",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
+    part_info: {
+      type: "",
+      begin_num_series: 125,
+      kind: {
+        kind: "KJ",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  KJ1053: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 126,
+    bar: "15-19-139",
+    arbor: "M-5163",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
+    part_info: {
+      type: "",
+      begin_num_series: "1053",
+      kind: {
+        kind: "KJ",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  KJ1054: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 127,
+    bar: "15-19-139",
+    arbor: "M-5163",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
+    part_info: {
+      type: "",
+      begin_num_series: "1054",
+      kind: {
+        kind: "KJ",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  KJ1055: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 128,
+    bar: "15-19-139",
+    arbor: "M-5163",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
+    part_info: {
+      type: "",
+      begin_num_series: "1055",
+      kind: {
+        kind: "KJ",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  KJ1057: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 129,
+    bar: "15-19-139",
+    arbor: "M-5163",
+    adapter: "8203",
+    puller: "6502",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
+    part_info: {
+      type: "",
+      begin_num_series: "1057",
+      kind: {
+        kind: "KD",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  KJ1115: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 130,
+    bar: "T20184",
+    arbor: "M-5150",
+    adapter: "8203",
+    puller: "#4",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "1115",
+      kind: {
+        kind: "KJ",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  KJ1119: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 131,
+    bar: "T20184",
+    arbor: "M-5150",
+    adapter: "8203",
+    puller: "#4",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "1119",
+      kind: {
+        kind: "KJ",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  KJ1120: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 132,
+    bar: "T20184",
+    arbor: "M-5150",
+    adapter: "8203",
+    puller: "#4",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "1120",
+      kind: {
+        kind: "KJ",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "LY5001-6": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 133,
+    bar: "TL#92T4102",
+    arbor: "88T202",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [.130],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "5001",
+      kind: {
+        kind: "LY",
+        kind_num_series: 6
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "LY5001-9": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 134,
+    bar: "69T45916",
+    arbor: "M-LY5001-9",
+    adapter: "8203",
+    puller: "",
+    shim_data: {
+      shims_used: [.130, .210, .250],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "5001",
+      kind: {
+        kind: "LY",
+        kind_num_series: 9
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602032-62": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 135,
+    bar: "15-19-147",
+    arbor: "T-602032-03-B-13-A1",
+    adapter: "8670",
+    puller: "#1",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "ADAPTER SAYS 8670 THEN 1 5/8 INCH",
+    part_info: {
+      type: "",
+      begin_num_series: "032",
+      kind: {
+        kind: "602",
+        kind_num_series: "-62"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602049-02": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 136,
+    bar: "15-19-148",
+    arbor: "T-602049-02-13-C1",
+    adapter: "8670",
+    puller: "#3",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "ADAPTER SAYS 8670 THEN 2 INCH",
+    part_info: {
+      type: "",
+      begin_num_series: "049",
+      kind: {
+        kind: "602",
+        kind_num_series: "-02"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602065-02": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 127,
+    bar: "15-19-167",
+    arbor: "T-602065-02-13",
+    adapter: "8670",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "065",
+      kind: {
+        kind: "602",
+        kind_num_series: "-02"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602079-03": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 138,
+    bar: "15-19-148",
+    arbor: "T-602079-02-B-D-1",
+    adapter: "8670",
+    puller: "#3",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "079",
+      kind: {
+        kind: "602",
+        kind_num_series: "-03"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602224-02": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 139,
+    bar: "15-19-148",
+    arbor: "T-602224-02-13-A",
+    adapter: "8670",
+    puller: "#3",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "224",
+      kind: {
+        kind: "602",
+        kind_num_series: "-02"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602224-03": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 140,
+    bar: "15-19-148",
+    arbor: "T-602224-02-13-A",
+    adapter: "8670",
+    puller: "#3",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "224",
+      kind: {
+        kind: "602",
+        kind_num_series: "-03"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602395-03-A": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 141,
+    bar: "15-19-167",
+    arbor: "T-602395-01-H-13-A-1",
+    adapter: "8670",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "395",
+      kind: {
+        kind: "602",
+        kind_num_series: "-03-A"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602079-02": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 142,
+    bar: "15-19-148",
+    arbor: "T-602079-02-B-D-1",
+    adapter: "8670",
+    puller: "#3",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "079",
+      kind: {
+        kind: "602",
+        kind_num_series: "-02"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602079-03": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 143,
+    bar: "HH0215",
+    arbor: "T-602079-02-B-D-1",
+    adapter: "8670",
+    puller: "#3",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "079",
+      kind: {
+        kind: "602",
+        kind_num_series: "-03"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-08-J": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 144,
+    bar: "15-19-148",
+    arbor: "M-2129",
+    adapter: "",
+    puller: "#2",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "159",
+      kind: {
+        kind: "079",
+        kind_num_series: "08-J"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079256-09-H": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 145,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "2149",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "256",
+      kind: {
+        kind: "079",
+        kind_num_series: "09-H"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-09-F": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 145,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "2149",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "09-F"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-09-H": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 145,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "2149",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "09-H"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-10-Adouble": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 146,
+    bar: "15-19-163",
+    arbor: "M-2132",
+    adapter: "2149",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [0.094],
+        two: [0.094, 0.188],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "10-A"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-10-Bdouble": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 146,
+    bar: "15-19-163",
+    arbor: "M-2132",
+    adapter: "2149",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [0.094],
+        two: [0.094, 0.188],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "10-B"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-10-Asingle": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 147,
+    bar: "15-19-206",
+    arbor: "M-4127",
+    adapter: "1297",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "10-A"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-10-Bsingle": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 147,
+    bar: "15-19-206",
+    arbor: "M-4127",
+    adapter: "1297",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "10-B"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-11-A": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 148,
+    bar: "15-19-172",
+    arbor: "M-2131",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "11-A"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-A": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 149,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-A"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-B": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 149,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-B"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-C": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 149,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-C"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-D": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 149,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-D"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-E": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 149,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-E"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-F": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 149,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-F"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-G": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 149,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-G"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-H": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 149,
+    bar: "15-19-167",
+    arbor: "M-2130",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-H"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-J": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-J"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-K": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-K"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-L": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-L"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-M": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-M"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-N": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-N"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-O": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-O"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-P": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-P"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-Q": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-Q"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-R": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-R"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079156-16-S": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 150,
+    bar: "15-19-163",
+    arbor: "M-3718",
+    adapter: "",
+    puller: "#7",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "16-S"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079207-02-F": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 151,
+    bar: "T#20223",
+    arbor: "M-3738",
+    adapter: "8670",
+    puller: "T71324",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "207",
+      kind: {
+        kind: "079",
+        kind_num_series: "02-F"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079207-04-B": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 152,
+    bar: "T-21630",
+    arbor: "M-3413",
+    adapter: "8670",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "207",
+      kind: {
+        kind: "079",
+        kind_num_series: "04-B"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079207-04-C": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 153,
+    bar: "T-21630",
+    arbor: "M-3413",
+    adapter: "8670",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "207",
+      kind: {
+        kind: "079",
+        kind_num_series: "04-C"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079207-04-H": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 154,
+    bar: "15-19-197",
+    arbor: "551280",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [.170],
+        two: [.240],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "207",
+      kind: {
+        kind: "079",
+        kind_num_series: "04-H"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079207-05-B": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 155,
+    bar: "LY5001-9",
+    arbor: "M-3680",
+    adapter: "8670",
+    puller: "#5",
+    shim_data: {
+      shims_used: ['NONE'],
+      shim_pulls: {
+        one: ['NONE'],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "207",
+      kind: {
+        kind: "079",
+        kind_num_series: "05-B"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079207-05-C": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 156,
+    bar: "15-19-197",
+    arbor: "551280",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [.120, 0.03],
+        two: [.270],
+        three: [],
+      }
+    },
+    extra_info: "the arbor of 551280 label 2.188 INCH",
+    part_info: {
+      type: "",
+      begin_num_series: "207",
+      kind: {
+        kind: "079",
+        kind_num_series: "05-C"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  M02OUH: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 157,
+    bar: "15-19-197",
+    arbor: "M-7001-2",
+    adapter: "",
+    puller: "T-602720-13-A",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "shims?",
+    part_info: {
+      type: "",
+      begin_num_series: 2,
+      kind: {
+        kind: "OUH",
+        kind_num_series: null
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  new999: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: "int",
+    bar: "",
+    arbor: "",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "int",
+      kind: {
+        kind: "",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  M03OUH: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 158,
+    bar: "15-41-197",
+    arbor: "M-7001-3",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: 3,
+      kind: {
+        kind: "OUH",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  M04OUH: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 159,
+    bar: "HE0300",
+    arbor: "M-7001-4",
+    adapter: "",
+    puller: "#5",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: ["none"],
+        two: ["special shim"],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: 4,
+      kind: {
+        kind: "OUH",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "079207-03-C": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 164,
+    bar: "15-19-152",
+    arbor: "M-3343",
+    adapter: "",
+    puller: "#3",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "207",
+      kind: {
+        kind: "079",
+        kind_num_series: "03-C"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+  "602079-06": {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: 165,
+    bar: "15-19-148",
+    arbor: "T-602079-02-B-D-1",
+    adapter: "8670",
+    puller: "#3",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "",
+      begin_num_series: "079",
+      kind: {
+        kind: "602",
+        kind_num_series: "-06"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
+    }
+  },
+/* STARTED DIVER */
 }
 
