@@ -24,6 +24,9 @@ export const PULLERS = {
     goes_with_bar: ["15-19-148",]
   },
   "6502": {
-    goes_with_bar: ["15-19-139",]
+    goes_with_bar: ["15-19-139", "KINGSFORD 550290"]
+  },
+  "T-6021700-13": {
+    goes_with_bar: ["15-19-172",]
   },
 }

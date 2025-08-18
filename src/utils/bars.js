@@ -42,7 +42,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-139": {
-    goes_with: ["M09FRG15", "M10FRG15", "M08FRG15", "M08FRG25", "M07FRG15", "M07FRG25", "DK0162", "M05FRG09", "M05FRG15", "M05FRG25", "MSC01OUH", "DK0156"],
+    goes_with: ["M09FRG15", "M10FRG15", "M08FRG15", "M08FRG25", "M07FRG15", "M07FRG25", "DK0162", "M05FRG09", "M05FRG15", "M05FRG25", "MSC01OUH", "DK0156", "DK0153", "DK0159", "DK0160", "DL0151", "DL0153", "DL0155", "DL0156", "DL0157", "DL0160", "KJ1052", "KJ1053", "KJ1054", "KJ1055"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -98,7 +98,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-163": {
-    goes_with: ["KK0101", "M245112", "MSC05OUH", "M05OHG"],
+    goes_with: ["KK0101", "M245112", "MSC05OUH", "M05OHG", "FD1456"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -231,7 +231,49 @@ export const BARS = {
     bar_length: "integer"
   },
   "K062409": {
-    goes_with: ["DI0099"],
+    goes_with: ["DI0099", "DI0107"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "K4752": {
+    goes_with: ["DN0630"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "Y014687": {
+    goes_with: ["DP0136", "DP0137"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "15-19-172": {
+    goes_with: ["DS0132", "DS0135", "DT0087"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "K969174": {
+    goes_with: ["DU0075", "DV0038"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "KINGSFORD 550290": {
+    goes_with: ["FA0018", "FA0063"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "15-19-206": {
+    goes_with: ["FD0975"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",

@@ -1,6 +1,6 @@
 export const ADAPTERS = {
   "8203": {
-    goes_with_arbor: ["BF880", "85T4078", "M10FRG", "KK0101", "M-3738", "T-64980", "T66070", "T66891"],
+    goes_with_arbor: ["BF880", "85T4078", "M10FRG", "KK0101", "M-3738", "T-64980", "T66070", "T66891", "T28840", "T10940", "T66871", "T66872", "73T44304", "M-5163"],
     inner_dia: "integer",
     outer_dia: "integer"
   },
