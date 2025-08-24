@@ -1,16 +1,21 @@
 export const ADAPTERS = {
   "8203": {
-    goes_with_arbor: ["BF880", "85T4078", "M10FRG", "KK0101", "M-3738", "T-64980", "T66070", "T66891", "T28840", "T10940", "T66871", "T66872", "73T44304", "M-5163"],
+    goes_with_arbor: ["BF880", "85T4078", "M10FRG", "KK0101", "M-3738", "T-64980", "T66070", "T66891", "T28840", "T10940", "T66871", "T66872", "73T44304", "M-5163", "M-5150", "M-LY5001-9"],
     inner_dia: "integer",
     outer_dia: "integer"
   },
   "2149": {
-    goes_with_arbor: ["M03OHG", "M-3717"],
+    goes_with_arbor: ["M03OHG", "M-3717", "M-2130", "M-2132"],
     inner_dia: "integer",
     outer_dia: "integer"
   },
   "8670": {
-    goes_with_arbor: ["97T2017", "T65770", "412-R-6",],
+    goes_with_arbor: ["97T2017", "T65770", "412-R-6", "T-602032-03-B-13-A1", "T-602049-02-13-C1", "T-602065-02-13", "T-602079-02-B-D-1", "T-602224-02-13-A", "T-602395-01-H-13-A-1"],
+    inner_dia: "integer",
+    outer_dia: "integer"
+  },
+  "1297": {
+    goes_with_arbor: ["M-4127"],
     inner_dia: "integer",
     outer_dia: "integer"
   },

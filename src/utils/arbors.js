@@ -16,7 +16,7 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "HG0305":  {
-    goes_with: ["KL0101", "HG0305"],
+    goes_with: ["KL0101", "HG0305", "M272032", "M246268"],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_part_length: "integer",
@@ -24,7 +24,7 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "HH0305":  {
-    goes_with: ["M07OUH", "MSC07OUH"],
+    goes_with: ["M07OUH", "MSC07OUH", "M272136", "M272135"],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_part_length: "integer",
@@ -32,7 +32,7 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "M-5150":  {
-    goes_with: ["KJ1119"],
+    goes_with: ["KJ1119", "KJ1115", "KJ1120"],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_part_length: "integer",
@@ -64,7 +64,7 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "M-2130-3":  {
-    goes_with: ["M03OHG"],
+    goes_with: ["M03OHG",],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_part_length: "integer",
@@ -72,7 +72,7 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "71T4024-307QUILL":  {
-    goes_with: ["M06OUH", "M06OUHstraight"],
+    goes_with: ["M06OUH", "M06OUHstraight", "HE0305"],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_part_length: "integer",
@@ -120,7 +120,7 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "92T2093":  {
-    goes_with: ["HG1914", "DK0086", "DJ0062", "HD0305"],
+    goes_with: ["HG1914", "DK0086", "DJ0062", "HD0305", "DK0082", "M244111"],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_output: "integer",
@@ -135,7 +135,7 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "551280":  {
-    goes_with: ["KM0079", "M03OUH", "DM0078", "HC0305", "M243272", "MSC02OUH", "MSC03OUH", "DN0630"],
+    goes_with: ["KM0079", "M03OUH", "DM0078", "HC0305", "M243272", "MSC02OUH", "MSC03OUH", "DN0630", "DM0081", "DN0057", "243148", "242312", "M242168"],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_part_length: "integer",
@@ -223,7 +223,7 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "M-3413":  {
-    goes_with: ["079207-04-C"],
+    goes_with: ["079207-04-C", "M242168"],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_part_length: "integer",
@@ -263,7 +263,7 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "DL0071":  {
-    goes_with: ["MSC01OUH", "DL0071"],
+    goes_with: ["MSC01OUH", "DL0071", "HB0305", "079156-08-AE"],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_part_length: "integer",
@@ -391,12 +391,205 @@ export const ARBORS = {
     keyway_to_underOD: "integer"
   },
   "M-5163":  {
-    goes_with: ["KJ1052", "KJ1053", "KJ1054", "KJ1055"],
+    goes_with: ["KJ1052", "KJ1053", "KJ1054", "KJ1055", "KJ1057"],
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_part_length: "integer",
     dia_mesh_w_output: "integer",
     keyway_to_underOD: "integer"
+  },
+  "88T202":  {
+    goes_with: ["LY5001-6"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "M-LY5001-9":  {
+    goes_with: ["LY5001-9"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "T-602032-03-B-13-A1":  {
+    goes_with: ["602032-62"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "T-602049-02-13-C1":  {
+    goes_with: ["602049-02"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "T-602065-02-13":  {
+    goes_with: ["602065-02"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "T-602079-02-B-D-1":  {
+    goes_with: ["602079-03", "602079-02", "602079-03"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "T-602224-02-13-A":  {
+    goes_with: ["602224-02", "602224-03"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "T-602395-01-H-13-A-1":  {
+    goes_with: ["602395-03-A"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "550790":  {
+    goes_with: ["DN0059"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "M-2079":  {
+    goes_with: ["M272079"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "HD0305":  {
+    goes_with: ["M243276"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "T1753":  {
+    goes_with: ["M246267"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "M-2129":  {
+    goes_with: ["079156-08-J"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "M-2130":  {
+    goes_with: ["079256-09-H", "079156-09-F", "079156-09-H", "079156-16-A", "079156-16-B", "079156-16-C", "079156-16-D", "079156-16-E", "079156-16-F", "079156-16-G", "079156-16-H"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "M-2132":  {
+    goes_with: ["079156-10-Adouble", "079156-10-Bdouble"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "M-4127":  {
+    goes_with: ["079156-10-Asingle", "079156-10-Bsingle"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "M-2131":  {
+    goes_with: ["079156-11-A"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  "M-3718":  {
+    goes_with: ["079156-16-JT"],
+    bar_width: "integer",
+    dia_mesh_w_part: "integer",
+    dia_mesh_w_part_length: "integer",
+    dia_mesh_w_output: "integer",
+    keyway_to_underOD: "integer"
+  },
+  /* real arbors */
+  "HK1923":  {
+    goes_with: [],
+    bar_width: 0.892,
+    dia_mesh_w_part: 2.360,
+    dia_mesh_w_part_length: 4.4280,
+    dia_mesh_w_output: 2.749,
+    keyway_to_underOD: 0.8775
+  },
+  "HB0299":  {
+    goes_with: [],
+    bar_width: 0.639,
+    dia_mesh_w_part: 2.189,
+    dia_mesh_w_part_length: 3.193,
+    dia_mesh_w_output: 3.498,
+    keyway_to_underOD: 1.0545
+  },
+  "HJ0255":  {
+    goes_with: [],
+    bar_width: 0.751,
+    dia_mesh_w_part: 2.378,
+    dia_mesh_w_part_length: 3.005,
+    dia_mesh_w_output: 3.501,
+    keyway_to_underOD: 1.0615
+  },
+  "HG0225":  {
+    goes_with: [],
+    bar_width: 0.506,
+    dia_mesh_w_part: 1.579,
+    dia_mesh_w_part_length: 2.988,
+    dia_mesh_w_output: 3.496,
+    keyway_to_underOD: 0.8295
+  },
+  "ARBOR 100":  {
+    goes_with: [],
+    bar_width: 0.878,
+    dia_mesh_w_part: 2.718,
+    dia_mesh_w_part_length: 3.223,
+    dia_mesh_w_output: 2.748,
+    keyway_to_underOD: 1.099
+  },
+  "HD0209":  {
+    goes_with: [],
+    bar_width: 0.373,
+    dia_mesh_w_part: 0.997,
+    dia_mesh_w_part_length: 3.142,
+    dia_mesh_w_output: 3.498,
+    keyway_to_underOD: 0.522
   },
 
 }

@@ -7,7 +7,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-40": {
-    goes_with: ["M03FRG09", "M03FRG15", "M03FRG25", "DJ0060", "HE0235"],
+    goes_with: ["M03FRG09", "M03FRG15", "M03FRG25", "DJ0060", "HE0235", "DK0082"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -28,28 +28,28 @@ export const BARS = {
     bar_length: "integer"
   },
   "T20184": {
-    goes_with: ["KJ1119"],
+    goes_with: ["KJ1119", "KJ1115", "KJ1120"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
     bar_length: "integer"
   },
   "HH0215": {
-    goes_with: ["HH0215"],
+    goes_with: ["HH0215", "602079-03"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
     bar_length: "integer"
   },
   "15-19-139": {
-    goes_with: ["M09FRG15", "M10FRG15", "M08FRG15", "M08FRG25", "M07FRG15", "M07FRG25", "DK0162", "M05FRG09", "M05FRG15", "M05FRG25", "MSC01OUH", "DK0156", "DK0153", "DK0159", "DK0160", "DL0151", "DL0153", "DL0155", "DL0156", "DL0157", "DL0160", "KJ1052", "KJ1053", "KJ1054", "KJ1055"],
+    goes_with: ["M09FRG15", "M10FRG15", "M08FRG15", "M08FRG25", "M07FRG15", "M07FRG25", "DK0162", "M05FRG09", "M05FRG15", "M05FRG25", "MSC01OUH", "DK0156", "DK0153", "DK0159", "DK0160", "DL0151", "DL0153", "DL0155", "DL0156", "DL0157", "DL0160", "KJ1052", "KJ1053", "KJ1054", "KJ1055", "KJ1057", "DM0081", "079156-08-AE"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
     bar_length: "integer"
   },
   "15-41-139": {
-    goes_with: [""],
+    goes_with: ["HB0305", "DN0059"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -63,14 +63,14 @@ export const BARS = {
     bar_length: "integer"
   },
   "HL0225": {
-    goes_with: ["M06OUH", "HL0225", "HG0305", "M06OUHstraight"],
+    goes_with: ["M06OUH", "HL0225", "HG0305", "M06OUHstraight", "M272032", "M246268", "M246267"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
     bar_length: "integer"
   },
   "15-19-167": {
-    goes_with: ["M04OHG"],
+    goes_with: ["M04OHG", "602065-02", "602395-03-A", "079256-09-H", "079156-09-F", "079156-09-H", "079156-16-A", "079156-16-B", "079156-16-C", "079156-16-D", "079156-16-E", "079156-16-F", "079156-16-G", "079156-16-H"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -98,7 +98,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-163": {
-    goes_with: ["KK0101", "M245112", "MSC05OUH", "M05OHG", "FD1456"],
+    goes_with: ["KK0101", "M245112", "MSC05OUH", "M05OHG", "FD1456", "079156-10-Adouble", "079156-10-Bdouble", "079156-16-J"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -112,7 +112,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-197": {
-    goes_with: ["KM0079", "DM0078", "HC0305", "M02OHG", "MSC02OUH", "MSC03OUH"],
+    goes_with: ["KM0079", "DM0078", "HC0305", "M02OHG", "MSC02OUH", "MSC03OUH", "243148", "242312", "M242168", "M243276"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -182,14 +182,14 @@ export const BARS = {
     bar_length: "integer"
   },
   "HS0035": {
-    goes_with: ["M244115"],
+    goes_with: ["M244115", "M244111"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
     bar_length: "integer"
   },
   "HG0299": {
-    goes_with: ["HG0299"],
+    goes_with: ["HG0299", "M272136", "M272135"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -224,7 +224,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-148": {
-    goes_with: ["HC0299"],
+    goes_with: ["HC0299", "602049-02", "602079-03", "602224-02", "602224-03", "602079-02", "079156-08-J"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -252,7 +252,7 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-172": {
-    goes_with: ["DS0132", "DS0135", "DT0087"],
+    goes_with: ["DS0132", "DS0135", "DT0087", "079156-11-A"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
@@ -273,10 +273,378 @@ export const BARS = {
     bar_length: "integer"
   },
   "15-19-206": {
-    goes_with: ["FD0975"],
+    goes_with: ["FD0975", "079156-10-Asingle", "079156-10-Bsingle"],
     bar_height: "integer",
     bar_width: "integer",
     keyway_width: "integer",
     bar_length: "integer"
+  },
+  "TL#92T4102": {
+    goes_with: ["LY5001-6"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "69T45916": {
+    goes_with: ["LY5001-9"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "15-19-147": {
+    goes_with: ["602032-62"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "K-2561-2": {
+    goes_with: ["HE0305"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  "#9556404": {
+    goes_with: ["M272079"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
+  /* real bars */
+  tiers: {
+    AA: 0.161,
+    AAcount: 2,
+    A: 0.195,
+    Acount: 2,
+    B: 0.250,
+    Bcount: 4,
+    C: 0.313,
+    Ccount: 3,
+    D: 0.375,
+    Dcount: 3,
+    E: 0.395,
+    Ecount: 1,
+    F: 0.500,
+    Fcount: 10,
+    G: 0.625,
+    Gcount: 9,
+    H: 0.750,
+    Hcount: 3,
+    J: 0.875,
+    Jcount: 2,
+    K: 1.000,
+    Kcount: 0,
+    types: 10
+  },
+  "BAR#1B": {
+    goes_with: [""],
+    bar_height: 0.829,
+    bar_width: 0.386,
+    keyway_width: 0.253,
+    bar_length: 49,
+    extra_language: "Kingsford broach & tool F973912 9-16-97"
+  },
+  "BAR#1C": {
+    goes_with: [""],
+    bar_height: 0.883,
+    bar_width: 0.502,
+    keyway_width: 0.314,
+    bar_length: 44,
+    extra_language: ""
+  },
+  "BAR#1A": {
+    goes_with: [""],
+    bar_height: 0.753,
+    bar_width: 0.371,
+    keyway_width: 0.194,
+    bar_length: 55,
+    extra_language: "K2871"
+  },
+  "BAR#1AA": {
+    goes_with: [""],
+    bar_height: 0.657,
+    bar_width: 0.371,
+    keyway_width: 0.161,
+    bar_length: 47,
+    extra_language: "15-19-147"
+  },
+  "BAR#2AA": {
+    goes_with: [""],
+    bar_height: 0.660,
+    bar_width: 0.375,
+    keyway_width: 0.156,
+    bar_length: 46,
+    extra_language: "15-19-147 and pt# 602032-37A"
+  },
+  "BAR#2C": {
+    goes_with: [""],
+    bar_height: 0.911,
+    bar_width: 0.500,
+    keyway_width: 0.313,
+    bar_length: 45,
+    extra_language: "HW21"
+  },
+  "BAR#1E": {
+    goes_with: [""],
+    bar_height: 0.943,
+    bar_width: 0.500,
+    keyway_width: 0.395,
+    bar_length: 45,
+    extra_language: "TL#86T4045"
+  },
+  "BAR#2B": {
+    goes_with: [""],
+    bar_height: 0.758,
+    bar_width: 0.375,
+    keyway_width: 0.250,
+    bar_length: 35,
+    extra_language: "550290"
+  },
+  "BAR#1D": {
+    goes_with: [""],
+    bar_height: 1.188,
+    bar_width: 0.502,
+    keyway_width: 0.379,
+    bar_length: 54,
+    extra_language: "K166 PT# 2691-4"
+  },
+  "BAR#3B": {
+    goes_with: [""],
+    bar_height: 0.823,
+    bar_width: 0.500,
+    keyway_width: 0.250,
+    bar_length: 60,
+    extra_language: "15-19-194 114669-01"
+  },
+  "BAR#3C": {
+    goes_with: [""],
+    bar_height: 0.880,
+    bar_width: 0.315,
+    keyway_width: 0.250,
+    bar_length: 43,
+    extra_language: "BIN#550670"
+  },
+  "BAR#2D": {
+    goes_with: [""],
+    bar_height: 0.937,
+    bar_width: 0.500,
+    keyway_width: 0.375,
+    bar_length: 46,
+    extra_language: "15-19-139"
+  },
+  "BAR#3D": {
+    goes_with: [""],
+    bar_height: 0.942,
+    bar_width: 0.500,
+    keyway_width: 0.377,
+    bar_length: 45,
+    extra_language: "139 HG0225 HG0215"
+  },
+  /* these from left to right need markings */
+  "BAR#1F": {
+    goes_with: [""],
+    bar_height: 1.377,
+    bar_width: 0.500,
+    keyway_width: 0.500,
+    bar_length: 61,
+    extra_language: "TL#76T4173"
+  },
+  "BAR#4B": {
+    goes_with: [""],
+    bar_height: 0.6205,
+    bar_width: 0.370,
+    keyway_width: 0.253,
+    bar_length: 38,
+    extra_language: ""
+  },
+  "BAR#2F": {
+    goes_with: [""],
+    bar_height: 1.230,
+    bar_width: 0.500,
+    keyway_width: 0.500,
+    bar_length: 60,
+    extra_language: ""
+  },
+  "BAR#3F": {
+    goes_with: [""],
+    bar_height: 1.3145,
+    bar_width: 0.622,
+    keyway_width: 0.499,
+    bar_length: 48,
+    extra_language: "15-19-148"
+  },
+  "BAR#4F": {
+    goes_with: [""],
+    bar_height: 1.3170,
+    bar_width: 0.625,
+    keyway_width: 0.500,
+    bar_length: 48,
+    extra_language: "HH0255"
+  },
+  "BAR#5F": {
+    goes_with: [""],
+    bar_height: 1.310,
+    bar_width: 0.625,
+    keyway_width: 0.500,
+    bar_length: 48,
+    extra_language: "Y014687"
+  },
+  "BAR#6F": {
+    goes_with: [""],
+    bar_height: 1.714,
+    bar_width: 0.7500,
+    keyway_width: 0.500,
+    bar_length: 61,
+    extra_language: ""
+  },
+  "BAR#7F": {
+    goes_with: [""],
+    bar_height: 1.373,
+    bar_width: 0.7500,
+    keyway_width: 0.500,
+    bar_length: 71,
+    extra_language: "K-4763-1"
+  },
+  "BAR#8F": {
+    goes_with: [""],
+    bar_height: 1.616,
+    bar_width: 0.7500,
+    keyway_width: 0.500,
+    bar_length: 61,
+    extra_language: "T-21630"
+  },
+  "BAR#9F": {
+    goes_with: [""],
+    bar_height: 1.752,
+    bar_width: 0.7500,
+    keyway_width: 0.500,
+    bar_length: 61,
+    extra_language: "TL#65T4591S"
+  },
+  "BAR#10F": {
+    goes_with: [""],
+    bar_height: 1.516,
+    bar_width: 0.7500,
+    keyway_width: 0.500,
+    bar_length: 61,
+    extra_language: "15-19-197"
+  },
+  "BAR#1G": {
+    goes_with: [""],
+    bar_height: 1.624,
+    bar_width: 0.7500,
+    keyway_width: 0.626,
+    bar_length: 61,
+    extra_language: "HS0035"
+  },
+  /* ON GREY CABINET LEFT TO RIGHT */
+  "BAR#1H": {
+    goes_with: [""],
+    bar_height: 1.580,
+    bar_width: 0.875,
+    keyway_width: 0.750,
+    bar_length: 61,
+    extra_language: "TL#92T4102 FOR-STEEL"
+  },
+  "BAR#2G": {
+    goes_with: [""],
+    bar_height: 1.531,
+    bar_width: 0.750,
+    keyway_width: 0.625,
+    bar_length: 75,
+    extra_language: "HE0300 HW22"
+  },
+  "BAR#3G": {
+    goes_with: [""],
+    bar_height: 1.657,
+    bar_width: 0.875,
+    keyway_width: 0.625,
+    bar_length: 58,
+    extra_language: ""
+  },
+  "BAR#4G": {
+    goes_with: [""],
+    bar_height: 1.504,
+    bar_width: 0.875,
+    keyway_width: 0.625,
+    bar_length: 57,
+    extra_language: "TL#66T4262"
+  },
+  "BAR#2H": {
+    goes_with: [""],
+    bar_height: 1.624,
+    bar_width: 0.875,
+    keyway_width: 0.750,
+    bar_length: 61,
+    extra_language: "HK0215/HK0225"
+  },
+  "BAR#5G": {
+    goes_with: [""],
+    bar_height: 1.624,
+    bar_width: 0.750,
+    keyway_width: 0.625,
+    bar_length: 61,
+    extra_language: "HJ0215/HJ0225"
+  },
+  "BAR#6G": {
+    goes_with: [""],
+    bar_height: 1.514,
+    bar_width: 0.750,
+    keyway_width: 0.625,
+    bar_length: 76,
+    extra_language: ""
+  },
+  "BAR#7G": {
+    goes_with: [""],
+    bar_height: 1.626,
+    bar_width: 0.750,
+    keyway_width: 0.625,
+    bar_length: 66,
+    extra_language: "D=4480-001 K-2561-2"
+  },
+  /* THESE BARS BELOW ON PTS HASS LEFT TO RIGHT */
+  "BAR#8G": {
+    goes_with: [""],
+    bar_height: 1.523,
+    bar_width: 0.750,
+    keyway_width: 0.625,
+    bar_length: 80,
+    extra_language: ""
+  },
+  "BAR#1J": {
+    goes_with: [""],
+    bar_height: 1.857,
+    bar_width: 1.000,
+    keyway_width: 0.875,
+    bar_length: 75,
+    extra_language: ""
+  },
+  "BAR#3H": {
+    goes_with: [""],
+    bar_height: 1.691,
+    bar_width: 1.000,
+    keyway_width: 0.750,
+    bar_length: 61,
+    extra_language: "15-19-199 OR 15-19-194"
+  },
+  "BAR#9G": {
+    goes_with: [""],
+    bar_height: 1.500,
+    bar_width: 0.875,
+    keyway_width: 0.630,
+    bar_length: 57,
+    extra_language: "TL#66T4262 HAS A CHAMFER"
+  },
+  "BAR#2J": {
+    goes_with: [""],
+    bar_height: 1.884,
+    bar_width: 1.000,
+    keyway_width: 0.875,
+    bar_length: 80,
+    extra_language: ""
   },
 }

@@ -2344,7 +2344,6 @@ export const ITEMS = {
   },
 
 /* rest of oily pages below */
-
 DK0082: {
   broach_info: true,
   per_bobby: true,
@@ -2453,7 +2452,7 @@ HE0305: {
   done_irl: false,
   page_in_old_notes: 20,
   bar: "K-2561-2",
-  arbor: "71T4024",
+  arbor: "71T4024-307QUILL",
   adapter: "",
   puller: "",
   shim_data: {
@@ -3921,7 +3920,6 @@ M272135: {
       keyway_width: "int"
     }
   },
-  /* */
   KJ1055: {
     broach_info: true,
     per_bobby: true,
@@ -4450,6 +4448,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  
   "079156-08-J": {
     broach_info: true,
     per_bobby: true,
@@ -4483,6 +4482,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+
   "079256-09-H": {
     broach_info: true,
     per_bobby: true,
@@ -4516,6 +4516,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  
   "079156-09-F": {
     broach_info: true,
     per_bobby: true,
@@ -4549,6 +4550,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+
   "079156-09-H": {
     broach_info: true,
     per_bobby: true,
@@ -4582,6 +4584,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  
   "079156-10-Adouble": {
     broach_info: true,
     per_bobby: true,
@@ -4648,6 +4651,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+
   "079156-10-Asingle": {
     broach_info: true,
     per_bobby: true,
@@ -4681,6 +4685,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  
   "079156-10-Bsingle": {
     broach_info: true,
     per_bobby: true,
@@ -4714,6 +4719,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  
   "079156-11-A": {
     broach_info: true,
     per_bobby: true,
@@ -4747,6 +4753,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  
   "079156-16-A": {
     broach_info: true,
     per_bobby: true,
@@ -4780,6 +4787,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  
   "079156-16-B": {
     broach_info: true,
     per_bobby: true,
@@ -4813,6 +4821,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  
   "079156-16-C": {
     broach_info: true,
     per_bobby: true,
@@ -4846,6 +4855,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+
   "079156-16-D": {
     broach_info: true,
     per_bobby: true,
@@ -5011,6 +5021,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  
   "079156-16-J": {
     broach_info: true,
     per_bobby: true,
@@ -5044,6 +5055,7 @@ M272135: {
       keyway_width: "int"
     }
   },
+  /* */
   "079156-16-K": {
     broach_info: true,
     per_bobby: true,
