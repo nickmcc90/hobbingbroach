@@ -337,8 +337,7 @@ export const BARS = {
     J: 0.875,
     Jcount: 2,
     K: 1.000,
-    Kcount: 0,
-    types: 10
+    Kcount: 0
   },
   "BAR#1B": {
     goes_with: [""],

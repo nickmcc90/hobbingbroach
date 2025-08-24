@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import BarCard from './components/barcard.jsx'
 import './App.css'
 
 function App() {
@@ -8,13 +7,19 @@ function App() {
 
   return (
     <>
-      <div class='flex flex-col items-center p-7 gap-10'>
-        <div class='text-5xl'>
+      <div class='flex flex-col items-center w-full'>
+
+        <div class='text-5xl p-7'>
           Hobbing cell data underway...
         </div>
-        <div class='text-green-600'>
+        <div class='text-green-600 p-7'>
           Just gotta put the data into a js file
         </div>
+        <BarCard />
+        <div>
+          Hello
+        </div>
+
       </div>
     </>
   )
