@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import BarCard from './components/barcard.jsx'
+import SetupTableMult from './components/setuptablemult.jsx'
 import './App.css'
 
 function App() {
@@ -19,7 +20,10 @@ function App() {
         <div>
           Hello
         </div>
-
+        <SetupTableMult />
+        <div>
+          Hello
+        </div>
       </div>
     </>
   )
