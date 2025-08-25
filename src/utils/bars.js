@@ -336,8 +336,18 @@ export const BARS = {
     Hcount: 3,
     J: 0.875,
     Jcount: 2,
-    K: 1.000,
-    Kcount: 0
+  },
+  colors: {
+    AA: "color",
+    A: "color",
+    B: "color",
+    C: "color",
+    D: "color",
+    E: "color",
+    F: "color",
+    G: "color",
+    H: "color",
+    J: "color"
   },
   "BAR#1B": {
     goes_with: [""],
