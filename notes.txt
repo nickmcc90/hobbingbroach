@@ -90,3 +90,16 @@ too many objects in the ITEMS object. I need to test something. Maybe without pa
 into TableCard to see if that is the issue.
 If it is the issue, then maybe I can break up the object ? But the object would
 need to render chronologically.
+**There wasn't actually an issue. All the objects were being loaded.
+
+8/26/25
+I need to make a date tracker for the bottom table. I need to take info from the drawings.
+Then I need to link the bars and arbors in the physical world to the ones I found in the setup
+sheet. Maybe I can write extra thins in the extra_info stat that list the bars to use, and
+once we run through a job, I can finalize the bar we use. It'll be so easy because I can just go
+to the object in the ITEMS.js file. Wooooooo
+
+I just realized I could have made api calls through a back end to an api with alllll
+the drawing data. I don't remember which types of databases to use. I remember express.js
+worked with react to use. Ohhhh and I can make my own API with express.js. I don't know how
+to have something make api calls to an actual database, not one I make in express.js

@@ -46,6 +46,24 @@ export default function TableCard(props) {
             
           </div>
         </div>
+        <div id='approval container to make bottom corner of table' class='flex justify-end w-[450px]'>
+          <div class='flex flex-col w-[300px]'>
+            <div id='form container' class='flex justify-between px-2 border-l-4 border-r-4 border-b-4'>
+              <div>Form Number:</div>
+              <div id='num container' class='flex justify-between w-[100px]'>
+                <div id='num sign moved to left'>#</div>
+                <div id='invisible div'></div>
+              </div>
+            </div>
+            <div id='date container' class='flex justify-between px-2 border-l-4 border-r-4 border-b-4'>
+              <div>Date Last Modified:</div>
+              <div>{/* put a date function in here for today's date */}</div>
+            </div>
+            <div id='checker container' class='flex justify-between px-2 border-l-4 border-r-4 border-b-4'>
+              <div>Approved By:</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* key placement and greasing the chuck for chris's chuck */}
