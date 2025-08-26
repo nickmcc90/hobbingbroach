@@ -549,7 +549,9 @@ export const ARBORS = {
     dia_mesh_w_part: 2.360,
     dia_mesh_w_part_length: 4.4280,
     dia_mesh_w_output: 2.749,
-    keyway_to_underOD: 0.8775
+    keyway_to_underOD: 0.8775,
+    extra_info: "001%",
+    taper: ""
   },
   "HB0299":  {
     goes_with: [],
@@ -557,7 +559,9 @@ export const ARBORS = {
     dia_mesh_w_part: 2.189,
     dia_mesh_w_part_length: 3.193,
     dia_mesh_w_output: 3.498,
-    keyway_to_underOD: 1.0545
+    keyway_to_underOD: 1.0545,
+    extra_info: "002%",
+    taper: ""
   },
   "HJ0255":  {
     goes_with: [],
@@ -565,7 +569,9 @@ export const ARBORS = {
     dia_mesh_w_part: 2.378,
     dia_mesh_w_part_length: 3.005,
     dia_mesh_w_output: 3.501,
-    keyway_to_underOD: 1.0615
+    keyway_to_underOD: 1.0615,
+    extra_info: "88T2024 003%",
+    taper: ""
   },
   "HG0225":  {
     goes_with: [],
@@ -573,7 +579,9 @@ export const ARBORS = {
     dia_mesh_w_part: 1.579,
     dia_mesh_w_part_length: 2.988,
     dia_mesh_w_output: 3.496,
-    keyway_to_underOD: 0.8295
+    keyway_to_underOD: 0.8295,
+    extra_info: "HG0209 HG0215 HG0235 004%",
+    taper: ""
   },
   "ARBOR 100":  {
     goes_with: [],
@@ -581,7 +589,9 @@ export const ARBORS = {
     dia_mesh_w_part: 2.718,
     dia_mesh_w_part_length: 3.223,
     dia_mesh_w_output: 2.748,
-    keyway_to_underOD: 1.099
+    keyway_to_underOD: 1.099,
+    extra_info: "005%",
+    taper: ""
   },
   "HD0209":  {
     goes_with: [],
@@ -589,7 +599,88 @@ export const ARBORS = {
     dia_mesh_w_part: 0.997,
     dia_mesh_w_part_length: 3.142,
     dia_mesh_w_output: 3.498,
-    keyway_to_underOD: 0.522
+    keyway_to_underOD: 0.522,
+    extra_info: "006%",
+    taper: ""
   },
-
+  "HH0215":  {
+    goes_with: [],
+    bar_width: 0.627,
+    dia_mesh_w_part: 2.3695,
+    dia_mesh_w_part_length: 3.246,
+    dia_mesh_w_output: 2.999,
+    keyway_to_underOD: 1.23,
+    extra_info: "007%",
+    taper: ""
+  },
+  "M06OHG":  {
+    goes_with: [],
+    bar_width: 0.8605,
+    dia_mesh_w_part: 4.305,
+    dia_mesh_w_part_length: 3.274,
+    dia_mesh_w_output: 3.994,
+    keyway_to_underOD: 2.8345,
+    extra_info: "008%",
+    taper: ""
+  },
+  "M08FRG":  {
+    goes_with: [],
+    bar_width: 0.511,
+    dia_mesh_w_part: 2.5335,
+    dia_mesh_w_part_length: 4.251,
+    dia_mesh_w_output: 3.00,
+    keyway_to_underOD: 1.4705,
+    extra_info: "M02OHG T66931 KG0262 009%",
+    taper: ""
+  },
+  "241497":  {
+    goes_with: [],
+    bar_width: 0.505,
+    dia_mesh_w_part: 1.2525,
+    dia_mesh_w_part_length: 3.75,
+    dia_mesh_w_output: 2.500,
+    keyway_to_underOD: 0.4855,
+    extra_info: "010%",
+    taper: ""
+  },
+  "M-3733":  {
+    goes_with: [],
+    bar_width: 0.504,
+    dia_mesh_w_part: 1.379,
+    dia_mesh_w_part_length: 7.514,
+    dia_mesh_w_output: 1.751,
+    keyway_to_underOD: 0.3630,
+    extra_info: "011%",
+    taper: ""
+  },
+  "M-2130-5":  {
+    goes_with: [],
+    bar_width: 1.0165,
+    dia_mesh_w_part: 3.9135,
+    dia_mesh_w_part_length: 3.0165,
+    dia_mesh_w_output: 3.501,
+    keyway_to_underOD: 2.2375,
+    extra_info: "012%",
+    taper: ""
+  },
+  "M-2724-3":  {
+    goes_with: [],
+    bar_width: 0.373,
+    dia_mesh_w_part: 0.981,
+    dia_mesh_w_part_length: 1.6275,
+    dia_mesh_w_output: 1.749,
+    keyway_to_underOD: 0.404,
+    extra_info: "013%",
+    taper: ""
+  },
+  "D-18713":  {
+    goes_with: [],
+    bar_width: 0.612,
+    dia_mesh_w_part: 1.5770,
+    dia_mesh_w_part_length: 9.0555,
+    dia_mesh_w_output: 2.499,
+    keyway_to_underOD: 0.6980,
+    extra_info: "014%",
+    taper: ""
+  },
 }

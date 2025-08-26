@@ -333,7 +333,7 @@ export const BARS = {
     G: 0.625,
     Gcount: 9,
     H: 0.750,
-    Hcount: 3,
+    Hcount: 4,
     J: 0.875,
     Jcount: 2,
   },
@@ -655,5 +655,14 @@ export const BARS = {
     keyway_width: 0.875,
     bar_length: 80,
     extra_language: ""
+  },
+  /* extra bar that jonah brought */
+  "BAR#4H": {
+    goes_with: [""],
+    bar_height: 1.753,
+    bar_width: 1.000,
+    keyway_width: 0.750,
+    bar_length: 75,
+    extra_language: "TL#2010T024"
   },
 }

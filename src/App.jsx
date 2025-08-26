@@ -10,7 +10,7 @@ function App() {
     <>
       <div class='flex flex-col items-center w-full'>
 
-        <div class='text-5xl p-7'>
+        {/*<div class='text-5xl p-7'>
           Hobbing cell data underway...
         </div>
         <div class='text-green-600 p-7'>
@@ -19,7 +19,7 @@ function App() {
         <BarCard />
         <div>
           Hello
-        </div>
+        </div> */}
         <SetupTableMult />
         <div>
           Hello

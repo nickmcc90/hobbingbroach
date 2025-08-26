@@ -1682,39 +1682,6 @@ export const ITEMS = {
       keyway_width: 0.501
     }
   },
-  M246268: {
-    broach_info: true,
-    per_bobby: true,
-    done_irl: false,
-    page_in_old_notes: "int",
-    bar: "",
-    arbor: "",
-    adapter: "",
-    puller: "",
-    shim_data: {
-      shims_used: [],
-      shim_pulls: {
-        one: [],
-        two: [],
-        three: [],
-      }
-    },
-    extra_info: "",
-    part_info: {
-      type: "bushing",
-      begin_num_series: "int",
-      kind: {
-        kind: "M",
-        kind_num_series: "int"
-      },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
-    }
-  },
   M245112: {
     broach_info: true,
     per_bobby: true,
@@ -2363,18 +2330,18 @@ DK0082: {
   },
   extra_info: "puller says 1/2",
   part_info: {
-    type: "",
+    type: "quill",
     begin_num_series: "0082",
     kind: {
       kind: "DK",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.251,
+    bore_tol: 0.002,
+    key_to_bore_dia: 1.372,
+    key_to_bore_dia_tol: 0.005,
+    length: 6.38,
+    keyway_width: 0.251
   }
 },
 
@@ -2397,18 +2364,18 @@ HB0305: {
   },
   extra_info: "puller says 1/2",
   part_info: {
-    type: "",
+    type: "quill",
     begin_num_series: "0305",
     kind: {
       kind: "HB",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.43825,
+    bore_tol: 0.00075,
+    key_to_bore_dia: 1.542,
+    key_to_bore_dia_tol: 0.005,
+    length: 6.52,
+    keyway_width: 0.501
   }
 },
 
@@ -2431,18 +2398,18 @@ DN0059: {
   },
   extra_info: "puller says 1/2",
   part_info: {
-    type: "",
+    type: "quill",
     begin_num_series: "0059",
     kind: {
       kind: "DN",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.7508,
+    bore_tol: 0.0008,
+    key_to_bore_dia: 1.927,
+    key_to_bore_dia_tol: 0.005,
+    length: 7.88,
+    keyway_width: 0.626
   }
 },
 
@@ -2465,18 +2432,18 @@ HE0305: {
   },
   extra_info: "can't read the shim info",
   part_info: {
-    type: "",
+    type: "quill",
     begin_num_series: "int",
     kind: {
       kind: "",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 2.4384,
+    bore_tol: 0.0009,
+    key_to_bore_dia: 2.589,
+    key_to_bore_dia_tol: 0.005,
+    length: 8.77,
+    keyway_width: 0.751
   }
 },
 
@@ -2499,18 +2466,18 @@ DM0081: {
   },
   extra_info: "551280 arbor as in 2 INCH",
   part_info: {
-    type: "",
+    type: "quill",
     begin_num_series: "0081",
     kind: {
       kind: "DM",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.7508,
+    bore_tol: 0.0008,
+    key_to_bore_dia: 1.927,
+    key_to_bore_dia_tol: 0.005,
+    length: 7.00,
+    keyway_width: 0.376
   }
 },
 
@@ -2533,18 +2500,18 @@ DN0057: {
   },
   extra_info: "can't read the bar name. 551280 refers to 1.938 arbor",
   part_info: {
-    type: "",
+    type: "quill",
     begin_num_series: "0057",
     kind: {
       kind: "DN",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.9385,
+    bore_tol: 0.001,
+    key_to_bore_dia: 2.165,
+    key_to_bore_dia_tol: 0.005,
+    length: 7.88,
+    keyway_width: 0.626
   }
 },
 
@@ -2567,18 +2534,18 @@ DN0057: {
   },
   extra_info: "",
   part_info: {
-    type: "",
+    type: "gear",
     begin_num_series: "156",
     kind: {
       kind: "079",
       kind_num_series: "08-AE"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.4453,
+    bore_tol: 0.0003,
+    key_to_bore_dia: 1.623,
+    key_to_bore_dia_tol: 0.005,
+    length: 1.593,
+    keyway_width: 0.376
   }
 },
 
@@ -2601,18 +2568,18 @@ M272079: {
   },
   extra_info: "",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "272079",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 4.442,
+    bore_tol: 0.001,
+    key_to_bore_dia: 4.991,
+    key_to_bore_dia_tol: 0.005,
+    length: 2.94,
+    keyway_width: 1.251
   }
 },
 
@@ -2635,18 +2602,18 @@ M272032: {
   },
   extra_info: "",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "272032",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 3.442,
+    bore_tol: 0.001,
+    key_to_bore_dia: 3.906,
+    key_to_bore_dia_tol: 0.005,
+    length: 3.14,
+    keyway_width: 0.876
   }
 },
 
@@ -2669,18 +2636,18 @@ M272032: {
   },
   extra_info: "551280 REFERS TO 1/2",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "243148",
     kind: {
       kind: "",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.939,
+    bore_tol: 0.001,
+    key_to_bore_dia: 2.203125,
+    key_to_bore_dia_tol: 0.005,
+    length: 1.625,
+    keyway_width: 0.501
   }
 },
 
@@ -2703,18 +2670,18 @@ M272032: {
   },
   extra_info: "551280 REFERS TO 1/2",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "242312",
     kind: {
       kind: "",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.939,
+    bore_tol: 0.001,
+    key_to_bore_dia: 2.078125,
+    key_to_bore_dia_tol: 0.005,
+    length: 1.375,
+    keyway_width: 0.501
   }
 },
 
@@ -2737,18 +2704,18 @@ M272032: {
   },
   extra_info: "551280 REFERS TO 1/2",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "242168",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.939,
+    bore_tol: 0.001,
+    key_to_bore_dia: 2.083,
+    key_to_bore_dia_tol: 0.005,
+    length: 1.37,
+    keyway_width: 0.501
   }
 },
 
@@ -2771,18 +2738,18 @@ M272136: {
   },
   extra_info: "",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "272136",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 3.942,
+    bore_tol: 0.001,
+    key_to_bore_dia: 4.187,
+    key_to_bore_dia_tol: 0.005,
+    length: 2.95,
+    keyway_width: 1.001
   }
 },
 
@@ -2805,18 +2772,18 @@ M243276: {
   },
   extra_info: "",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "243276",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 2.189,
+    bore_tol: 0.001,
+    key_to_bore_dia: null,
+    key_to_bore_dia_tol: null,
+    length: 1.62,
+    keyway_width: 0.501
   }
 },
 
@@ -2839,18 +2806,18 @@ M246268: {
   },
   extra_info: "",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "246268",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 3.442,
+    bore_tol: 0.001,
+    key_to_bore_dia: 3.701,
+    key_to_bore_dia_tol: 0.005,
+    length: 2.5,
+    keyway_width: 0.876
   }
 },
 
@@ -2873,18 +2840,18 @@ M246267: {
   },
   extra_info: "",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "246267",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 2.942,
+    bore_tol: 0.001,
+    key_to_bore_dia: 3.451,
+    key_to_bore_dia_tol: 0.005,
+    length: 2.5,
+    keyway_width: 0.876
   }
 },
 
@@ -2907,18 +2874,18 @@ M244111: {
   },
   extra_info: "",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "244111",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 2.192,
+    bore_tol: 0.001,
+    key_to_bore_dia: 2.516,
+    key_to_bore_dia_tol: 0.005,
+    length: 2.13,
+    keyway_width: 0.626
   }
 },
 
@@ -2941,18 +2908,18 @@ M242168: {
   },
   extra_info: "CAN'T READ THE BAR",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "242168",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 1.939,
+    bore_tol: 0.001,
+    key_to_bore_dia: 2.083,
+    key_to_bore_dia_tol: 0.005,
+    length: 1.37,
+    keyway_width: 0.501
   }
 },
 M272135: {
@@ -2974,18 +2941,18 @@ M272135: {
   },
   extra_info: "mistake on page 12 of oily sheets and multiple on page 24",
   part_info: {
-    type: "",
+    type: "bushing",
     begin_num_series: "int",
     kind: {
       kind: "M",
       kind_num_series: "int"
     },
-    bore_dia: "int",
-    bore_tol: "int",
-    key_to_bore_dia: "int",
-    key_to_bore_dia_tol: "int",
-    length: "int",
-    keyway_width: "int"
+    bore_dia: 3.442,
+    bore_tol: 0.001,
+    key_to_bore_dia: 3.937,
+    key_to_bore_dia_tol: 0.005,
+    length: 2.95,
+    keyway_width: 1.001
   }
 },
 
@@ -3144,18 +3111,18 @@ M272135: {
     },
     extra_info: "2 INCH TO 3 INCH THEN 8203",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0153",
       kind: {
         kind: "DK",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.063,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.243,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.278,
+      keyway_width: 0.376
     }
   },
   DK0159: {
@@ -3177,7 +3144,7 @@ M272135: {
     },
     extra_info: "2 INCH TO 3 INCH THEN 8203",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0159",
       kind: {
         kind: "DK",

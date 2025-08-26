@@ -83,3 +83,10 @@ further deliniate the same color bars.
 WHERE I LEFT OFF:
 I'm putting more objects in, about to do backside of page 2.
 Just finished page 5. Going to keep doing page 6 and on
+
+8/25/25
+I need to figure out how to output things from table card. Maybe its because there are
+too many objects in the ITEMS object. I need to test something. Maybe without passing anything
+into TableCard to see if that is the issue.
+If it is the issue, then maybe I can break up the object ? But the object would
+need to render chronologically.
