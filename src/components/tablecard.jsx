@@ -1,13 +1,25 @@
 import React from 'react'
 import { ITEMS } from "../utils/items.js"
+import { BARS } from '../utils/bars.js'
 
 // This is a component works together with setuptablemult.jsx
 // This component is the template for one single setup sheete
 
 export default function TableCard(props) {
 
+  // grabbing specific setup info from one part number
   const { partnum, broachbar, arbor, plate, puller, shims, extra } = props
-  
+
+  // making an array for the labeled bars in the shop from the BARS object
+  const labeledBars = Object.keys(BARS).filter(item => item.includes("BAR#"))
+
+  // making an array for the extra language listed on each labeled bar from the BARS object.
+  const language = labeledBars.map((item) => BARS[item].extra_language)
+
+  // storing in a variable a labeled bar if the current specific part number's broach bar is within the extra language of an existing labeled bar.
+  const confirmed = language.filter((item) => broachbar === item).map((item) => labeledBars[language.indexOf(item)])
+
+  console.log(confirmed)
 
   return (
     <div id='height maker' class="h-[850px]">
@@ -18,11 +30,13 @@ export default function TableCard(props) {
         </div>
         <div id="part container" class="flex justify-between p-2 border-l-4 border-r-4 border-b-4">
           <div>Part Number:</div>
-          <div>Item derived</div>
+          <div>{partnum}</div>
         </div>
         <div id="broach container" class="flex justify-between p-2 border-l-4 border-r-4 border-b-4">
           <div>Broaching bar:</div>
-          <div>Item derived bar</div>
+          <div class='flex gap-1'>
+            {broachbar} {confirmed.length === 0 ? ("-") : (<div>{"->"} also known as {confirmed}</div>)}
+          </div>
         </div>
         <div id="arbor container" class="flex justify-between p-2 border-l-4 border-r-4 border-b-4">
           <div>Arbor:</div>

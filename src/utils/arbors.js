@@ -683,4 +683,172 @@ export const ARBORS = {
     extra_info: "014%",
     taper: ""
   },
+  "TL#1695-R36":  {
+    goes_with: [],
+    bar_width: 0.746,
+    dia_mesh_w_part: 2.4915,
+    dia_mesh_w_part_length: 4.231,
+    dia_mesh_w_output: 2.495,
+    keyway_to_underOD: 1.094,
+    extra_info: "015%",
+    taper: ""
+  },
+  "TL#1695-R25":  {
+    goes_with: [],
+    bar_width: 0.494,
+    dia_mesh_w_part: 1.369,
+    dia_mesh_w_part_length: 3.487,
+    dia_mesh_w_output: 2.496,
+    keyway_to_underOD: 0.5715,
+    extra_info: "016%",
+    taper: ""
+  },
+  "017%":  {
+    goes_with: [],
+    bar_width: 0.620,
+    dia_mesh_w_part: 2.362,
+    dia_mesh_w_part_length: 1.6925,
+    dia_mesh_w_output: 3.000,
+    keyway_to_underOD: 1.1920,
+    extra_info: "017% not able to tell which side is for part",
+    taper: ""
+  },
+  "M-2130-3":  {
+    goes_with: [],
+    bar_width: 0.746,
+    dia_mesh_w_part: 3.0380,
+    dia_mesh_w_part_length: 2.0540,
+    dia_mesh_w_output: 2.748,
+    keyway_to_underOD: 1.724,
+    extra_info: "018% not sure about whether side is part mesh",
+    taper: ""
+  },
+  "M-2724-6":  {
+    goes_with: [],
+    bar_width: 0.5005,
+    dia_mesh_w_part: 1.759,
+    dia_mesh_w_part_length: 1.6235,
+    dia_mesh_w_output: 2.748,
+    keyway_to_underOD: 1.0365,
+    extra_info: "019%",
+    taper: ""
+  },
+  "M-3386":  {
+    goes_with: [],
+    bar_width: 0.375,
+    dia_mesh_w_part: 1.122,
+    dia_mesh_w_part_length: 3.0615,
+    dia_mesh_w_output: 3.003,
+    keyway_to_underOD: 0.506,
+    extra_info: "020% this arbor has a weird block on it",
+    taper: ""
+  },
+  "M-5027":  {
+    goes_with: [],
+    bar_width: 0.5025,
+    dia_mesh_w_part: 1.187,
+    dia_mesh_w_part_length: 1.104,
+    dia_mesh_w_output: 1.746,
+    keyway_to_underOD: 0.432,
+    extra_info: "021%",
+    taper: ""
+  },
+  "M-5137":  {
+    goes_with: [],
+    bar_width: 0.378,
+    dia_mesh_w_part: 1.0465,
+    dia_mesh_w_part_length: 2.9895,
+    dia_mesh_w_output: 1.999,
+    keyway_to_underOD: 0.592,
+    extra_info: "022%",
+    taper: ""
+  },
+  "M-5163":  {
+    goes_with: [],
+    bar_width: 0.503,
+    dia_mesh_w_part: 2.374,
+    dia_mesh_w_part_length: 2.996,
+    dia_mesh_w_output: 2.000,
+    keyway_to_underOD: 1.6275,
+    extra_info: "023%",
+    taper: ""
+  },
+  "024%":  {
+    goes_with: [],
+    bar_width: 0.889,
+    dia_mesh_w_part: 2.975,
+    dia_mesh_w_part_length: 4.3755,
+    dia_mesh_w_output: 1.749,
+    keyway_to_underOD: 1.6155,
+    extra_info: "024%",
+    taper: ""
+  },
+  "M-2724-5":  {
+    goes_with: [],
+    bar_width: 0.500,
+    dia_mesh_w_part: 1.56,
+    dia_mesh_w_part_length: 1.6785,
+    dia_mesh_w_output: 1.753,
+    keyway_to_underOD: 0.7135,
+    extra_info: "025%",
+    taper: ""
+  },
+  "M-2128":  {
+    goes_with: [],
+    bar_width: 0.504,
+    dia_mesh_w_part: 1.432,
+    dia_mesh_w_part_length: 1.499,
+    dia_mesh_w_output: 1.750,
+    keyway_to_underOD: 0.6270,
+    extra_info: "026%",
+    taper: ""
+  },
+  "407-706-1":  {
+    goes_with: [],
+    bar_width: 0.3379,
+    dia_mesh_w_part: 1.371,
+    dia_mesh_w_part_length: 3.128,
+    dia_mesh_w_output: 1.501,
+    keyway_to_underOD: 0.6465,
+    extra_info: "027%",
+    taper: ""
+  },
+  "Y4-I":  {
+    goes_with: [],
+    bar_width: 0.502,
+    dia_mesh_w_part: 1.398,
+    dia_mesh_w_part_length: 4.0395,
+    dia_mesh_w_output: 2.000,
+    keyway_to_underOD: 0.6900,
+    extra_info: "028%",
+    taper: ""
+  },
+  "CF-1289-3":  {
+    goes_with: [],
+    bar_width: 0.3445,
+    dia_mesh_w_part: 1.0265,
+    dia_mesh_w_part_length: 3.218,
+    dia_mesh_w_output: 2.0055,
+    keyway_to_underOD: 0.5555,
+    extra_info: "029%",
+    taper: ""
+  },
 }
+
+
+
+/* 
+template:
+
+  "":  {
+    goes_with: [],
+    bar_width: ,
+    dia_mesh_w_part: ,
+    dia_mesh_w_part_length: ,
+    dia_mesh_w_output: ,
+    keyway_to_underOD: ,
+    extra_info: "%",
+    taper: ""
+  },
+
+*/

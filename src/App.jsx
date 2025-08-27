@@ -17,9 +17,9 @@ function App() {
         <div class='text-green-600 p-7'>
           Just gotta put the data into a js file
         </div>
-        <BarCard />
-        <TypeBarGenerator />
-        {/* <SetupTableMult /> */}
+        {/* <BarCard /> */}
+        { /* <TypeBarGenerator /> */}
+        <SetupTableMult />
       </div>
     </>
   )

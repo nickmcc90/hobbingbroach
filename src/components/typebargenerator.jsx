@@ -14,11 +14,11 @@ export default function TypeBarGenerator() {
               That's why everything is inside this "Object.keys" jsx term, because everything happens after each instance of a type table spawning. */}
       {Object.keys(tiers).filter((_, i) => i % 2 === 0).map((key) => (
             <div id='each table generated based on bartype' class='flex flex-col'>
-              <div id="vertical title half" class="text-4xl font-extrabold flex justify-center bg-black text-white h-100% w-[750px] py-4">
-                Type "{key}" Bar
+              <div id="vertical title half" class="text-4xl font-extrabold flex justify-center bg-black text-white h-100% w-[1000px] py-4">
+                Type "{key}" Bar - (Cutting Width of {tiers[key]}")
               </div>
               <div id='vertical data half' class='flex'>
-                <div id='always generate i.e. the info column'>
+                <div id='always generated i.e. the info column'>
                   <div id='vertical container' class='flex flex-col'>
                     <div class='p-2 border-l-4 border-r-4 border-b-4 font-bold'>Bar Attributes (inches)</div>
                     <div class='p-2 border-l-4 border-r-4 border-b-4'>Bar total width:</div>
@@ -26,7 +26,10 @@ export default function TypeBarGenerator() {
                     <div class='p-2 border-l-4 border-r-4 border-b-4'>Bar length:</div>
                   </div>
                 </div>
-                <div id='conditionally generated data w variable size'>
+                {/* Below here -> These need to be class: flex. This jsx bracket term should output a number of 
+                columns based on the number of each type of broach bar data. It needs to be flex because the columns
+                that are produced from this line need to be packed together in a flex box horizontally.*/}
+                <div id='conditionally generated vertical data column by columns w variable size' class='flex'>
                   {Object.keys(BARS).filter(item => item.includes("BAR")).filter(item => BARS[item]?.typebar === String(key)).map((item) => (
                       <>
                         <TypeBarCard item={item} width={BARS[item].bar_width} height={BARS[item].bar_height} length={BARS[item].bar_length} typebar={BARS[item].typebar} />

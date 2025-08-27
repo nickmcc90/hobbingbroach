@@ -325,7 +325,7 @@ export const BARS = {
     C: 0.313,
     Ccount: 3,
     D: 0.375,
-    Dcount: 3,
+    Dcount: 4,
     E: 0.395,
     Ecount: 1,
     F: 0.500,
@@ -333,7 +333,7 @@ export const BARS = {
     G: 0.625,
     Gcount: 9,
     H: 0.750,
-    Hcount: 4,
+    Hcount: 5,
     J: 0.875,
     Jcount: 2,
   },
@@ -618,7 +618,7 @@ export const BARS = {
     bar_width: 0.875,
     keyway_width: 0.750,
     bar_length: 61,
-    extra_language: "HK0215/HK0225",
+    extra_language: "HK0225/HK0215",
     typebar: "H"
   },
   "BAR#5G": {
@@ -704,4 +704,33 @@ export const BARS = {
     extra_language: "TL#2010T024",
     typebar: "H"
   },
+  "BAR#2A": {
+    goes_with: [""],
+    bar_height: 0.582,
+    bar_width: 0.376,
+    keyway_width: 0.190,
+    bar_length: 36,
+    extra_language: "JOB#K933990",
+    typebar: "A"
+  },
+  "BAR#5H": {
+    goes_with: [""],
+    bar_height: 1.645,
+    bar_width: 1.000,
+    keyway_width: 0.750,
+    bar_length: 56,
+    extra_language: "15-19-163",
+    typebar: "H"
+  },
+  "BAR#4D": {
+    goes_with: [""],
+    bar_height: 0.937,
+    bar_width: 0.500,
+    keyway_width: 0.370,
+    bar_length: 45,
+    extra_language: "3-5331 830-2",
+    typebar: "D"
+  },
+
+  // 9/24/25 is when they want the disc program on the 300
 }

@@ -103,3 +103,6 @@ I just realized I could have made api calls through a back end to an api with al
 the drawing data. I don't remember which types of databases to use. I remember express.js
 worked with react to use. Ohhhh and I can make my own API with express.js. I don't know how
 to have something make api calls to an actual database, not one I make in express.js
+
+Create a function that can output a recommended bar type if it doesn't exist in the setup sheets
+already.
