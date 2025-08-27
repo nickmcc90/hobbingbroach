@@ -355,7 +355,8 @@ export const BARS = {
     bar_width: 0.386,
     keyway_width: 0.253,
     bar_length: 49,
-    extra_language: "Kingsford broach & tool F973912 9-16-97"
+    extra_language: "Kingsford broach & tool F973912 9-16-97",
+    typebar: "B"
   },
   "BAR#1C": {
     goes_with: [""],
@@ -363,7 +364,8 @@ export const BARS = {
     bar_width: 0.502,
     keyway_width: 0.314,
     bar_length: 44,
-    extra_language: ""
+    extra_language: "",
+    typebar: "C"
   },
   "BAR#1A": {
     goes_with: [""],
@@ -371,7 +373,8 @@ export const BARS = {
     bar_width: 0.371,
     keyway_width: 0.194,
     bar_length: 55,
-    extra_language: "K2871"
+    extra_language: "K2871",
+    typebar: "A"
   },
   "BAR#1AA": {
     goes_with: [""],
@@ -379,7 +382,8 @@ export const BARS = {
     bar_width: 0.371,
     keyway_width: 0.161,
     bar_length: 47,
-    extra_language: "15-19-147"
+    extra_language: "15-19-147",
+    typebar: "AA"
   },
   "BAR#2AA": {
     goes_with: [""],
@@ -387,7 +391,8 @@ export const BARS = {
     bar_width: 0.375,
     keyway_width: 0.156,
     bar_length: 46,
-    extra_language: "15-19-147 and pt# 602032-37A"
+    extra_language: "15-19-147 and pt# 602032-37A",
+    typebar: "AA"
   },
   "BAR#2C": {
     goes_with: [""],
@@ -395,7 +400,8 @@ export const BARS = {
     bar_width: 0.500,
     keyway_width: 0.313,
     bar_length: 45,
-    extra_language: "HW21"
+    extra_language: "HW21",
+    typebar: "C"
   },
   "BAR#1E": {
     goes_with: [""],
@@ -403,7 +409,8 @@ export const BARS = {
     bar_width: 0.500,
     keyway_width: 0.395,
     bar_length: 45,
-    extra_language: "TL#86T4045"
+    extra_language: "TL#86T4045",
+    typebar: "E"
   },
   "BAR#2B": {
     goes_with: [""],
@@ -411,7 +418,8 @@ export const BARS = {
     bar_width: 0.375,
     keyway_width: 0.250,
     bar_length: 35,
-    extra_language: "550290"
+    extra_language: "550290",
+    typebar: "B"
   },
   "BAR#1D": {
     goes_with: [""],
@@ -419,7 +427,8 @@ export const BARS = {
     bar_width: 0.502,
     keyway_width: 0.379,
     bar_length: 54,
-    extra_language: "K166 PT# 2691-4"
+    extra_language: "K166 PT# 2691-4",
+    typebar: "D"
   },
   "BAR#3B": {
     goes_with: [""],
@@ -427,7 +436,8 @@ export const BARS = {
     bar_width: 0.500,
     keyway_width: 0.250,
     bar_length: 60,
-    extra_language: "15-19-194 114669-01"
+    extra_language: "15-19-194 114669-01",
+    typebar: "B"
   },
   "BAR#3C": {
     goes_with: [""],
@@ -435,7 +445,8 @@ export const BARS = {
     bar_width: 0.315,
     keyway_width: 0.250,
     bar_length: 43,
-    extra_language: "BIN#550670"
+    extra_language: "BIN#550670",
+    typebar: "C"
   },
   "BAR#2D": {
     goes_with: [""],
@@ -443,7 +454,8 @@ export const BARS = {
     bar_width: 0.500,
     keyway_width: 0.375,
     bar_length: 46,
-    extra_language: "15-19-139"
+    extra_language: "15-19-139",
+    typebar: "D"
   },
   "BAR#3D": {
     goes_with: [""],
@@ -451,7 +463,8 @@ export const BARS = {
     bar_width: 0.500,
     keyway_width: 0.377,
     bar_length: 45,
-    extra_language: "139 HG0225 HG0215"
+    extra_language: "139 HG0225 HG0215",
+    typebar: "D"
   },
   /* these from left to right need markings */
   "BAR#1F": {
@@ -460,7 +473,8 @@ export const BARS = {
     bar_width: 0.500,
     keyway_width: 0.500,
     bar_length: 61,
-    extra_language: "TL#76T4173"
+    extra_language: "TL#76T4173",
+    typebar: "F"
   },
   "BAR#4B": {
     goes_with: [""],
@@ -468,7 +482,8 @@ export const BARS = {
     bar_width: 0.370,
     keyway_width: 0.253,
     bar_length: 38,
-    extra_language: ""
+    extra_language: "",
+    typebar: "B"
   },
   "BAR#2F": {
     goes_with: [""],
@@ -476,7 +491,8 @@ export const BARS = {
     bar_width: 0.500,
     keyway_width: 0.500,
     bar_length: 60,
-    extra_language: ""
+    extra_language: "",
+    typebar: "F"
   },
   "BAR#3F": {
     goes_with: [""],
@@ -484,7 +500,8 @@ export const BARS = {
     bar_width: 0.622,
     keyway_width: 0.499,
     bar_length: 48,
-    extra_language: "15-19-148"
+    extra_language: "15-19-148",
+    typebar: "F"
   },
   "BAR#4F": {
     goes_with: [""],
@@ -492,7 +509,8 @@ export const BARS = {
     bar_width: 0.625,
     keyway_width: 0.500,
     bar_length: 48,
-    extra_language: "HH0255"
+    extra_language: "HH0255",
+    typebar: "F"
   },
   "BAR#5F": {
     goes_with: [""],
@@ -500,7 +518,8 @@ export const BARS = {
     bar_width: 0.625,
     keyway_width: 0.500,
     bar_length: 48,
-    extra_language: "Y014687"
+    extra_language: "Y014687",
+    typebar: "F"
   },
   "BAR#6F": {
     goes_with: [""],
@@ -508,7 +527,8 @@ export const BARS = {
     bar_width: 0.7500,
     keyway_width: 0.500,
     bar_length: 61,
-    extra_language: ""
+    extra_language: "",
+    typebar: "F"
   },
   "BAR#7F": {
     goes_with: [""],
@@ -516,7 +536,8 @@ export const BARS = {
     bar_width: 0.7500,
     keyway_width: 0.500,
     bar_length: 71,
-    extra_language: "K-4763-1"
+    extra_language: "K-4763-1",
+    typebar: "F"
   },
   "BAR#8F": {
     goes_with: [""],
@@ -524,7 +545,8 @@ export const BARS = {
     bar_width: 0.7500,
     keyway_width: 0.500,
     bar_length: 61,
-    extra_language: "T-21630"
+    extra_language: "T-21630",
+    typebar: "F"
   },
   "BAR#9F": {
     goes_with: [""],
@@ -532,7 +554,8 @@ export const BARS = {
     bar_width: 0.7500,
     keyway_width: 0.500,
     bar_length: 61,
-    extra_language: "TL#65T4591S"
+    extra_language: "TL#65T4591S",
+    typebar: "F"
   },
   "BAR#10F": {
     goes_with: [""],
@@ -540,7 +563,8 @@ export const BARS = {
     bar_width: 0.7500,
     keyway_width: 0.500,
     bar_length: 61,
-    extra_language: "15-19-197"
+    extra_language: "15-19-197",
+    typebar: "F"
   },
   "BAR#1G": {
     goes_with: [""],
@@ -548,7 +572,8 @@ export const BARS = {
     bar_width: 0.7500,
     keyway_width: 0.626,
     bar_length: 61,
-    extra_language: "HS0035"
+    extra_language: "HS0035",
+    typebar: "G"
   },
   /* ON GREY CABINET LEFT TO RIGHT */
   "BAR#1H": {
@@ -557,7 +582,8 @@ export const BARS = {
     bar_width: 0.875,
     keyway_width: 0.750,
     bar_length: 61,
-    extra_language: "TL#92T4102 FOR-STEEL"
+    extra_language: "TL#92T4102 FOR-STEEL",
+    typebar: "H"
   },
   "BAR#2G": {
     goes_with: [""],
@@ -565,7 +591,8 @@ export const BARS = {
     bar_width: 0.750,
     keyway_width: 0.625,
     bar_length: 75,
-    extra_language: "HE0300 HW22"
+    extra_language: "HE0300 HW22",
+    typebar: "G"
   },
   "BAR#3G": {
     goes_with: [""],
@@ -573,7 +600,8 @@ export const BARS = {
     bar_width: 0.875,
     keyway_width: 0.625,
     bar_length: 58,
-    extra_language: ""
+    extra_language: "",
+    typebar: "G"
   },
   "BAR#4G": {
     goes_with: [""],
@@ -581,7 +609,8 @@ export const BARS = {
     bar_width: 0.875,
     keyway_width: 0.625,
     bar_length: 57,
-    extra_language: "TL#66T4262"
+    extra_language: "TL#66T4262",
+    typebar: "G"
   },
   "BAR#2H": {
     goes_with: [""],
@@ -589,7 +618,8 @@ export const BARS = {
     bar_width: 0.875,
     keyway_width: 0.750,
     bar_length: 61,
-    extra_language: "HK0215/HK0225"
+    extra_language: "HK0215/HK0225",
+    typebar: "H"
   },
   "BAR#5G": {
     goes_with: [""],
@@ -597,7 +627,8 @@ export const BARS = {
     bar_width: 0.750,
     keyway_width: 0.625,
     bar_length: 61,
-    extra_language: "HJ0215/HJ0225"
+    extra_language: "HJ0215/HJ0225",
+    typebar: "G"
   },
   "BAR#6G": {
     goes_with: [""],
@@ -605,7 +636,8 @@ export const BARS = {
     bar_width: 0.750,
     keyway_width: 0.625,
     bar_length: 76,
-    extra_language: ""
+    extra_language: "",
+    typebar: "G"
   },
   "BAR#7G": {
     goes_with: [""],
@@ -613,7 +645,8 @@ export const BARS = {
     bar_width: 0.750,
     keyway_width: 0.625,
     bar_length: 66,
-    extra_language: "D=4480-001 K-2561-2"
+    extra_language: "D=4480-001 K-2561-2",
+    typebar: "G"
   },
   /* THESE BARS BELOW ON PTS HASS LEFT TO RIGHT */
   "BAR#8G": {
@@ -622,7 +655,8 @@ export const BARS = {
     bar_width: 0.750,
     keyway_width: 0.625,
     bar_length: 80,
-    extra_language: ""
+    extra_language: "",
+    typebar: "G"
   },
   "BAR#1J": {
     goes_with: [""],
@@ -630,7 +664,8 @@ export const BARS = {
     bar_width: 1.000,
     keyway_width: 0.875,
     bar_length: 75,
-    extra_language: ""
+    extra_language: "",
+    typebar: "J"
   },
   "BAR#3H": {
     goes_with: [""],
@@ -638,7 +673,8 @@ export const BARS = {
     bar_width: 1.000,
     keyway_width: 0.750,
     bar_length: 61,
-    extra_language: "15-19-199 OR 15-19-194"
+    extra_language: "15-19-199 OR 15-19-194",
+    typebar: "H"
   },
   "BAR#9G": {
     goes_with: [""],
@@ -646,7 +682,8 @@ export const BARS = {
     bar_width: 0.875,
     keyway_width: 0.630,
     bar_length: 57,
-    extra_language: "TL#66T4262 HAS A CHAMFER"
+    extra_language: "TL#66T4262 HAS A CHAMFER",
+    typebar: "G"
   },
   "BAR#2J": {
     goes_with: [""],
@@ -654,7 +691,8 @@ export const BARS = {
     bar_width: 1.000,
     keyway_width: 0.875,
     bar_length: 80,
-    extra_language: ""
+    extra_language: "",
+    typebar: "J"
   },
   /* extra bar that jonah brought */
   "BAR#4H": {
@@ -663,6 +701,7 @@ export const BARS = {
     bar_width: 1.000,
     keyway_width: 0.750,
     bar_length: 75,
-    extra_language: "TL#2010T024"
+    extra_language: "TL#2010T024",
+    typebar: "H"
   },
 }

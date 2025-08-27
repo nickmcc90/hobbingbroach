@@ -2,6 +2,9 @@ import React from 'react'
 import { ITEMS } from "../utils/items.js"
 import TableCard from "./tablecard.jsx"
 
+// This component works together with tablecard.jsx
+// This component generates the setup sheets for broaching data
+
 export default function SetupTableMult() {
 
   const partNumbers = Object.keys(ITEMS)

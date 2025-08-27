@@ -1,10 +1,18 @@
 import React from 'react'
 import { BARS } from "../utils/bars.js"
 
+// This component shows what letters go with what keyway width from a table
+
 export default function BarCard() {
 
   const { tiers, colors } = BARS;
   //console.log(Object.values(tiers).filter((_, i) => i % 2 === 0 ))
+
+  Object.keys(BARS)
+  .filter(key => key.includes("BAR"))   // keep only keys with "BAR"
+  .forEach(key => {
+    console.log(key, BARS[key].bar_height); // show key + its bar_height
+  });
 
   return (
     <div id="This is the main container" class="h-screen w-full items-center p-10 bg-blue-300">

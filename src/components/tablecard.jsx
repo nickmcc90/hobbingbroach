@@ -1,6 +1,8 @@
 import React from 'react'
 import { ITEMS } from "../utils/items.js"
 
+// This is a component works together with setuptablemult.jsx
+// This component is the template for one single setup sheete
 
 export default function TableCard(props) {
 
