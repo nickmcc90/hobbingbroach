@@ -364,7 +364,7 @@ export const BARS = {
     bar_width: 0.502,
     keyway_width: 0.314,
     bar_length: 44,
-    extra_language: "",
+    extra_language: "nothing",
     typebar: "C"
   },
   "BAR#1A": {
@@ -482,7 +482,7 @@ export const BARS = {
     bar_width: 0.370,
     keyway_width: 0.253,
     bar_length: 38,
-    extra_language: "",
+    extra_language: "nothing",
     typebar: "B"
   },
   "BAR#2F": {
@@ -491,7 +491,7 @@ export const BARS = {
     bar_width: 0.500,
     keyway_width: 0.500,
     bar_length: 60,
-    extra_language: "",
+    extra_language: "nothing",
     typebar: "F"
   },
   "BAR#3F": {
@@ -527,7 +527,7 @@ export const BARS = {
     bar_width: 0.7500,
     keyway_width: 0.500,
     bar_length: 61,
-    extra_language: "",
+    extra_language: "nothing",
     typebar: "F"
   },
   "BAR#7F": {
@@ -600,7 +600,7 @@ export const BARS = {
     bar_width: 0.875,
     keyway_width: 0.625,
     bar_length: 58,
-    extra_language: "",
+    extra_language: "nothing",
     typebar: "G"
   },
   "BAR#4G": {
@@ -636,7 +636,7 @@ export const BARS = {
     bar_width: 0.750,
     keyway_width: 0.625,
     bar_length: 76,
-    extra_language: "",
+    extra_language: "nothing",
     typebar: "G"
   },
   "BAR#7G": {
@@ -655,7 +655,7 @@ export const BARS = {
     bar_width: 0.750,
     keyway_width: 0.625,
     bar_length: 80,
-    extra_language: "",
+    extra_language: "nothing",
     typebar: "G"
   },
   "BAR#1J": {
@@ -664,7 +664,7 @@ export const BARS = {
     bar_width: 1.000,
     keyway_width: 0.875,
     bar_length: 75,
-    extra_language: "",
+    extra_language: "nothing",
     typebar: "J"
   },
   "BAR#3H": {
@@ -691,7 +691,7 @@ export const BARS = {
     bar_width: 1.000,
     keyway_width: 0.875,
     bar_length: 80,
-    extra_language: "",
+    extra_language: "nothing",
     typebar: "J"
   },
   /* extra bar that jonah brought */

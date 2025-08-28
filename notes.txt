@@ -106,3 +106,9 @@ to have something make api calls to an actual database, not one I make in expres
 
 Create a function that can output a recommended bar type if it doesn't exist in the setup sheets
 already.
+{Grab recommended bars based on keyway of part number. This requires having all the part information
+gathered from drawings.
+}
+
+Find out why M10OUH has weird data. DID IT. The language array within tablecard.jsx should not
+have any empty bars, because a setup sheet with no bar will accidentally match with this.
