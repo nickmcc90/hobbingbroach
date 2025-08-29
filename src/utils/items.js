@@ -5685,9 +5685,9 @@ M272135: {
   },
   M01OUH: {
     broach_info: true,
-    per_bobby: true,
+    per_bobby: false,
     done_irl: false,
-    page_in_old_notes: "int",
+    page_in_old_notes: null,
     bar: "BAR#2D",
     arbor: "",
     adapter: "",
@@ -5714,6 +5714,42 @@ M272135: {
       key_to_bore_dia_tol: 0.005,
       length: 5.69,
       keyway_width: 0.376
+    }
+  },
+  MST09OUH: {
+    broach_info: false,
+    per_bobby: false,
+    done_irl: false,
+    page_in_old_notes: null,
+    LU45cell: true,
+    bar: "",
+    arbor: "",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "this is a new part Anthony is going to send over at some point today is 8/29/25",
+    part_info: {
+      type: "quill",
+      begin_num_series: "OUH",
+      kind: {
+        kind: "MST",
+        kind_num_series: "09"
+      },
+      bore_dia: 4.443,
+      bore_tol: 0.003,
+      second_bore_dia: 4.631,
+      second_bore_tol: 0.001,
+      key_to_bore_dia: 4.842,
+      key_to_bore_dia_tol: 0.005,
+      length: 11.42,
+      keyway_width: 1.000
     }
   },
 /* STARTED DIVER */

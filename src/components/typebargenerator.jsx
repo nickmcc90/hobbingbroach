@@ -9,18 +9,25 @@ export default function TypeBarGenerator() {
   // console.log(Object.keys(tiers))
 
   return (
-    <div class='w-[900px] bg-green-300 p-6 flex flex-col items-center gap-8'>
+    <div class='w-[901px] bg-green-300 flex flex-wrap items-center'>
               {/* We need a table for each letter type. For each letter type that spawns, we need the bars of that type to spawn underneath.
               That's why everything is inside this "Object.keys" jsx term, because everything happens after each instance of a type table spawning. */}
       {Object.keys(tiers).filter((_, i) => i % 2 === 0).map((key) => (
             <div id='each table generated based on bartype' class='flex flex-col'>
-              <div id="vertical title half" class="text-4xl font-extrabold flex justify-center bg-black text-white h-100% w-[900px] py-4">
-                Type "{key}" Bar - (Cutting Width of {tiers[key]}")
+              <div id="vertical title half" class={key === "B" ? `text-[37px] font-bold flex justify-center bg-black text-white h-[140px] w-[411px] pt-2 px-2` : 
+                key === "D" ? `text-[38px] font-bold flex justify-center bg-black text-white h-[140px] w-[411px] pb-3 px-2` :  (
+                  (key === "C" ? `text-4xl font-bold flex justify-center bg-black text-white h-[140px] w-[328px] pt-1 px-2` : (
+                    key === "E" ? `text-[22px] font-bold flex justify-center bg-black text-white h-[140px] w-[162px] pt-[2px] px-2` : (
+                      `text-3xl font-bold flex justify-center bg-black text-white h-100% w-[245px] py-4 px-2`
+                    )
+                  )
+                ))}>
+                Type "{key}" Bar (Cutting Width of {tiers[key]}")
               </div>
               <div id='vertical data half' class='flex'>
                 <div id='always generated i.e. the info column'>
                   <div id='vertical container' class='flex flex-col'>
-                    <div class='p-2 border-l-4 border-r-4 border-b-4 font-bold'>Stats</div>
+                    <div class='p-2 border-l-4 border-r-4 border-b-4 font-semibold'>Stats</div>
                     <div class='p-2 border-l-4 border-r-4 border-b-4'>Width:</div>
                     <div class='p-2 border-l-4 border-r-4 border-b-4'>Height:</div>
                     <div class='p-2 border-l-4 border-r-4 border-b-4'>Length:</div>

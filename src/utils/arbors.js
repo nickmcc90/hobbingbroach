@@ -833,6 +833,146 @@ export const ARBORS = {
     extra_info: "029%",
     taper: ""
   },
+  "M08FRG":  {
+    goes_with: [],
+    bar_width: 0.496,
+    dia_mesh_w_part: 2.5345,
+    dia_mesh_w_part_length: 2.874,
+    dia_mesh_w_output: 3.997,
+    keyway_to_underOD: 1.732,
+    extra_info: "030%",
+    taper: ""
+  },
+  "M10FRG":  {
+    goes_with: [],
+    bar_width: 0.4975,
+    dia_mesh_w_part: 3.398,
+    dia_mesh_w_part_length: 3.9905,
+    dia_mesh_w_output: 3.00,
+    keyway_to_underOD: 2.4405,
+    extra_info: "031%",
+    taper: ""
+  },
+  "M-3427":  {
+    goes_with: [],
+    bar_width: 0.877,
+    dia_mesh_w_part: 3.1225,
+    dia_mesh_w_part_length: 3.4865,
+    dia_mesh_w_output: 2.994,
+    keyway_to_underOD: 1.1205,
+    extra_info: "032%",
+    taper: ""
+  },
+  "HH0225":  {
+    goes_with: [],
+    bar_width: 0.501,
+    dia_mesh_w_part: 1.952,
+    dia_mesh_w_part_length: 2.9995,
+    dia_mesh_w_output: 3.49,
+    keyway_to_underOD: 0.884,
+    extra_info: "033% HH0209 HH0215 HH0235 %",
+    taper: ""
+  },
+  "HE0305":  {
+    goes_with: [],
+    bar_width: 0.877,
+    dia_mesh_w_part: 2.434,
+    dia_mesh_w_part_length: 11.432,
+    dia_mesh_w_output: 2.996,
+    keyway_to_underOD: 0.8945,
+    extra_info: "034% T23700",
+    taper: ""
+  },
+  "HK0225/HK0215":  {
+    goes_with: [],
+    bar_width: 0.887,
+    dia_mesh_w_part: 2.9635,
+    dia_mesh_w_part_length: 3.5105,
+    dia_mesh_w_output: 3.493,
+    keyway_to_underOD: 1.5520,
+    extra_info: "035% 88T2024",
+    taper: ""
+  },
+  "M243270":  {
+    goes_with: [],
+    bar_width: 0.616,
+    dia_mesh_w_part: 1.8725,
+    dia_mesh_w_part_length: 2.1220,
+    dia_mesh_w_output: 2.499,
+    keyway_to_underOD: 0.6580,
+    extra_info: "036%",
+    taper: ""
+  },
+  "037%":  {
+    goes_with: [],
+    bar_width: 0.7285,
+    dia_mesh_w_part: 2.3075,
+    dia_mesh_w_part_length: 4.2375,
+    dia_mesh_w_output: 2.492,
+    keyway_to_underOD: 0.708,
+    extra_info: "037%",
+    taper: ""
+  },
+  "038%":  {
+    goes_with: [],
+    bar_width: 1.00,
+    dia_mesh_w_part: 2.2735,
+    dia_mesh_w_part_length: 5.00,
+    dia_mesh_w_output: 1.9945,
+    keyway_to_underOD: 0.8375,
+    extra_info: "038% KINDA BROKEN",
+    taper: "yes"
+  },
+  "039%":  {
+    goes_with: [],
+    bar_width: 0.979,
+    dia_mesh_w_part: 2.532,
+    dia_mesh_w_part_length: 4.514,
+    dia_mesh_w_output: 2.99,
+    keyway_to_underOD: 0.8545,
+    extra_info: "039%",
+    taper: ""
+  },
+  "HC0299":  {
+    goes_with: [],
+    bar_width: 0.501,
+    dia_mesh_w_part: 2.840,
+    dia_mesh_w_part_length: 2.994,
+    dia_mesh_w_output: 3.485,
+    keyway_to_underOD: 1.707,
+    extra_info: "040%",
+    taper: ""
+  },
+  "HG0305":  {
+    goes_with: [],
+    bar_width: 0.998,
+    dia_mesh_w_part: 3.4315,
+    dia_mesh_w_part_length: "12.00+",
+    dia_mesh_w_output: 3.493,
+    keyway_to_underOD: 1.442,
+    extra_info: "041% 71T4024 307QUILL",
+    taper: ""
+  },
+  "HD0299":  {
+    goes_with: [],
+    bar_width: 0.501,
+    dia_mesh_w_part: 2.961,
+    dia_mesh_w_part_length: 3.0225,
+    dia_mesh_w_output: 3.495,
+    keyway_to_underOD: 1.8515,
+    extra_info: "042%",
+    taper: ""
+  },
+  "HG0300":  {
+    goes_with: [],
+    bar_width: 0.999,
+    dia_mesh_w_part: "3.395+",
+    dia_mesh_w_part_length: "12.00+",
+    dia_mesh_w_output: 3.484,
+    keyway_to_underOD: "1.273+",
+    extra_info: "043%",
+    taper: "yes"
+  },
 }
 
 
