@@ -18,8 +18,8 @@ function App() {
           Just gotta put the data into a js file
         </div> */}
         {/* <BarCard /> */}
-        <TypeBarGenerator />
-        {/* <SetupTableMult /> */}
+        {/* <TypeBarGenerator /> */}
+        <SetupTableMult />
       </div>
     </>
   )

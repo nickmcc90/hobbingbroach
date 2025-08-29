@@ -3150,12 +3150,12 @@ M272135: {
         kind: "DK",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.063,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.243,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.278,
+      keyway_width: 0.376
     }
   },
   DK0160: {
@@ -3177,18 +3177,18 @@ M272135: {
     },
     extra_info: "2 INCH TO 3 INCH THEN 8203",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0160",
       kind: {
         kind: "DK",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.063,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.243,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.278,
+      keyway_width: 0.376
     }
   },
   DL0151: {
@@ -3210,18 +3210,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0151",
       kind: {
         kind: "DL",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.5630,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.747,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.013,
+      keyway_width: 0.376
     }
   },
   DL0153: {
@@ -3243,18 +3243,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0153",
       kind: {
         kind: "DL",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.5630,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.747,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.013,
+      keyway_width: 0.376
     }
   },
   DL0155: {
@@ -3276,18 +3276,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0155",
       kind: {
         kind: "DL",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.5630,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.747,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.013,
+      keyway_width: 0.376
     }
   },
   DL0156: {
@@ -3309,18 +3309,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0156",
       kind: {
         kind: "DL",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.5630,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.747,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.013,
+      keyway_width: 0.376
     }
   },
   DL0157: {
@@ -3342,18 +3342,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0157",
       kind: {
         kind: "DL",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.5630,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.747,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.013,
+      keyway_width: 0.376
     }
   },
   DL0160: {
@@ -3375,18 +3375,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0160",
       kind: {
         kind: "DL",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.5630,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.747,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.013,
+      keyway_width: 0.376
     }
   },
   DN0630: {
@@ -3416,12 +3416,12 @@ M272135: {
         kind: "DN",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: null,
+      bore_tol: null,
+      key_to_bore_dia: null,
+      key_to_bore_dia_tol: null,
+      length: null,
+      keyway_width: null
     }
   },
   DP0136: {
@@ -3443,18 +3443,18 @@ M272135: {
     },
     extra_info: "In addtion to T10940 it could be BF-744",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0136",
       kind: {
         kind: "DP",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.9999,
+      bore_tol: 0.001,
+      key_to_bore_dia: 4.244,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.6555,
+      keyway_width: 0.501
     }
   },
   DP0137: {
@@ -3476,18 +3476,18 @@ M272135: {
     },
     extra_info: "In addtion to T10940 it could be BF-744",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0137",
       kind: {
         kind: "DP",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.9999,
+      bore_tol: 0.001,
+      key_to_bore_dia: 4.244,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.6555,
+      keyway_width: 0.501
     }
   },
   DS0132: {
@@ -3509,18 +3509,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0132",
       kind: {
         kind: "DS",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.437,
+      bore_tol: 0.001,
+      key_to_bore_dia: 3.828,
+      key_to_bore_dia_tol: 0.005,
+      length: 3.998,
+      keyway_width: 0.876
     }
   },
   DS0135: {
@@ -3542,18 +3542,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "0135",
       kind: {
         kind: "DS",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.437,
+      bore_tol: 0.001,
+      key_to_bore_dia: 3.828,
+      key_to_bore_dia_tol: 0.005,
+      length: 3.998,
+      keyway_width: 0.876
     }
   },
   DT0087: {
@@ -3575,18 +3575,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm wheel",
       begin_num_series: "0087",
       kind: {
         kind: "DT",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.750,
+      bore_tol: 0.001,
+      key_to_bore_dia: 4.147,
+      key_to_bore_dia_tol: 0.005,
+      length: 4.9975,
+      keyway_width: 0.876
     }
   },
   DU0075: {
@@ -3608,18 +3608,18 @@ M272135: {
     },
     extra_info: "arbor is listed as FOR 4.1243 BORE + SHIMS",
     part_info: {
-      type: "",
+      type: "gear hub",
       begin_num_series: "0075",
       kind: {
         kind: "DU",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 4.1238,
+      bore_tol: 0.001,
+      key_to_bore_dia: 4.573,
+      key_to_bore_dia_tol: 0.005,
+      length: 5.9975,
+      keyway_width: 1.001
     }
   },
   DV0038: {
@@ -3642,18 +3642,18 @@ M272135: {
     },
     extra_info: "arbor isn't listed, says FOR 4.4992 BORE",
     part_info: {
-      type: "",
+      type: "gear hub",
       begin_num_series: "0038",
       kind: {
         kind: "DV",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 4.9992,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 4.954,
+      key_to_bore_dia_tol: 0.005,
+      length: 6.9975,
+      keyway_width: 1.001
     }
   },
   FA0018: {
@@ -3675,18 +3675,18 @@ M272135: {
     },
     extra_info: "arbor isn't listed, says 1.125 BORE. Also adapter says 1 inch to 2 inch then 2 inch to 3 inch then 8203",
     part_info: {
-      type: "",
+      type: "worm coupling",
       begin_num_series: "0018",
       kind: {
         kind: "FA",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.1255,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 1.2435,
+      key_to_bore_dia_tol: 0.0025,
+      length: 0.625,
+      keyway_width: 0.251
     }
   },
   FA0063: {
@@ -3708,18 +3708,18 @@ M272135: {
     },
     extra_info: "arbor isn't listed, says 1.125 BORE. Also adapter says 1 inch to 2 inch then 2 inch to 3 inch then 8203",
     part_info: {
-      type: "",
+      type: "motor coupling",
       begin_num_series: "0063",
       kind: {
         kind: "FA",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.1255,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 1.2435,
+      key_to_bore_dia_tol: 0.0025,
+      length: 2,
+      keyway_width: 0.250
     }
   },
   FD0975: {
@@ -3741,18 +3741,18 @@ M272135: {
     },
     extra_info: "locate keyway from lifting holes. arbor says 2.538 + shims",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "0975",
       kind: {
         kind: "FD",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.5631,
+      bore_tol: 0.0007,
+      key_to_bore_dia: 2.895,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.6875,
+      keyway_width: 0.751
     }
   },
   FD1456: {
@@ -3774,18 +3774,18 @@ M272135: {
     },
     extra_info: "arbor says 3.290 INCH. ",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "1456",
       kind: {
         kind: "FD",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.313,
+      bore_tol: 0.001,
+      key_to_bore_dia: 3.655,
+      key_to_bore_dia_tol: 0.005,
+      length: 3.317,
+      keyway_width: 0.752
     }
   },
   KJ1052: {
@@ -3807,18 +3807,18 @@ M272135: {
     },
     extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
     part_info: {
-      type: "",
+      type: "worm wheel",
       begin_num_series: 125,
       kind: {
         kind: "KJ",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.375,
+      bore_tol: 0.001,
+      key_to_bore_dia: 2.558,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.312,
+      keyway_width: 0.376
     }
   },
   KJ1053: {
@@ -3840,18 +3840,18 @@ M272135: {
     },
     extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
     part_info: {
-      type: "",
+      type: "worm wheel",
       begin_num_series: "1053",
       kind: {
         kind: "KJ",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.375,
+      bore_tol: 0.001,
+      key_to_bore_dia: 2.558,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.312,
+      keyway_width: 0.376
     }
   },
   KJ1054: {
@@ -3873,18 +3873,18 @@ M272135: {
     },
     extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
     part_info: {
-      type: "",
+      type: "worm wheel",
       begin_num_series: "1054",
       kind: {
         kind: "KJ",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.375,
+      bore_tol: 0.001,
+      key_to_bore_dia: 2.558,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.312,
+      keyway_width: 0.376
     }
   },
   KJ1055: {
@@ -3906,18 +3906,18 @@ M272135: {
     },
     extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
     part_info: {
-      type: "",
+      type: "worm wheel",
       begin_num_series: "1055",
       kind: {
         kind: "KJ",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.375,
+      bore_tol: 0.001,
+      key_to_bore_dia: 2.558,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.312,
+      keyway_width: 0.376
     }
   },
   KJ1057: {
@@ -3939,18 +3939,18 @@ M272135: {
     },
     extra_info: "ADAPTER SAYS 2 INCH TO 3 INCH THEN 8203",
     part_info: {
-      type: "",
+      type: "worm wheel",
       begin_num_series: "1057",
       kind: {
         kind: "KD",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.375,
+      bore_tol: 0.001,
+      key_to_bore_dia: 2.558,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.312,
+      keyway_width: 0.376
     }
   },
   KJ1115: {
@@ -3972,18 +3972,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "1115",
       kind: {
         kind: "KJ",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.5625,
+      bore_tol: 0.0009,
+      key_to_bore_dia: 3.857,
+      key_to_bore_dia_tol: 0.005,
+      length: 4.317,
+      keyway_width: 0.626
     }
   },
   KJ1119: {
@@ -4005,18 +4005,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "1119",
       kind: {
         kind: "KJ",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.5625,
+      bore_tol: 0.0009,
+      key_to_bore_dia: 3.867,
+      key_to_bore_dia_tol: 0.005,
+      length: 4.317,
+      keyway_width: 0.626
     }
   },
   KJ1120: {
@@ -4038,18 +4038,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "1120",
       kind: {
         kind: "KJ",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.5625,
+      bore_tol: 0.0009,
+      key_to_bore_dia: 3.867,
+      key_to_bore_dia_tol: 0.005,
+      length: 4.317,
+      keyway_width: 0.626
     }
   },
   "LY5001-6": {
@@ -4071,18 +4071,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "5001",
       kind: {
         kind: "LY",
         kind_num_series: 6
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.00025,
+      bore_tol: 0.00025,
+      key_to_bore_dia: 3.335,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.570,
+      keyway_width: 0.751
     }
   },
   "LY5001-9": {
@@ -4104,18 +4104,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "spur gear",
       begin_num_series: "5001",
       kind: {
         kind: "LY",
         kind_num_series: 9
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.126,
+      bore_tol: 0.0005,
+      key_to_bore_dia: null,
+      key_to_bore_dia_tol: null,
+      length: 2.177,
+      keyway_width: 0.501
     }
   },
   "602032-62": {
@@ -4137,18 +4137,18 @@ M272135: {
     },
     extra_info: "ADAPTER SAYS 8670 THEN 1 5/8 INCH",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "032",
       kind: {
         kind: "602",
         kind_num_series: "-62"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: null,
+      bore_tol: null,
+      key_to_bore_dia: null,
+      key_to_bore_dia_tol: null,
+      length: null,
+      keyway_width: null
     }
   },
   "602049-02": {
@@ -4170,18 +4170,18 @@ M272135: {
     },
     extra_info: "ADAPTER SAYS 8670 THEN 2 INCH",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "049",
       kind: {
         kind: "602",
         kind_num_series: "-02"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.9998,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.233,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.623,
+      keyway_width: 0.501
     }
   },
   "602065-02": {
@@ -4203,18 +4203,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "065",
       kind: {
         kind: "602",
         kind_num_series: "-02"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.74875,
+      bore_tol: 0.00025,
+      key_to_bore_dia: 3.028,
+      key_to_bore_dia_tol: 0.005,
+      length: 3.250,
+      keyway_width: 0.626
     }
   },
   "602079-03": {
@@ -4236,18 +4236,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "079",
       kind: {
         kind: "602",
         kind_num_series: "-03"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.2505,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.49,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.248,
+      keyway_width: 0.501
     }
   },
   "602224-02": {
@@ -4269,18 +4269,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "224",
       kind: {
         kind: "602",
         kind_num_series: "-02"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.8748,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.118,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.998,
+      keyway_width: 0.501
     }
   },
   "602224-03": {
@@ -4302,18 +4302,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "224",
       kind: {
         kind: "602",
         kind_num_series: "-03"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.8748,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.118,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.998,
+      keyway_width: 0.501
     }
   },
   "602395-03-A": {
@@ -4335,18 +4335,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "worm gear",
       begin_num_series: "395",
       kind: {
         kind: "602",
         kind_num_series: "-03-A"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.4995,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.788,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.877,
+      keyway_width: 0.626
     }
   },
   "602079-02": {
@@ -4368,18 +4368,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "079",
       kind: {
         kind: "602",
         kind_num_series: "-02"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.2505,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.484,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.250,
+      keyway_width: 0.501
     }
   },
   "602079-03": {
@@ -4401,18 +4401,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "079",
       kind: {
         kind: "602",
         kind_num_series: "-03"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.2505,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 2.490,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.248,
+      keyway_width: 0.501
     }
   },
   
@@ -4435,18 +4435,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "159",
       kind: {
         kind: "079",
         kind_num_series: "08-J"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.8393,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.069,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.595,
+      keyway_width: 0.501
     }
   },
 
@@ -4469,18 +4469,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "256",
       kind: {
         kind: "079",
         kind_num_series: "09-H"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.988,
+      keyway_width: 0.626
     }
   },
   
@@ -4503,18 +4503,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "09-F"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.988,
+      keyway_width: 0.626
     }
   },
 
@@ -4537,18 +4537,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "09-H"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.988,
+      keyway_width: 0.626
     }
   },
   
@@ -4571,18 +4571,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "10-A"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.0003,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.342,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.536,
+      keyway_width: 0.751
     }
   },
   "079156-10-Bdouble": {
@@ -4604,18 +4604,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "10-B"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.0003,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.342,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.536,
+      keyway_width: 0.751
     }
   },
 
@@ -4638,18 +4638,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "10-A"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.0003,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.342,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.536,
+      keyway_width: 0.751
     }
   },
   
@@ -4678,12 +4678,12 @@ M272135: {
         kind: "079",
         kind_num_series: "10-B"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.0003,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.342,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.536,
+      keyway_width: 0.751
     }
   },
   
@@ -4706,18 +4706,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "11-A"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 3.7503,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 4.151,
+      key_to_bore_dia_tol: 0.005,
+      length: 3.013,
+      keyway_width: 0.876
     }
   },
   
@@ -4740,18 +4740,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-A"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.626
     }
   },
   
@@ -4774,18 +4774,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-B"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.626
     }
   },
   
@@ -4806,7 +4806,7 @@ M272135: {
         three: [],
       }
     },
-    extra_info: "",
+    extra_info: "helical gear",
     part_info: {
       type: "",
       begin_num_series: "156",
@@ -4814,12 +4814,12 @@ M272135: {
         kind: "079",
         kind_num_series: "16-C"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.626
     }
   },
 
@@ -4842,18 +4842,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-D"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.626
     }
   },
   "079156-16-E": {
@@ -4875,18 +4875,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-E"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.626
     }
   },
   "079156-16-F": {
@@ -4908,18 +4908,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-F"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.626
     }
   },
   "079156-16-G": {
@@ -4941,18 +4941,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-G"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.626
     }
   },
   "079156-16-H": {
@@ -4974,18 +4974,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-H"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.3753,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.661,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.626
     }
   },
   
@@ -5008,18 +5008,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-J"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.9588,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.177,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.751
     }
   },
   /* */
@@ -5042,18 +5042,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-K"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.9588,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.177,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.751
     }
   },
   "079156-16-L": {
@@ -5075,18 +5075,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-L"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.9588,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.177,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.751
     }
   },
   "079156-16-M": {
@@ -5108,18 +5108,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-M"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.9588,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.177,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.751
     }
   },
   "079156-16-N": {
@@ -5141,18 +5141,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-N"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.9588,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.177,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.751
     }
   },
   "079156-16-O": {
@@ -5180,12 +5180,12 @@ M272135: {
         kind: "079",
         kind_num_series: "16-O"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: null,
+      bore_tol: null,
+      key_to_bore_dia: null,
+      key_to_bore_dia_tol: null,
+      length: null,
+      keyway_width: null
     }
   },
   "079156-16-P": {
@@ -5207,18 +5207,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-P"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.9588,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.177,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.751
     }
   },
   "079156-16-Q": {
@@ -5246,12 +5246,12 @@ M272135: {
         kind: "079",
         kind_num_series: "16-Q"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: null,
+      bore_tol: null,
+      key_to_bore_dia: null,
+      key_to_bore_dia_tol: null,
+      length: null,
+      keyway_width: null
     }
   },
   "079156-16-R": {
@@ -5273,18 +5273,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-R"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.9588,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.177,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.751
     }
   },
   "079156-16-S": {
@@ -5306,18 +5306,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "helical gear",
       begin_num_series: "156",
       kind: {
         kind: "079",
         kind_num_series: "16-S"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.9588,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 3.177,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.218,
+      keyway_width: 0.751
     }
   },
   "079207-02-F": {
@@ -5339,18 +5339,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: "207",
       kind: {
         kind: "079",
         kind_num_series: "02-F"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.203,
+      bore_tol: 0.001,
+      key_to_bore_dia: 1.316,
+      key_to_bore_dia_tol: 0.005,
+      length: 7.25,
+      keyway_width: 0.250
     }
   },
   "079207-04-B": {
@@ -5372,18 +5372,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: "207",
       kind: {
         kind: "079",
         kind_num_series: "04-B"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.964,
+      bore_tol: 0.005,
+      key_to_bore_dia: 2.048,
+      key_to_bore_dia_tol: 0.005,
+      length: 8.94,
+      keyway_width: 0.501
     }
   },
   "079207-04-C": {
@@ -5405,18 +5405,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: "207",
       kind: {
         kind: "079",
         kind_num_series: "04-C"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.964,
+      bore_tol: 0.005,
+      key_to_bore_dia: 2.048,
+      key_to_bore_dia_tol: 0.005,
+      length: 8.94,
+      keyway_width: 0.501
     }
   },
   "079207-04-H": {
@@ -5438,18 +5438,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: "207",
       kind: {
         kind: "079",
         kind_num_series: "04-H"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.024,
+      bore_tol: 0.005,
+      key_to_bore_dia: 2.107,
+      key_to_bore_dia_tol: 0.005,
+      length: 8.94,
+      keyway_width: 0.501
     }
   },
   "079207-05-B": {
@@ -5471,18 +5471,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: "207",
       kind: {
         kind: "079",
         kind_num_series: "05-B"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.204,
+      bore_tol: 0.005,
+      key_to_bore_dia: 2.280,
+      key_to_bore_dia_tol: 0.005,
+      length: 11.02,
+      keyway_width: 0.501
     }
   },
   "079207-05-C": {
@@ -5504,18 +5504,18 @@ M272135: {
     },
     extra_info: "the arbor of 551280 label 2.188 INCH",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: "207",
       kind: {
         kind: "079",
         kind_num_series: "05-C"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.204,
+      bore_tol: 0.005,
+      key_to_bore_dia: 2.307,
+      key_to_bore_dia_tol: 0.005,
+      length: 11.02,
+      keyway_width: 0.501
     }
   },
   M02OUH: {
@@ -5537,18 +5537,18 @@ M272135: {
     },
     extra_info: "shims?",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: 2,
       kind: {
         kind: "OUH",
         kind_num_series: null
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.968,
+      bore_tol: 0.002,
+      key_to_bore_dia: 2.069,
+      key_to_bore_dia_tol: 0.005,
+      length: 5.88,
+      keyway_width: 0.501
     }
   },
   M03OUH: {
@@ -5570,18 +5570,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: 3,
       kind: {
         kind: "OUH",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.194,
+      bore_tol: 0.002,
+      key_to_bore_dia: 2.330,
+      key_to_bore_dia_tol: 0.005,
+      length: 7.59,
+      keyway_width: 0.501
     }
   },
   M04OUH: {
@@ -5603,18 +5603,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: 4,
       kind: {
         kind: "OUH",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.470,
+      bore_tol: 0.002,
+      key_to_bore_dia: 3.107,
+      key_to_bore_dia_tol: 0.005,
+      length: 8.17,
+      keyway_width: 0.626
     }
   },
   "079207-03-C": {
@@ -5636,18 +5636,18 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "quill",
       begin_num_series: "207",
       kind: {
         kind: "079",
         kind_num_series: "03-C"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.455,
+      bore_tol: 0.005,
+      key_to_bore_dia: 1.550,
+      key_to_bore_dia_tol: 0.005,
+      length: 8.03,
+      keyway_width: 0.376
     }
   },
   "602079-06": {
@@ -5669,20 +5669,53 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "",
+      type: "gear",
       begin_num_series: "079",
       kind: {
         kind: "602",
         kind_num_series: "-06"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 2.2505,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.490,
+      key_to_bore_dia_tol: 0.005,
+      length: 2.248,
+      keyway_width: 0.501
     }
-  }
+  },
+  M01OUH: {
+    broach_info: true,
+    per_bobby: true,
+    done_irl: false,
+    page_in_old_notes: "int",
+    bar: "BAR#2D",
+    arbor: "",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "quill",
+      begin_num_series: "int",
+      kind: {
+        kind: "",
+        kind_num_series: "int"
+      },
+      bore_dia: 1.478,
+      bore_tol: 0.002,
+      key_to_bore_dia: 1.571,
+      key_to_bore_dia_tol: 0.005,
+      length: 5.69,
+      keyway_width: 0.376
+    }
+  },
 /* STARTED DIVER */
 }
 

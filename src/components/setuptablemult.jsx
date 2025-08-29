@@ -11,7 +11,7 @@ export default function SetupTableMult() {
 
   console.log(Object.keys(ITEMS).length);
 
-  console.log(partNumbers)
+  // console.log(partNumbers)
 
   // Below counts how many more setup infos I need to record the drawing data for
   const count = Object.values(ITEMS)

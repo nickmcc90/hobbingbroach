@@ -11,7 +11,7 @@ export default function BarCard() {
   Object.keys(BARS)
   .filter(key => key.includes("BAR"))   // keep only keys with "BAR"
   .forEach(key => {
-    console.log(key, BARS[key].bar_height); // show key + its bar_height
+    //console.log(key, BARS[key].bar_height); // show key + its bar_height
   });
 
   return (

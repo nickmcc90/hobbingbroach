@@ -19,7 +19,7 @@ export default function TableCard(props) {
   // storing in a variable a labeled bar if the current specific part number's broach bar is within the extra language of an existing labeled bar.
   const confirmed = language.filter((item) => broachbar === item).map((item) => labeledBars[language.indexOf(item)])
 
-  console.log(confirmed)
+  // console.log(confirmed)
 
   return (
     <div id='height maker' class="h-[850px]">

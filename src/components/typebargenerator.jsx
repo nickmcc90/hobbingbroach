@@ -6,24 +6,24 @@ export default function TypeBarGenerator() {
 
   const { tiers } = BARS
 
-  console.log(Object.keys(tiers))
+  // console.log(Object.keys(tiers))
 
   return (
-    <div class='w-full bg-green-300 p-5 flex flex-col items-center gap-5'>
+    <div class='w-[900px] bg-green-300 p-6 flex flex-col items-center gap-8'>
               {/* We need a table for each letter type. For each letter type that spawns, we need the bars of that type to spawn underneath.
               That's why everything is inside this "Object.keys" jsx term, because everything happens after each instance of a type table spawning. */}
       {Object.keys(tiers).filter((_, i) => i % 2 === 0).map((key) => (
             <div id='each table generated based on bartype' class='flex flex-col'>
-              <div id="vertical title half" class="text-4xl font-extrabold flex justify-center bg-black text-white h-100% w-[1000px] py-4">
+              <div id="vertical title half" class="text-4xl font-extrabold flex justify-center bg-black text-white h-100% w-[900px] py-4">
                 Type "{key}" Bar - (Cutting Width of {tiers[key]}")
               </div>
               <div id='vertical data half' class='flex'>
                 <div id='always generated i.e. the info column'>
                   <div id='vertical container' class='flex flex-col'>
-                    <div class='p-2 border-l-4 border-r-4 border-b-4 font-bold'>Bar Attributes (inches)</div>
-                    <div class='p-2 border-l-4 border-r-4 border-b-4'>Bar total width:</div>
-                    <div class='p-2 border-l-4 border-r-4 border-b-4'>Bar cutting height:</div>
-                    <div class='p-2 border-l-4 border-r-4 border-b-4'>Bar length:</div>
+                    <div class='p-2 border-l-4 border-r-4 border-b-4 font-bold'>Stats</div>
+                    <div class='p-2 border-l-4 border-r-4 border-b-4'>Width:</div>
+                    <div class='p-2 border-l-4 border-r-4 border-b-4'>Height:</div>
+                    <div class='p-2 border-l-4 border-r-4 border-b-4'>Length:</div>
                   </div>
                 </div>
                 {/* Below here -> These need to be class: flex. This jsx bracket term should output a number of 
