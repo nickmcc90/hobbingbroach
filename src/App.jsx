@@ -17,14 +17,14 @@ function App() {
         <div class='text-green-600 p-7'>
           Just gotta put the data into a js file
         </div> */}
-        <BarCard />
+        {/* <BarCard /> */}
         {/* <div class='w-[901px]'>
           <div class='w-full text-5xl font-black bg-emerald-400 h-[58px] flex justify-center items-center py-2'>
             Cutting Bars In Brown Wooden Area
           </div>
           <TypeBarGenerator />
         </div> */}
-        {/* <SetupTableMult /> */}
+        <SetupTableMult />
       </div>
     </>
   )

@@ -788,7 +788,7 @@ export const ITEMS = {
       key_to_bore_dia: 1.523,
       key_to_bore_dia_tol: 0.005,
       length: 17.31,
-      keyway_width: 0.3135
+      keyway_width: 0.313
     }
   },
   KJ0101: {
@@ -1448,7 +1448,7 @@ export const ITEMS = {
       key_to_bore_dia: 2.229,
       key_to_bore_dia_tol: 0.005,
       length: 7.00,
-      keyway_width: 0.502
+      keyway_width: 0.501
     }
   },
   HC0305: {
@@ -1514,7 +1514,7 @@ export const ITEMS = {
       key_to_bore_dia: 3.891,
       key_to_bore_dia_tol: 0.005,
       length: 1.799,
-      keyway_width: 0.877
+      keyway_width: 0.876
     }
   },
   DJ0062: {
@@ -1547,7 +1547,7 @@ export const ITEMS = {
       key_to_bore_dia: 0.969,
       key_to_bore_dia_tol: 0.005,
       length: 5.75,
-      keyway_width: 0.1875
+      keyway_width: 0.1876
     }
   },
   M245094: {
@@ -3719,7 +3719,7 @@ M272135: {
       key_to_bore_dia: 1.2435,
       key_to_bore_dia_tol: 0.0025,
       length: 2,
-      keyway_width: 0.250
+      keyway_width: 0.251
     }
   },
   FD0975: {
@@ -3785,7 +3785,7 @@ M272135: {
       key_to_bore_dia: 3.655,
       key_to_bore_dia_tol: 0.005,
       length: 3.317,
-      keyway_width: 0.752
+      keyway_width: 0.751
     }
   },
   KJ1052: {
@@ -5350,7 +5350,7 @@ M272135: {
       key_to_bore_dia: 1.316,
       key_to_bore_dia_tol: 0.005,
       length: 7.25,
-      keyway_width: 0.250
+      keyway_width: 0.251
     }
   },
   "079207-04-B": {

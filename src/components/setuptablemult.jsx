@@ -18,7 +18,7 @@ export default function SetupTableMult() {
   .filter(item => item.part_info?.bore_dia === "int")
   .length;
 
-  console.log(count + " left to go");
+  // console.log(count + " left to go");
 
   return (
     <div id="This is the main container" class="w-full p-5 bg-blue-200">
