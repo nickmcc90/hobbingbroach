@@ -13,14 +13,16 @@ export default function TypeBarGenerator() {
               {/* We need a table for each letter type. For each letter type that spawns, we need the bars of that type to spawn underneath.
               That's why everything is inside this "Object.keys" jsx term, because everything happens after each instance of a type table spawning. */}
       {Object.keys(tiers).filter((_, i) => i % 2 === 0).map((key) => (
-            <div id='each table generated based on bartype' class='flex flex-col'>
+            <div id='each table generated based on bartype' class={key === "H" | "J" ? `flex flex-col mt-[60px] mb-[60px]` : `flex flex-col`}>
               <div id="vertical title half" class={key === "B" ? `text-[37px] font-bold flex justify-center bg-black text-white h-[140px] w-[411px] pt-2 px-2` : 
-                key === "D" ? `text-[38px] font-bold flex justify-center bg-black text-white h-[140px] w-[411px] pb-3 px-2` :  (
-                  (key === "C" ? `text-4xl font-bold flex justify-center bg-black text-white h-[140px] w-[328px] pt-1 px-2` : (
-                    key === "E" ? `text-[22px] font-bold flex justify-center bg-black text-white h-[140px] w-[162px] pt-[2px] px-2` : (
-                      `text-3xl font-bold flex justify-center bg-black text-white h-100% w-[245px] py-4 px-2`
-                    )
-                  )
+                key === "D" ? `text-[38px] font-bold flex justify-center bg-black text-white h-[140px] w-[411px] pb-3 px-2` :  
+                  key === "H" ? `text-[38px] font-bold flex items-center justify-center bg-black text-white h-[140px] w-[494px] pb-3 pl-[55px] px-2` :  
+                    (key === "F" | key === "G" ? `text-[38px] font-bold flex items-center justify-center bg-black text-white h-[140px] w-[900px] pb-3 px-2` : 
+                      (key === "C" ? `text-4xl font-bold flex justify-center bg-black text-white h-[140px] w-[328px] pt-1 px-2` : (
+                        key === "E" ? `text-[22px] font-bold flex justify-center bg-black text-white h-[140px] w-[162px] pt-[2px] px-2` : (
+                          `text-3xl font-bold flex justify-center bg-black text-white h-100% w-[245px] py-4 px-2`
+                        )
+                      )
                 ))}>
                 Type "{key}" Bar (Cutting Width of {tiers[key]}")
               </div>

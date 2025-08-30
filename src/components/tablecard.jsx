@@ -35,8 +35,20 @@ export default function TableCard(props) {
   const rec_letter = Object.keys(tier_list).filter((key) => tier_list[key] === key_width)
 
 
+  ////logic for getting the current day
+  const today = new Date();
+
+  const month = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-based
+  const day = String(today.getDate()).padStart(2, '0');
+  const year = today.getFullYear();
+
+  const formattedDate = `${month}-${day}-${year}`;
+  // console.log(formattedDate); // Example: "08-29-2025"
+
+
+
   return (
-    <div id='height maker' class="h-[850px]">
+    <div id='height maker' class="h-[917px]">
 
       <div id="table holder" class='flex flex-col'>
         <div id="title" class="text-4xl font-extrabold flex justify-center bg-black text-white h-100% w-[450px] py-4">
@@ -88,7 +100,7 @@ export default function TableCard(props) {
             </div>
             <div id='date container' class='flex justify-between px-2 border-l-4 border-r-4 border-b-4'>
               <div>Date Last Modified:</div>
-              <div>{/* put a date function in here for today's date */}</div>
+              <div>{formattedDate}</div>
             </div>
             <div id='checker container' class='flex justify-between px-2 border-l-4 border-r-4 border-b-4'>
               <div>Approved By:</div>
