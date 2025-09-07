@@ -5,6 +5,7 @@ import './App.css'
 import TypeBarGenerator from './components/typebargenerator.jsx'
 import ArborSorting from './components/arborsorting.jsx'
 import TypeBarGeneratorLU45 from './components/typebargeneratorLU45.jsx'
+import BarsOutForServiceLU45 from './components/barsoutforserviceLU45.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,7 +41,10 @@ function App() {
 
         {/* LU45bars.js data within tables that fit nicely on a normal landscape paper */}
         {/* Paper length: 901px | Paper height: 691px */}
-        <TypeBarGeneratorLU45 />
+        {/* <TypeBarGeneratorLU45 /> */}
+
+        {/* Curated page for to tell when bars are out for service */}
+        <BarsOutForServiceLU45 />
       </div>
     </>
   )
