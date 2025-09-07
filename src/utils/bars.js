@@ -337,7 +337,9 @@ export const BARS = {
     J: 0.876,
     Jcount: 2,
     K: 1.001,
-    Kcount: 0
+    Kcount: 0,
+    L: 1.125,
+    Lcount: 0
   },
   colors: {
     AA: "color",

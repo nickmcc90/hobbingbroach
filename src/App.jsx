@@ -3,6 +3,7 @@ import BarCard from './components/barcard.jsx'
 import SetupTableMult from './components/setuptablemult.jsx'
 import './App.css'
 import TypeBarGenerator from './components/typebargenerator.jsx'
+import ArborSorting from './components/arborsorting.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,12 +19,13 @@ function App() {
           Just gotta put the data into a js file
         </div> */}
         {/* <BarCard /> */}
-        <div class='w-[901px]'>
+        {/* <div class='w-[901px]'>
           <div class='w-full text-5xl font-black bg-emerald-400 h-[58px] flex justify-center items-center py-2'>
             Cutting Bars In Brown Wooden Area
           </div>
           <TypeBarGenerator />
-        </div>
+        </div> */}
+        {<ArborSorting />}
         {/* <SetupTableMult /> */}
       </div>
     </>
