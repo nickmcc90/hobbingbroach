@@ -27,11 +27,11 @@ export default function ArborSorting() {
           Arbor Organization
         </div>
         <div class='flex gap-2'>
-          <div>Light purple: Under 10 in^3</div>
+          <div class='bg-purple-200'>Light purple: Under 10 in^3</div>
           <div>|</div>
-          <div>Medium purple: Betweem 10 and 20 in^3</div>
+          <div class='bg-purple-400'>Medium purple: Betweem 10 and 20 in^3</div>
           <div>|</div>
-          <div>Dark purple: Above 20 in^3</div>
+          <div class='bg-purple-600'>Dark purple: Above 20 in^3</div>
         </div>
         <div id='column titles' class='flex justify-between items-center w-[650px]'>
           <div>Keyway</div>

@@ -34,7 +34,7 @@ function App() {
         </div> */}
 
         {/* Page for me to organize arbors based on keyway and mass */}
-        {/* {<ArborSorting />} */}
+        {<ArborSorting />}
 
         {/* Setup sheets that bring all of the data together for the operators */}
         {/* <SetupTableMult /> */}
@@ -44,7 +44,7 @@ function App() {
         {/* <TypeBarGeneratorLU45 /> */}
 
         {/* Curated page for to tell when bars are out for service */}
-        <BarsOutForServiceLU45 />
+        {/* <BarsOutForServiceLU45 /> */}
       </div>
     </>
   )

@@ -857,7 +857,7 @@ export const ITEMS = {
       keyway_width: 0.376
     }
   },
-  MO4OUH: {
+  M04OUHother: {
     broach_info: true,
     per_bobby: true,
     done_irl: false,
@@ -5611,7 +5611,7 @@ M272135: {
       },
       bore_dia: 2.470,
       bore_tol: 0.002,
-      key_to_bore_dia: 3.107,
+      key_to_bore_dia: 2.627,
       key_to_bore_dia_tol: 0.005,
       length: 8.17,
       keyway_width: 0.626

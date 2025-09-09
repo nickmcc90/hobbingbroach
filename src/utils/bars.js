@@ -314,6 +314,13 @@ export const BARS = {
     keyway_width: "integer",
     bar_length: "integer"
   },
+  "15-19-152": {
+    goes_with: ["079207-03-C"],
+    bar_height: "integer",
+    bar_width: "integer",
+    keyway_width: "integer",
+    bar_length: "integer"
+  },
   /* real bars */
   tiers: {
     AA: 0.161,
