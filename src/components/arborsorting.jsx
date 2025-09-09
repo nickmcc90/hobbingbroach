@@ -21,7 +21,7 @@ export default function ArborSorting() {
 
 
   return (
-    <div class='bg-amber-400'>
+    <div class='bg-slate-500'>
       <div id='table container' class='flex flex-col gap-2 border-4 items-center'>
         <div id='title' class="text-4xl font-extrabold flex justify-center bg-black text-white h-100% w-[1300px] py-4">
           Arbor Organization
@@ -64,6 +64,18 @@ export default function ArborSorting() {
           ))
           }
         </div>
+      </div>
+      <div id='absolute positioned color identifiers' class='absolute top-[265px] left-[205px] 
+      flex flex-col gap-[45px]'>
+        <div class='bg-amber-500 h-[10px] w-[10px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-10px]'>Amber</div></div>
+        <div class='bg-purple-300 h-[10px] w-[10px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Light purple</div></div>
+        <div class='bg-[#F08080] h-[10px] w-[10px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-37px]'>Biege/tan "Rose"</div></div>
+        <div class='bg-green-300 h-[10px] w-[10px] mt-[80px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Light green</div></div>
+        <div class='bg-sky-200 h-[10px] w-[10px] mt-[70px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-40px]'>Light blue "Sage"</div></div>
+        <div class='bg-pink-500 h-[10px] w-[10px] mt-[47px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Pink "Violet"</div></div>
+        <div class='bg-red-400 h-[10px] w-[10px] mt-[47px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Bright Red</div></div>
+        <div class='bg-teal-400 h-[10px] w-[10px] mt-[47px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-10px]'>Turquiose</div></div>
+        <div class='bg-yellow-300 h-[10px] w-[10px] mt-[47px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-10px]'>Yellow</div></div>
       </div>
     </div>
   )

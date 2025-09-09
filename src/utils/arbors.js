@@ -1854,11 +1854,11 @@ export const ARBORS = {
     bar_width: 0.992,
     most_likely_built_for: 1.001,
     dia_mesh_w_part: 3.3875,
-    dia_mesh_w_part_length: "12.00+",
+    dia_mesh_w_part_length: 12.00,
     dia_mesh_w_output: 3.500,
     keyway_to_underOD: 1.621,
     extra_info: "114%",
-    extra_lang: "56X5702",
+    extra_lang: "56X5702 part length is more than 12.00 inches",
     taper: ""
   },
   "2029163":  {
@@ -2041,18 +2041,114 @@ export const ARBORS = {
     extra_lang: "",
     taper: ""
   },
-  // "":  {
-  //   goes_with: [],
-  //   bar_width: ,
-  //   most_likely_built_for: ,
-  //   dia_mesh_w_part: ,
-  //   dia_mesh_w_part_length: ,
-  //   dia_mesh_w_output: ,
-  //   keyway_to_underOD: ,
-  //   extra_info: "%",
-  //   extra_lang: "",
-  //   taper: ""
-  // },
+  "130%":  {
+    goes_with: [],
+    bar_width: 1.117,
+    most_likely_built_for: 1.125,
+    dia_mesh_w_part: 3.626,
+    dia_mesh_w_part_length: 5.2485,
+    dia_mesh_w_output: 3.000,
+    keyway_to_underOD: 1.9575,
+    extra_info: "130%",
+    extra_lang: "",
+    taper: ""
+  },
+  "131%":  {
+    goes_with: [],
+    bar_width: 0.506,
+    most_likely_built_for: 0.501,
+    dia_mesh_w_part: 1.493,
+    dia_mesh_w_part_length: 3.1535,
+    dia_mesh_w_output: 1.500,
+    keyway_to_underOD: 0.471,
+    extra_info: "131%",
+    extra_lang: "79T4448 5005A",
+    taper: ""
+  },
+  "132%":  {
+    goes_with: [],
+    bar_width: 0.375,
+    most_likely_built_for: 0.376,
+    dia_mesh_w_part: 0.9905,
+    dia_mesh_w_part_length: 6.9760,
+    dia_mesh_w_output: 1.500,
+    keyway_to_underOD: 0.1645,
+    extra_info: "132%",
+    extra_lang: "48Y5701 Q-100",
+    taper: ""
+  },
+  "M-7001-3":  {
+    goes_with: [],
+    bar_width: 0.755,
+    most_likely_built_for: 0.751,
+    dia_mesh_w_part: 2.1875,
+    dia_mesh_w_part_length: 8.8420,
+    dia_mesh_w_output: 4.000,
+    keyway_to_underOD: 0.803,
+    extra_info: "133%",
+    extra_lang: "",
+    taper: "YES"
+  },
+  "FD1456":  {
+    goes_with: [],
+    bar_width: 0.985,
+    most_likely_built_for: 1.001,
+    dia_mesh_w_part: 3.274,
+    dia_mesh_w_part_length: 6.0175,
+    dia_mesh_w_output: 3.000,
+    keyway_to_underOD: 1.508,
+    extra_info: "134%",
+    extra_lang: "",
+    taper: ""
+  },
+  "UJ-3002-9":  {
+    goes_with: [],
+    bar_width: 0.879,
+    most_likely_built_for: 0.876,
+    dia_mesh_w_part: 3.0320,
+    dia_mesh_w_part_length: 3.0065,
+    dia_mesh_w_output: 3.500,
+    keyway_to_underOD: 1.1565,
+    extra_info: "135%",
+    extra_lang: "2761278",
+    taper: ""
+  },
+  "136%":  {
+    goes_with: [],
+    bar_width: 1.1325,
+    most_likely_built_for: 1.125,
+    dia_mesh_w_part: 3.719,
+    dia_mesh_w_part_length: 3.146,
+    dia_mesh_w_output: 3.000,
+    keyway_to_underOD: 1.6620,
+    extra_info: "136%",
+    extra_lang: "2007TT000 HP0138",
+    taper: ""
+  },
+  "137%":  {
+    goes_with: [],
+    bar_width: 0.873,
+    most_likely_built_for: 0.876,
+    dia_mesh_w_part: 5.0145,
+    dia_mesh_w_part_length: 3.9225,
+    dia_mesh_w_output: 3.500,
+    keyway_to_underOD: "3.1575 2.656",
+    extra_info: "137%",
+    extra_lang: "80445 86T4047 85TT4078 dia_mesh_w_part is either 5.0145 or 3.9645",
+    taper: ""
+  },
+  "550790-1.750":  {
+    goes_with: [],
+    bar_width: 0.501,
+    most_likely_built_for: 0.501,
+    dia_mesh_w_part: 1.7555,
+    dia_mesh_w_part_length: 8.9310,
+    dia_mesh_w_output: 3.500,
+    keyway_to_underOD: 0.870,
+    extra_info: "138%",
+    extra_lang: "550790-1.750 (3/8)",
+    taper: ""
+  },
   
 }
 
