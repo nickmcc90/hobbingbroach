@@ -19,4 +19,54 @@ export const ADAPTERS = {
     inner_dia: "integer",
     outer_dia: "integer"
   },
+  /* real life adapters */
+  adapters: {
+    1.6: 1,
+    1.75: 1,
+    2.0: 1,
+    2.5: 1,
+    2.75: 1,
+    3: 4,
+    3.5: 1,
+  },
+  "ADAPTER1.6-1": {
+    inner_dia: 1.6,
+    outer_dia: 3.0
+  },
+  "ADAPTER1.75-1": {
+    inner_dia: 1.75,
+    outer_dia: 4.0
+  },
+  "ADAPTER2.0-1": {
+    inner_dia: 2.0,
+    outer_dia: 3.5
+  },
+  "ADAPTER2.5-1": {
+    inner_dia: 2.5,
+    outer_dia: 3.5
+  },
+  "ADAPTER2.75-1": {
+    inner_dia: 2.75,
+    outer_dia: 4.0
+  },
+  "ADAPTER3.0-1": {
+    inner_dia: 3.0,
+    outer_dia: 3.5
+  },
+  "ADAPTER3.0-2": {
+    inner_dia: 3.0,
+    outer_dia: 4.0
+  },
+  "ADAPTER3.0-3": {
+    inner_dia: 3.0,
+    outer_dia: 4.0
+  },
+  "ADAPTER3.0-4": {
+    inner_dia: 3.0,
+    outer_dia: 5.0
+  },
+  "ADAPTER3.5-1": {
+    inner_dia: 3.5,
+    outer_dia: 4.0
+  },
 }

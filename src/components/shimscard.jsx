@@ -3,7 +3,7 @@ import React from 'react'
 export default function ShimsCard(props) {
 
   const { shim_array } = props
-  console.log(shim_array)
+  // console.log(shim_array)
 
   return (
   <div class='flex gap-2 justify-center'>

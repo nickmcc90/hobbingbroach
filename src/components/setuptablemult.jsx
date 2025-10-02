@@ -9,7 +9,7 @@ export default function SetupTableMult() {
 
   const partNumbers = Object.keys(ITEMS)
 
-  console.log(Object.keys(ITEMS).length);
+  // console.log(Object.keys(ITEMS).length);
 
   // console.log(partNumbers)
 
@@ -28,8 +28,8 @@ export default function SetupTableMult() {
           {partNumbers.map((part) => (
               <TableCard 
                 partnum={part} broachbar={ITEMS[part].bar}
-                arbor={ITEMS[part].arbor} plate={ITEMS[part].adapter}
-                puller={ITEMS[part].puller} shims={ITEMS[part].shim_data}
+                arbor={ITEMS[part].arbor}
+                shims={ITEMS[part].shim_data}
                 extra={ITEMS[part].extra_info}
               />
             ))

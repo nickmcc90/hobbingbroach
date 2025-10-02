@@ -5752,6 +5752,105 @@ M272135: {
       keyway_width: 1.000
     }
   },
+  HH0235: {
+    broach_info: false,
+    per_bobby: false,
+    done_irl: false,
+    page_in_old_notes: null,
+    bar: "",
+    arbor: "",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "gear",
+      begin_num_series: "int",
+      kind: {
+        kind: "HH",
+        kind_num_series: "0235"
+      },
+      bore_dia: 1.9846,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.213,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.569,
+      keyway_width: 0.501
+    }
+  },
+  "079156-08-G": {
+    broach_info: false,
+    per_bobby: false,
+    done_irl: false,
+    page_in_old_notes: null,
+    bar: "148",
+    arbor: "M-2129",
+    adapter: "M-2179",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "This information is in the Gleason cell because it gets broached over there. Steal the bar and arbor from there",
+    part_info: {
+      type: "gear",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "08-G"
+      },
+      bore_dia: 1.8393,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.069,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.595,
+      keyway_width: 0.501
+    }
+  },
+  "079156-08-AF": {
+    broach_info: false,
+    per_bobby: false,
+    done_irl: false,
+    page_in_old_notes: null,
+    bar: "",
+    arbor: "",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "gear",
+      begin_num_series: "156",
+      kind: {
+        kind: "079",
+        kind_num_series: "08-AF"
+      },
+      bore_dia: 1.8393,
+      bore_tol: 0.0003,
+      key_to_bore_dia: 2.069,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.593,
+      keyway_width: 0.501
+    }
+  },
 /* STARTED DIVER */
 }
 

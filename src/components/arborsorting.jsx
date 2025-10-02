@@ -27,36 +27,43 @@ export default function ArborSorting() {
           Arbor Organization
         </div>
         <div class='flex gap-2'>
-          <div class='bg-purple-200'>Light purple: Under 10 in^3</div>
+          <div class='bg-purple-200'>Light purple: Bores within 0-1 inches</div>
           <div>|</div>
-          <div class='bg-purple-400'>Medium purple: Betweem 10 and 20 in^3</div>
+          <div class='bg-purple-400'>Medium purple: Bores within 1-2 inches</div>
           <div>|</div>
-          <div class='bg-purple-600'>Dark purple: Above 20 in^3</div>
+          <div class='bg-purple-600'>Dark purple: Bores within 2-3 inches</div>
+          <div>|</div>
+          <div class='bg-purple-800'>Darkest purple: Bores within 3+ inches</div>
         </div>
         <div id='column titles' class='flex justify-between items-center w-[650px]'>
           <div>Keyway</div>
           <div>Arbor % grouped by mass</div>
         </div>
-        <div id='generated columns' class='flex flex-col gap-8'>
+        <div id='generated columns' class='flex flex-col ml-[90px] gap-8'>
           {tier_letters.map((key) => (
             <div id='keyway and data grouping' class='flex gap-2'>
               <div id='keyway width grouping' class=''>
                 {tiers[key]}
               </div>
-              <div id='arbor grouping' class='flex flex-col w-[600px]'>
-                <div id='light mass' class='bg-purple-200 flex flex-wrap'>
+              <div id='arbor grouping' class='flex flex-col w-[700px]'>
+                <div id='0-1 bores' class='bg-purple-200 flex flex-wrap'>
                   {Object.keys(ARBORS).filter((item) => (tiers[key] === ARBORS[item].most_likely_built_for)).map((value) => (
-                    <div class='break-words'>{ARBORS[value].dia_mesh_w_part * ARBORS[value].dia_mesh_w_part_length > 0 && ARBORS[value].dia_mesh_w_part * ARBORS[value].dia_mesh_w_part_length < 10 ? ARBORS[value].extra_info : ""}</div>
+                    <div class='break-words'>{ARBORS[value].dia_mesh_w_part < 1 ? ARBORS[value].extra_info : ""}</div>
                   ))}
                 </div>
-                <div id='medium mass' class='bg-purple-400 flex text-wrap'>
+                <div id='1-2 bores' class='bg-purple-400 flex flex-wrap'>
                   {Object.keys(ARBORS).filter((item) => (tiers[key] === ARBORS[item].most_likely_built_for)).map((value) => (
-                    <div class='break-words'>{ARBORS[value].dia_mesh_w_part * ARBORS[value].dia_mesh_w_part_length >= 10 && ARBORS[value].dia_mesh_w_part * ARBORS[value].dia_mesh_w_part_length < 20 ? ARBORS[value].extra_info : ""}</div>
+                    <div class='break-words'>{ARBORS[value].dia_mesh_w_part >= 1 && ARBORS[value].dia_mesh_w_part < 2 ? ARBORS[value].extra_info : ""}</div>
                   ))}
                 </div>
-                <div id='heavy mass' class='bg-purple-600 flex text-wrap'>
+                <div id='2-3 bores' class='bg-purple-600 flex flex-wrap'>
                   {Object.keys(ARBORS).filter((item) => (tiers[key] === ARBORS[item].most_likely_built_for)).map((value) => (
-                    <div class='break-words'>{ARBORS[value].dia_mesh_w_part * ARBORS[value].dia_mesh_w_part_length >= 20 ? ARBORS[value].extra_info : ""}</div>
+                    <div class='break-words'>{ARBORS[value].dia_mesh_w_part >= 2 && ARBORS[value].dia_mesh_w_part < 3 ? ARBORS[value].extra_info : ""}</div>
+                  ))}
+                </div>
+                <div id='3 and beyond' class='bg-purple-800 flex flex-wrap'>
+                  {Object.keys(ARBORS).filter((item) => (tiers[key] === ARBORS[item].most_likely_built_for)).map((value) => (
+                    <div class='break-words'>{ARBORS[value].dia_mesh_w_part >= 3 ? ARBORS[value].extra_info : ""}</div>
                   ))}
                 </div>
               </div>
@@ -65,17 +72,17 @@ export default function ArborSorting() {
           }
         </div>
       </div>
-      <div id='absolute positioned color identifiers' class='absolute top-[265px] left-[205px] 
+      <div id='absolute positioned color identifiers' class='absolute top-[265px] left-[195px] 
       flex flex-col gap-[45px]'>
         <div class='bg-amber-500 h-[10px] w-[10px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-10px]'>Amber</div></div>
-        <div class='bg-purple-300 h-[10px] w-[10px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Light purple</div></div>
-        <div class='bg-[#F08080] h-[10px] w-[10px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-37px]'>Biege/tan "Rose"</div></div>
-        <div class='bg-green-300 h-[10px] w-[10px] mt-[80px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Light green</div></div>
-        <div class='bg-sky-200 h-[10px] w-[10px] mt-[70px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-40px]'>Light blue "Sage"</div></div>
+        <div class='bg-purple-300 h-[10px] w-[10px] mt-[25px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Light purple</div></div>
+        <div class='bg-[#F08080] h-[10px] w-[10px] mt-[2px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-37px]'>Biege/tan "Rose"</div></div>
+        <div class='bg-green-300 h-[10px] w-[10px] mt-[105px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Light green</div></div>
+        <div class='bg-sky-200 h-[10px] w-[10px] mt-[99px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-40px]'>Light blue "Sage"</div></div>
         <div class='bg-pink-500 h-[10px] w-[10px] mt-[47px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Pink "Violet"</div></div>
         <div class='bg-red-400 h-[10px] w-[10px] mt-[47px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-25px]'>Bright Red</div></div>
-        <div class='bg-teal-400 h-[10px] w-[10px] mt-[47px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-10px]'>Turquiose</div></div>
-        <div class='bg-yellow-300 h-[10px] w-[10px] mt-[47px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-10px]'>Yellow</div></div>
+        <div class='bg-teal-400 h-[10px] w-[10px] mt-[27px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-10px]'>Turquiose</div></div>
+        <div class='bg-yellow-300 h-[10px] w-[10px] mt-[27px] text-[20px] relative'><div class='absolute right-[40px] bottom-[-10px]'>Yellow</div></div>
       </div>
     </div>
   )

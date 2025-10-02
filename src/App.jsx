@@ -6,6 +6,7 @@ import TypeBarGenerator from './components/typebargenerator.jsx'
 import ArborSorting from './components/arborsorting.jsx'
 import TypeBarGeneratorLU45 from './components/typebargeneratorLU45.jsx'
 import BarsOutForServiceLU45 from './components/barsoutforserviceLU45.jsx'
+import ColorArborSheet from './components/colorarborsheet.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,10 +35,15 @@ function App() {
         </div> */}
 
         {/* Page for me to organize arbors based on keyway and mass */}
-        {<ArborSorting />}
+        {/* {<ArborSorting />} */}
+
+        {/* This sheet was to help operators understand the color system for the arbors while I was setting tables up */}
+        {/* <ColorArborSheet /> */}
 
         {/* Setup sheets that bring all of the data together for the operators */}
-        {/* <SetupTableMult /> */}
+        <SetupTableMult />
+
+        {/* Get the 602079-03 part done */}
 
         {/* LU45bars.js data within tables that fit nicely on a normal landscape paper */}
         {/* Paper length: 901px | Paper height: 691px */}
@@ -51,3 +57,9 @@ function App() {
 }
 
 export default App
+
+// 0. Grab the data of the adapters and pullers
+// Tasks left to do after all data collection is done.
+// 1. Make setup sheets for the arbors relating to their colors.
+// 2. Maybe include stats about the parts they go with
+// 3. We are now in a position to assemble the setup sheets.

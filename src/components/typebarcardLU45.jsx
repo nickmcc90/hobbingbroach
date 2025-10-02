@@ -10,7 +10,7 @@ export default function TypeBarCardLU45(props) {
   console.log(goes_with)
 
   return (
-    <div class='flex flex-col items-center'>
+    <div class='flex flex-col items-center gap-3'>
       <div class='h-[24px] flex items-center justify-center border-b-2'>
         <div class={`${colors[`${value}`+`color`]} h-[18px] px-2 flex items-center text-white font-semibold`}>{number}</div>
       </div>
@@ -22,7 +22,11 @@ export default function TypeBarCardLU45(props) {
           <div class='mb-[-8px]'>{item}</div>
         ))}
       </div>
-      <div>{language}</div>
+      <div class='h-[300px] flex flex-col items-center'>
+        {language.map(key => (
+          <div class='mb-[-8px]'>{key}</div>
+        ))}
+      </div>
     </div>
   )
 }

@@ -9,9 +9,9 @@ export default function TypeBarGeneratorLU45() {
 
   return (
     <div>
-      <div id='table separator' class='bg-indigo-100 w-[901px] flex flex-col'>
+      <div id='table separator' class='bg-indigo-100 w-[901px] flex flex-col text-2xl'>
         {Object.keys(tiers).filter((n, i) => i % 2 === 0).map((value) => (
-          <div id='title and data separator' class='flex flex-col items-center border-2 h-[691px]'>
+          <div id='title and data separator' class='flex flex-col items-center border-2 h-[692px]'>
             <div id='color card and cutting width' class='flex font-extrabold gap-2 h-[58px] items-center text-3xl border-b-2'>
               <div class='flex items-center gap-2'>
                 <div>color:</div>
@@ -21,7 +21,7 @@ export default function TypeBarGeneratorLU45() {
               <div>{tiers[value]}" Cutting Width</div>
             </div>
             <div id='data' class='flex w-[901px] justify-between p-2'>
-              <div id='constant data' class='flex flex-col'>
+              <div id='constant data' class='flex flex-col gap-3'>
                 <div class='font-semibold border-b-2'>Attribs</div>
                 <div>Length:</div>
                 <div>Bar Width:</div>
