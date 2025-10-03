@@ -2657,8 +2657,8 @@ M272032: {
   per_bobby: true,
   done_irl: false,
   page_in_old_notes: 23,
-  bar: "15-19-197",
-  arbor: "551280",
+  bar: "BAR#7F",
+  arbor: "551280-1.938",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2669,7 +2669,7 @@ M272032: {
       three: [],
     }
   },
-  extra_info: "551280 REFERS TO 1/2",
+  extra_info: "551280 REFERS TO 1/2. bar was 15-19-197",
   part_info: {
     type: "bushing",
     begin_num_series: "242168",
@@ -2856,39 +2856,6 @@ M244111: {
   }
 },
 
-M242168: {
-  broach_info: true,
-  per_bobby: true,
-  done_irl: false,
-  page_in_old_notes: 24,
-  bar: "",
-  arbor: "M-3413",
-  adapter: "",
-  puller: "",
-  shim_data: {
-    shims_used: [.015],
-    shim_pulls: {
-      one: [],
-      two: [],
-      three: [],
-    }
-  },
-  extra_info: "CAN'T READ THE BAR",
-  part_info: {
-    type: "bushing",
-    begin_num_series: "242168",
-    kind: {
-      kind: "M",
-      kind_num_series: "int"
-    },
-    bore_dia: 1.939,
-    bore_tol: 0.001,
-    key_to_bore_dia: 2.083,
-    key_to_bore_dia_tol: 0.005,
-    length: 1.37,
-    keyway_width: 0.501
-  }
-},
 M272135: {
   broach_info: true,
   per_bobby: true,
@@ -5589,7 +5556,7 @@ M272135: {
     per_bobby: true,
     done_irl: false,
     page_in_old_notes: 164,
-    bar: "15-19-152",
+    bar: "BAR #1D",
     arbor: "M-3343",
     adapter: "",
     puller: "#3",
@@ -5601,7 +5568,7 @@ M272135: {
         three: [],
       }
     },
-    extra_info: "",
+    extra_info: "bar was 15-19-152 on last setup sheet",
     part_info: {
       type: "quill",
       begin_num_series: "207",
@@ -5788,7 +5755,40 @@ M272135: {
     done_irl: false,
     page_in_old_notes: "int",
     bar: "",
-    arbor: "",
+    arbor: "092%",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "could be any light green arbor",
+    part_info: {
+      type: "bushing",
+      begin_num_series: "243149",
+      kind: {
+        kind: "",
+        kind_num_series: "int"
+      },
+      bore_dia: 1.9844,
+      bore_tol: 0.001,
+      key_to_bore_dia: 2.2344,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.625,
+      keyway_width: 0.501
+    }
+  },
+  "602445-01-D": {
+    broach_info: false,
+    per_bobby: false,
+    done_irl: false,
+    page_in_old_notes: "int",
+    bar: "",
+    arbor: "DL0076",
     adapter: "",
     puller: "",
     shim_data: {
@@ -5801,18 +5801,51 @@ M272135: {
     },
     extra_info: "",
     part_info: {
-      type: "bushing",
-      begin_num_series: "243149",
+      type: "",
+      begin_num_series: "int",
       kind: {
         kind: "",
         kind_num_series: "int"
       },
-      bore_dia: "int",
-      bore_tol: "int",
-      key_to_bore_dia: "int",
-      key_to_bore_dia_tol: "int",
-      length: "int",
-      keyway_width: "int"
+      bore_dia: 1.0015,
+      bore_tol: 0.0005,
+      key_to_bore_dia: 1.222,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.06,
+      keyway_width: 0.251
+    }
+  },
+  242306: {
+    broach_info: false,
+    per_bobby: false,
+    done_irl: false,
+    page_in_old_notes: "int",
+    bar: "BAR#3C",
+    arbor: "242306",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "put in random arbor. there was none listed",
+    part_info: {
+      type: "",
+      begin_num_series: "int",
+      kind: {
+        kind: "",
+        kind_num_series: "int"
+      },
+      bore_dia: 1.521,
+      bore_tol: 0.005,
+      key_to_bore_dia: 1.682,
+      key_to_bore_dia_tol: 0.005,
+      length: 1.375,
+      keyway_width: .313
     }
   },
 /* STARTED DIVER */

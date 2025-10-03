@@ -141,7 +141,7 @@ export default function TableCard(props) {
             </div>
             <div id='checker container' class='flex justify-between px-2 border-l-4 border-r-4 border-b-4'>
               <div>Approved By:</div>
-              <div></div>
+              <div>Nick M and Jeff S</div>
             </div>
           </div>
         </div>

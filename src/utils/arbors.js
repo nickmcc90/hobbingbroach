@@ -362,9 +362,14 @@ export const ARBORS = {
     extra_info: "120%",
 
   },
+  "242306":  {
+    goes_with: ["242306"],
+    extra_info: "none",
+
+  },
   "M-3343":  {
     goes_with: ["079207-03-C"],
-    extra_info: "none",
+    extra_info: "129%",
 
   },
   "DU0075":  {
