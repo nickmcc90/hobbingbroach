@@ -38,7 +38,7 @@ function App() {
         {/* {<ArborSorting />} */}
 
         {/* This sheet was to help operators understand the color system for the arbors while I was setting tables up */}
-        <ColorArborSheet />
+        {/* <ColorArborSheet /> */}
 
         {/* Setup sheets that bring all of the data together for the operators */}
         <SetupTableMult />
