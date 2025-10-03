@@ -15,6 +15,8 @@ export default function TableCard(props) {
 
   //logic for getting the arbor percent from the arbor table
   const arbor_percent = ARBORS[arbor]?.extra_info
+  const colorized = ARBORS.colors?.[ARBORS[arbor]?.most_likely_built_for]
+
   console.log()
 
 
@@ -102,7 +104,7 @@ export default function TableCard(props) {
         </div>
         <div id="arbor container" class="flex justify-between p-2 border-l-4 border-r-4 border-b-4">
           <div>Arbor:</div>
-          <div>{arbor_percent === 'none' ? <div>{arbor_color}</div> : arbor_percent}</div>
+          <div>{arbor_percent === 'none' ? <div>{arbor_color}</div> : <div>{arbor_percent} which is {colorized}</div>}</div>
         </div>
         <div id='plate container' class="flex justify-between p-2 border-l-4 border-r-4 border-b-4">
           <div>Adapter Plate:</div>

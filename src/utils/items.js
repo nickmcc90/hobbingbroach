@@ -5,7 +5,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 1,
     bar: "2010T024",
-    arbor: "T1753",
+    arbor: "2029163",
     adapter: "8203",
     puller: "",
     shim_data: {
@@ -16,7 +16,7 @@ export const ITEMS = {
         three: [.005, .03, .120],
       }
     },
-    extra_info: "",
+    extra_info: "said T1753",
     part_info: {
       type: "quill",
       begin_num_series: 5,
@@ -302,7 +302,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 2,
     bar: "15-19-139",
-    arbor: "85T4078",
+    arbor: "146%",
     adapter: "8203",
     puller: "",
     shim_data: {
@@ -434,7 +434,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 4,
     bar: "15-19-167",
-    arbor: "M04-1",
+    arbor: "M04",
     adapter: "",
     puller: "T602720-13-A",
     shim_data: {
@@ -467,7 +467,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 4,
     bar: "HG0235",
-    arbor: "HG0235",
+    arbor: "HG0225",
     adapter: "",
     puller: "",
     shim_data: {
@@ -566,7 +566,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 5,
     bar: "15-19-139",
-    arbor: "T66931",
+    arbor: "M02OHG",
     adapter: "",
     puller: "",
     shim_data: {
@@ -599,7 +599,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 5,
     bar: "15-19-139",
-    arbor: "T66931",
+    arbor: "M02OHG",
     adapter: "",
     puller: "",
     shim_data: {
@@ -632,7 +632,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 5,
     bar: "T-21063",
-    arbor: "92T2093",
+    arbor: "HG1914",
     adapter: "",
     puller: "T603222-13-A",
     shim_data: {
@@ -643,7 +643,7 @@ export const ITEMS = {
         three: [],
       }
     },
-    extra_info: "there's an extra arbor to use for this item",
+    extra_info: "there's an extra arbor to use for this item. ARBOR SAID 92T2093",
     part_info: {
       type: "fan",
       begin_num_series: 1914,
@@ -698,7 +698,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 6,
     bar: "1695-R3",
-    arbor: "92T2093",
+    arbor: "090%",
     adapter: "",
     puller: "T719504",
     shim_data: {
@@ -709,7 +709,7 @@ export const ITEMS = {
         three: [],
       }
     },
-    extra_info: "",
+    extra_info: "ARBOR SAID 92T2093",
     part_info: {
       type: "quill",
       begin_num_series: "0086",
@@ -731,7 +731,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 6,
     bar: "15-19-197",
-    arbor: "551280",
+    arbor: "KM0097",
     adapter: "",
     puller: "#5",
     shim_data: {
@@ -742,7 +742,7 @@ export const ITEMS = {
         three: [],
       }
     },
-    extra_info: "flip the part around for the 2nd pull...",
+    extra_info: "flip the part around for the 2nd pull... BOBBY SHEET SAID 551280 FOR ARBOR",
     part_info: {
       type: "shaft",
       begin_num_series: "0097",
@@ -797,7 +797,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 7,
     bar: "T20202",
-    arbor: "97T2017",
+    arbor: "093%",
     adapter: "8670",
     puller: "",
     shim_data: {
@@ -808,7 +808,7 @@ export const ITEMS = {
         three: [],
       }
     },
-    extra_info: "adapter says M-8670+D.S...",
+    extra_info: "adapter says M-8670+D.S... arbor said 97t2017",
     part_info: {
       type: "quill",
       begin_num_series: "int",
@@ -830,7 +830,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 7,
     bar: "HE0300",
-    arbor: "207QUILL",
+    arbor: "71T4024-207QUILL",
     adapter: "",
     puller: "",
     shim_data: {
@@ -1226,7 +1226,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 9,
     bar: "15-41-197",
-    arbor: "551280",
+    arbor: "551280-2.188",
     adapter: "",
     puller: "#5",
     shim_data: {
@@ -1292,7 +1292,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 10,
     bar: "00876-950F",
-    arbor: "97T2017",
+    arbor: "093%",
     adapter: "8670",
     puller: "T71324",
     shim_data: {
@@ -1303,7 +1303,7 @@ export const ITEMS = {
         three: [.250, 0.055],
       }
     },
-    extra_info: "adapters are M8670 + M2671. And 3rd pull is flipping the part...",
+    extra_info: "adapters are M8670 + M2671. And 3rd pull is flipping the part... arbor said 97T2017",
     part_info: {
       type: "worm wheel",
       begin_num_series: "0084",
@@ -1317,39 +1317,6 @@ export const ITEMS = {
       key_to_bore_dia_tol: 0.005,
       length: 4.9975,
       keyway_width: 0.876
-    }
-  },
-  "079207-04-C": {
-    broach_info: true,
-    per_bobby: true,
-    done_irl: false,
-    page_in_old_notes: "int",
-    bar: "T-21630",
-    arbor: "M-3413",
-    adapter: "",
-    puller: "#5",
-    shim_data: {
-      shims_used: [],
-      shim_pulls: {
-        one: [],
-        two: [],
-        three: [],
-      }
-    },
-    extra_info: "both arbors are M-3413 and 551280",
-    part_info: {
-      type: "quill",
-      begin_num_series: "079207",
-      kind: {
-        kind: "04",
-        kind_num_series: "C"
-      },
-      bore_dia: 1.964,
-      bore_tol: 0.005,
-      key_to_bore_dia: 2.048,
-      key_to_bore_dia_tol: 0.005,
-      length: 8.94,
-      keyway_width: 0.501
     }
   },
   DK0083: {
@@ -1391,7 +1358,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 11,
     bar: "15-19-197",
-    arbor: "551280",
+    arbor: "551280-2.000",
     adapter: "",
     puller: "#5",
     shim_data: {
@@ -1424,7 +1391,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 11,
     bar: "15-19-197",
-    arbor: "551280",
+    arbor: "551280-1.938",
     adapter: "",
     puller: "#5",
     shim_data: {
@@ -1490,7 +1457,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 11,
     bar: "92T2093",
-    arbor: "92T2093",
+    arbor: "090%",
     adapter: "",
     puller: "",
     shim_data: {
@@ -1501,7 +1468,7 @@ export const ITEMS = {
         three: [],
       }
     },
-    extra_info: "",
+    extra_info: "ARBOR SAID 92T2093",
     part_info: {
       type: "quill",
       begin_num_series: "0062",
@@ -1556,7 +1523,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 12,
     bar: "HK0225/HK0215",
-    arbor: "551280",
+    arbor: "551280-1.938",
     adapter: "",
     puller: "",
     shim_data: {
@@ -1688,7 +1655,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 13,
     bar: "HS0035",
-    arbor: "93T2003",
+    arbor: "112%",
     adapter: "",
     puller: "",
     shim_data: {
@@ -1699,7 +1666,7 @@ export const ITEMS = {
         three: [],
       }
     },
-    extra_info: "",
+    extra_info: "arbor said 93T2003",
     part_info: {
       type: "bushing",
       begin_num_series: 244115,
@@ -1754,7 +1721,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 14,
     bar: "15-19-197",
-    arbor: "1695-R36",
+    arbor: "TL#1695-R36",
     adapter: "",
     puller: "",
     shim_data: {
@@ -1787,7 +1754,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 14,
     bar: "",
-    arbor: "92T2093",
+    arbor: "551280-2.188",
     adapter: "",
     puller: "",
     shim_data: {
@@ -1831,7 +1798,7 @@ export const ITEMS = {
         three: [],
       }
     },
-    extra_info: "can't read the adapter on the sheet",
+    extra_info: "can't read the adapter on the sheet. I changed this arbor to accomodate M272238 in the LU45 cell",
     part_info: {
       type: "gear",
       begin_num_series: 299,
@@ -2150,7 +2117,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 18,
     bar: "15-19-197",
-    arbor: "551280",
+    arbor: "551280-1.938",
     adapter: "",
     puller: "",
     shim_data: {
@@ -2183,7 +2150,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 18,
     bar: "15-19-197",
-    arbor: "551280",
+    arbor: "551280-2.188",
     adapter: "",
     puller: "",
     shim_data: {
@@ -2284,7 +2251,7 @@ DK0082: {
   done_irl: false,
   page_in_old_notes: 20,
   bar: "15-19-40",
-  arbor: "92T2093",
+  arbor: "094%",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2295,7 +2262,7 @@ DK0082: {
       three: [],
     }
   },
-  extra_info: "puller says 1/2",
+  extra_info: "puller says 1/2. ARBOR SAID 92T2093",
   part_info: {
     type: "quill",
     begin_num_series: "0082",
@@ -2352,7 +2319,7 @@ DN0059: {
   done_irl: false,
   page_in_old_notes: 20,
   bar: "15-41-139",
-  arbor: "550790",
+  arbor: "550790-1.750",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2363,7 +2330,7 @@ DN0059: {
       three: [],
     }
   },
-  extra_info: "puller says 1/2",
+  extra_info: "puller says 1/2. ARbor said 550790",
   part_info: {
     type: "quill",
     begin_num_series: "0059",
@@ -2386,7 +2353,7 @@ HE0305: {
   done_irl: false,
   page_in_old_notes: 20,
   bar: "K-2561-2",
-  arbor: "71T4024-307QUILL",
+  arbor: "HE0305",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2397,7 +2364,7 @@ HE0305: {
       three: [],
     }
   },
-  extra_info: "can't read the shim info",
+  extra_info: "can't read the shim info. arbor said 71T4024-307quill",
   part_info: {
     type: "quill",
     begin_num_series: "int",
@@ -2420,7 +2387,7 @@ DM0081: {
   done_irl: false,
   page_in_old_notes: 21,
   bar: "15-19-139",
-  arbor: "551280",
+  arbor: "551280-2.000",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2454,7 +2421,7 @@ DN0057: {
   done_irl: false,
   page_in_old_notes: 21,
   bar: "",
-  arbor: "551280",
+  arbor: "551280-1.938",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2590,7 +2557,7 @@ M272032: {
   done_irl: false,
   page_in_old_notes: 23,
   bar: "15-19-197",
-  arbor: "551280",
+  arbor: "551280-1.938",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2624,7 +2591,7 @@ M272032: {
   done_irl: false,
   page_in_old_notes: 23,
   bar: "15-19-197",
-  arbor: "551280",
+  arbor: "551280-1.938",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2794,7 +2761,7 @@ M246267: {
   done_irl: false,
   page_in_old_notes: 24,
   bar: "HL0225",
-  arbor: "T1753",
+  arbor: "2029163",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2805,7 +2772,7 @@ M246267: {
       three: [.240, .120],
     }
   },
-  extra_info: "",
+  extra_info: "said T1753",
   part_info: {
     type: "bushing",
     begin_num_series: "246267",
@@ -2828,7 +2795,7 @@ M244111: {
   done_irl: false,
   page_in_old_notes: 24,
   bar: "HS0035",
-  arbor: "92T2093",
+  arbor: "551280-2.188",
   adapter: "",
   puller: "",
   shim_data: {
@@ -2839,7 +2806,7 @@ M244111: {
       three: [],
     }
   },
-  extra_info: "",
+  extra_info: "ARBOR SAID 92T2093",
   part_info: {
     type: "bushing",
     begin_num_series: "244111",
@@ -3329,7 +3296,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 113,
     bar: "Obsolete part",
-    arbor: "551280",
+    arbor: "551280-2.188",
     adapter: "",
     puller: "",
     shim_data: {
@@ -3992,7 +3959,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 133,
     bar: "TL#92T4102",
-    arbor: "88T202",
+    arbor: "HK0225/HK0215",
     adapter: "",
     puller: "#5",
     shim_data: {
@@ -4003,7 +3970,7 @@ M272135: {
         three: [],
       }
     },
-    extra_info: "",
+    extra_info: "arbor on bobby setup sheet said 88T202",
     part_info: {
       type: "helical gear",
       begin_num_series: "5001",
@@ -4025,7 +3992,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 134,
     bar: "69T45916",
-    arbor: "M-LY5001-9",
+    arbor: "LY-5001-9",
     adapter: "8203",
     puller: "",
     shim_data: {
@@ -4058,7 +4025,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 135,
     bar: "15-19-147",
-    arbor: "T-602032-03-B-13-A1",
+    arbor: "074%",
     adapter: "8670",
     puller: "#1",
     shim_data: {
@@ -4256,7 +4223,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 141,
     bar: "15-19-167",
-    arbor: "T-602395-01-H-13-A-1",
+    arbor: "T-602395-01-H-13-A1",
     adapter: "8670",
     puller: "#5",
     shim_data: {
@@ -5359,7 +5326,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 154,
     bar: "15-19-197",
-    arbor: "551280",
+    arbor: "551280-2.000",
     adapter: "",
     puller: "#5",
     shim_data: {
@@ -5425,7 +5392,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 156,
     bar: "15-19-197",
-    arbor: "551280",
+    arbor: "551280-2.188",
     adapter: "",
     puller: "",
     shim_data: {
@@ -5557,7 +5524,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 164,
     bar: "BAR #1D",
-    arbor: "M-3343",
+    arbor: "DL0071",
     adapter: "",
     puller: "#3",
     shim_data: {
@@ -5568,7 +5535,7 @@ M272135: {
         three: [],
       }
     },
-    extra_info: "bar was 15-19-152 on last setup sheet",
+    extra_info: "bar was 15-19-152 on last setup sheet. arbor said m-3343",
     part_info: {
       type: "quill",
       begin_num_series: "207",
