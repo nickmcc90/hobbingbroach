@@ -349,17 +349,17 @@ export const BARS = {
     Lcount: 0
   },
   colors: {
-    AA: "color",
-    A: "color",
-    B: "color",
-    C: "color",
-    D: "color",
-    E: "color",
-    F: "color",
-    G: "color",
-    H: "color",
-    J: "color",
-    K: "color"
+    AA: "Beige/tan 'Rose'",
+    A: "Beige/tan 'Rose'",
+    B: "Beige/tan 'Rose' and/or light green",
+    C: "Light purple and/or light green",
+    D: "Light green",
+    E: "Light green",
+    F: "Light green, light blue, and/or pink 'violet'",
+    G: "Pink 'violet' and/or bright red",
+    H: "Bright red and/or turquiose",
+    J: "Turquiose",
+    K: "Yellow"
   },
   "BAR#1B": {
     goes_with: [""],

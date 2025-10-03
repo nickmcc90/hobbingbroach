@@ -5,7 +5,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 1,
     bar: "2010T024",
-    arbor: "BFF80",
+    arbor: "T1753",
     adapter: "8203",
     puller: "",
     shim_data: {
@@ -657,39 +657,6 @@ export const ITEMS = {
       key_to_bore_dia_tol: 0.005,
       length: null,
       keyway_width: 0.501
-    }
-  },
-  M10OUH: {
-    broach_info: false,
-    per_bobby: true,
-    done_irl: false,
-    page_in_old_notes: 5,
-    bar: "",
-    arbor: "",
-    adapter: "",
-    puller: "",
-    shim_data: {
-      shims_used: [],
-      shim_pulls: {
-        one: [],
-        two: [],
-        three: [],
-      }
-    },
-    extra_info: "",
-    part_info: {
-      type: "quill",
-      begin_num_series: 10,
-      kind: {
-        kind: "OUH",
-        kind_num_series: null
-      },
-      bore_dia: 5.503,
-      bore_tol: 0.003,
-      key_to_bore_dia: 5.812,
-      key_to_bore_dia_tol: 0.005,
-      length: 12.53,
-      keyway_width: 1.251
     }
   },
   KK0101: {
@@ -1622,7 +1589,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 12,
     bar: "",
-    arbor: "",
+    arbor: "HD0305",
     adapter: "",
     puller: "",
     shim_data: {
@@ -1655,7 +1622,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: "int",
     bar: "HH0225",
-    arbor: "",
+    arbor: "UG-4002-12",
     adapter: "",
     puller: "",
     shim_data: {
@@ -1919,7 +1886,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: "int",
     bar: "15-41-206",
-    arbor: "T14475",
+    arbor: "T-14475",
     adapter: "",
     puller: "",
     shim_data: {
@@ -2018,7 +1985,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: "int",
     bar: "BARFORSTEEL",
-    arbor: "5180",
+    arbor: "M-5180",
     adapter: "",
     puller: "",
     shim_data: {
@@ -2051,7 +2018,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 16,
     bar: "",
-    arbor: "",
+    arbor: "HB0299",
     adapter: "",
     puller: "",
     shim_data: {
@@ -2062,7 +2029,7 @@ export const ITEMS = {
         three: [],
       }
     },
-    extra_info: "can't read what it says for arbor",
+    extra_info: "can't read what it says for arbor.",
     part_info: {
       type: "gear",
       begin_num_series: 299,
@@ -2249,10 +2216,10 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 19,
     bar: "15-19-194",
-    arbor: "T-64980",
+    arbor: "T64980",
     adapter: "8203",
     puller: "#4",
-    shim_data: {
+    skim_data: {
       shims_used: [0.04],
       shim_pulls: {
         one: [0.04],
@@ -2554,7 +2521,7 @@ M272079: {
   per_bobby: true,
   done_irl: false,
   page_in_old_notes: 22,
-  bar: "#9556404",
+  bar: "",
   arbor: "M-2079",
   adapter: "",
   puller: "",
@@ -2566,7 +2533,7 @@ M272079: {
       three: [],
     }
   },
-  extra_info: "",
+  extra_info: "#9556404 was the bar on the list. This doesn't get broached here. Keyway is too big.",
   part_info: {
     type: "bushing",
     begin_num_series: "272079",
@@ -3394,7 +3361,7 @@ M272135: {
     per_bobby: true,
     done_irl: false,
     page_in_old_notes: 113,
-    bar: "K4752",
+    bar: "Obsolete part",
     arbor: "551280",
     adapter: "",
     puller: "",
@@ -3408,7 +3375,7 @@ M272135: {
         five: [0.09, 0.170, 0.130]
       }
     },
-    extra_info: "551280 the 2.188 1/2 one",
+    extra_info: "551280 the 2.188 1/2 one. Bar listed was K4752. This is an obsolete part",
     part_info: {
       type: "",
       begin_num_series: "0630",
@@ -3595,7 +3562,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 119,
     bar: "K969174",
-    arbor: "",
+    arbor: "DU0075",
     adapter: "8203",
     puller: "",
     shim_data: {
@@ -3606,7 +3573,7 @@ M272135: {
         three: [.475],
       }
     },
-    extra_info: "arbor is listed as FOR 4.1243 BORE + SHIMS",
+    extra_info: "arbor is listed as FOR 4.1243 BORE + SHIMS. I put a random arbor just so the algorithm worked. the arbor didnt have a name",
     part_info: {
       type: "gear hub",
       begin_num_series: "0075",
@@ -3628,7 +3595,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 120,
     bar: "K969174",
-    arbor: "",
+    arbor: "DV0038",
     adapter: "8203",
     puller: "",
     shim_data: {
@@ -3640,7 +3607,7 @@ M272135: {
         four: [.335]
       }
     },
-    extra_info: "arbor isn't listed, says FOR 4.4992 BORE",
+    extra_info: "arbor isn't listed, says FOR 4.4992 BORE. Put a random arbor in there even though there was no name",
     part_info: {
       type: "gear hub",
       begin_num_series: "0038",
@@ -3662,7 +3629,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 121,
     bar: "KINGSFORD 550290",
-    arbor: "",
+    arbor: "T-602029-02-13-A1",
     adapter: "8203",
     puller: "6502",
     shim_data: {
@@ -3695,7 +3662,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: 122,
     bar: "KINGSFORD 550290",
-    arbor: "",
+    arbor: "T-602029-02-13-A1",
     adapter: "8203",
     puller: "6502",
     shim_data: {
@@ -5689,7 +5656,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: null,
     bar: "BAR#2D",
-    arbor: "",
+    arbor: "M01OUH",
     adapter: "",
     puller: "",
     shim_data: {
@@ -5700,7 +5667,7 @@ M272135: {
         three: [],
       }
     },
-    extra_info: "",
+    extra_info: "gets broached in the 300 I cell. There was no arbor put I put a random one",
     part_info: {
       type: "quill",
       begin_num_series: "int",
@@ -5716,49 +5683,13 @@ M272135: {
       keyway_width: 0.376
     }
   },
-  MST09OUH: {
-    broach_info: false,
-    per_bobby: false,
-    done_irl: false,
-    page_in_old_notes: null,
-    LU45cell: true,
-    bar: "",
-    arbor: "",
-    adapter: "",
-    puller: "",
-    shim_data: {
-      shims_used: [],
-      shim_pulls: {
-        one: [],
-        two: [],
-        three: [],
-      }
-    },
-    extra_info: "this is a new part Anthony is going to send over at some point today is 8/29/25",
-    part_info: {
-      type: "quill",
-      begin_num_series: "OUH",
-      kind: {
-        kind: "MST",
-        kind_num_series: "09"
-      },
-      bore_dia: 4.443,
-      bore_tol: 0.003,
-      second_bore_dia: 4.631,
-      second_bore_tol: 0.001,
-      key_to_bore_dia: 4.842,
-      key_to_bore_dia_tol: 0.005,
-      length: 11.42,
-      keyway_width: 1.000
-    }
-  },
   HH0235: {
     broach_info: false,
     per_bobby: false,
     done_irl: false,
     page_in_old_notes: null,
     bar: "",
-    arbor: "",
+    arbor: "HH0225",
     adapter: "",
     puller: "",
     shim_data: {
@@ -5824,7 +5755,7 @@ M272135: {
     done_irl: false,
     page_in_old_notes: null,
     bar: "",
-    arbor: "",
+    arbor: "M-2129",
     adapter: "",
     puller: "",
     shim_data: {
@@ -5849,6 +5780,39 @@ M272135: {
       key_to_bore_dia_tol: 0.005,
       length: 1.593,
       keyway_width: 0.501
+    }
+  },
+  243149: {
+    broach_info: false,
+    per_bobby: false,
+    done_irl: false,
+    page_in_old_notes: "int",
+    bar: "",
+    arbor: "",
+    adapter: "",
+    puller: "",
+    shim_data: {
+      shims_used: [],
+      shim_pulls: {
+        one: [],
+        two: [],
+        three: [],
+      }
+    },
+    extra_info: "",
+    part_info: {
+      type: "bushing",
+      begin_num_series: "243149",
+      kind: {
+        kind: "",
+        kind_num_series: "int"
+      },
+      bore_dia: "int",
+      bore_tol: "int",
+      key_to_bore_dia: "int",
+      key_to_bore_dia_tol: "int",
+      length: "int",
+      keyway_width: "int"
     }
   },
 /* STARTED DIVER */

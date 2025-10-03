@@ -1,64 +1,78 @@
 export const ARBORS = {
   "BF880":  {
     goes_with: ["M05OUH"],
-    real_arbor: true,
-    arbor: "115%",
+    extra_info: "115%",
+    extra_lang: "this is the real m05ouh arbor"
   },
   "M-4076":  {
     goes_with: ["M03FRG09", "M03FRG15", "M03FRG25"],
+    extra_info: "none",
 
   },
   "HG0305":  {
     goes_with: ["KL0101", "HG0305", "M272032", "M246268"],
     real_arbor: true,
-    arbor: ""
+    extra_info: "041%",
   },
   "HH0305":  {
     goes_with: ["M07OUH", "MSC07OUH", "M272136", "M272135"],
+    extra_info: "none",
 
   },
   "M-5150":  {
     goes_with: ["KJ1119", "KJ1115", "KJ1120"],
+    extra_info: "125%",
 
   },
   "HH-Arbor":  {
     goes_with: ["HH0215"],
+    extra_info: "none",
 
   },
   "85T4078":  {
     goes_with: ["M09FRG15"],
+    extra_info: "146%",
 
   },
   "M10FRG":  {
     goes_with: ["M10FRG15"],
+    extra_info: "031%",
 
   },
   "M-2130-3":  {
     goes_with: ["M03OHG",],
+    extra_info: "018%",
 
   },
   "71T4024-307QUILL":  {
     goes_with: ["M06OUH", "M06OUHstraight", "HE0305"],
+    extra_info: "041% or 114%",
 
   },
   "M04-1":  {
     goes_with: ["M04OHG"],
+    extra_info: "114%",
+
 
   },
   "HG0235":  {
     goes_with: ["HG0235"],
+    extra_info: "004%",
 
   },
   "M-2130-6":  {
     goes_with: ["M06OHG"],
+    extra_info: "none",
 
   },
   "HG0225":  {
     goes_with: ["HG0225"],
+    extra_info: "004%",
 
   },
   "T66931":  {
     goes_with: ["M08FRG15", "M08FRG25"],
+    extra_info: "009%",
 
   },
   "92T2093":  {
@@ -66,219 +80,302 @@ export const ARBORS = {
     bar_width: "integer",
     dia_mesh_w_part: "integer",
     dia_mesh_w_output: "integer",
-    keyway_to_underOD: "integer"
+    keyway_to_underOD: "integer",
+    extra_info: "044%, 083%, 107% or 110%",
   },
   "2029163":  {
     goes_with: ["KK0101", "M245112", "MSC05OUH"],
-
+    extra_info: "115%",
+    
   },
   "551280":  {
     goes_with: ["KM0079", "M03OUH", "DM0078", "HC0305", "M243272", "MSC02OUH", "MSC03OUH", "DN0630", "DM0081", "DN0057", "243148", "242312", "M242168"],
+    extra_info: "044%, 083%, or 110%",
 
   },
   "64T4588":  {
     goes_with: ["KJ0101"],
+    extra_info: "none",
 
   },
   "97T2017":  {
     goes_with: ["DM0084", "DT0084"],
+    extra_info: "093%",
 
   },
   "207QUILL":  {
     goes_with: ["M04OUH"],
+    extra_info: "087%",
+
 
   },
   "DJ0076":  {
     goes_with: ["DJ0060"],
+    extra_info: "none",
 
   },
   "T65770":  {
     goes_with: ["M06FRG09", "M06FRG15", "M06FRG25"],
+    extra_info: "none",
+
 
   },
   "M-2724-7":  {
     goes_with: ["M07FRG15", "M07FRG25"],
+    extra_info: "139%",
 
   },
   "M-2130-7":  {
     goes_with: ["M07OHG"],
+    extra_info: "122%",
 
   },
   "T66070":  {
     goes_with: ["DK0162", "DK0156", "DK0153", "DK0159", "DK0160"],
+    extra_info: "048%",
 
   },
   "M-3717":  {
     goes_with: ["M05FRG09", "M05FRG15", "M05FRG25"],
+    extra_info: "none",
 
   },
   "412-R-6":  {
     goes_with: ["M03OHG"],
+    extra_info: "111%",
+
+
+  },
+  "M-3680":  {
+    goes_with: ["079207-05-B"],
+    extra_info: "none",
+
 
   },
   "M-3413":  {
     goes_with: ["079207-04-C", "M242168"],
+    extra_info: "117%",
+
+  },
+  "M01OUH":  {
+    goes_with: ["M01OUH"],
+    extra_info: "Broached in 300I machine, no broach",
 
   },
   "M-3738":  {
     goes_with: ["DK0083"],
+    extra_info: "none",
 
   },
   "HL0225":  {
     goes_with: ["DK0083", "HL0225"],
+    extra_info: "none",
 
   },
   "HE0305":  {
     goes_with: ["M245094"],
+    extra_info: "034%",
 
   },
   "93T2003":  {
     goes_with: ["M244115"],
+    extra_info: "112%",
 
   },
   "DL0071":  {
     goes_with: ["MSC01OUH", "DL0071", "HB0305", "079156-08-AE"],
+    extra_info: "129%",
 
   },
   "1695-R36":  {
     goes_with: ["M02OHG"],
+    extra_info: "015%",
 
   },
   "HG0299":  {
     goes_with: ["HG0299"],
+    extra_info: "127%",
 
   },
   "09404475":  {
     goes_with: ["HD0215"],
+    extra_info: "none",
 
   },
   "M-5180":  {
     goes_with: ["HF0299"],
+    extra_info: "none",
 
   },
   "AF-3704":  {
     goes_with: ["HE0235"],
+    extra_info: "none",
 
   },
   "M05":  {
     goes_with: ["M05OHG"],
+    extra_info: "none",
 
   },
-  "T-64980":  {
+  "T64980":  {
     goes_with: ["DK0084"],
+    extra_info: "052%",
 
   },
   "HC0299":  {
     goes_with: ["HC0299"],
+    extra_info: "040%",
 
   },
   "T66891":  {
     goes_with: ["DI0099", "DI0107"],
+    extra_info: "none",
 
   },
   "T28840":  {
     goes_with: ["DL0151", "DL0153", "DL0155", "DL0156", "DL0157", "DL0160"],
+    extra_info: "051%",
 
   },
   "T10940":  {
     goes_with: ["DP0136", "DP0137"],
+    extra_info: "none",
 
   },
   "T66871":  {
     goes_with: ["DS0132", "DS0135"],
+    extra_info: "none",
 
   },
   "T66872":  {
     goes_with: ["DT0087"],
+    extra_info: "046%",
 
   },
   "2013T005":  {
     goes_with: ["FD0975"],
+    extra_info: "068%",
 
   },
   "73T44304":  {
     goes_with: ["FD1456"],
+    extra_info: "none",
 
   },
   "M-5163":  {
     goes_with: ["KJ1052", "KJ1053", "KJ1054", "KJ1055", "KJ1057"],
+    extra_info: "023%",
 
   },
   "88T202":  {
     goes_with: ["LY5001-6"],
+    extra_info: "035%",
 
   },
   "M-LY5001-9":  {
     goes_with: ["LY5001-9"],
+    extra_info: "066%",
 
   },
   "T-602032-03-B-13-A1":  {
     goes_with: ["602032-62"],
+    extra_info: "074%",
 
   },
   "T-602049-02-13-C1":  {
     goes_with: ["602049-02"],
+    extra_info: "072%",
 
   },
   "T-602065-02-13":  {
     goes_with: ["602065-02"],
+    extra_info: "none",
 
   },
   "T-602079-02-B-D-1":  {
     goes_with: ["602079-03", "602079-02", "602079-03"],
+    extra_info: "067% or 082%",
 
   },
   "T-602224-02-13-A":  {
     goes_with: ["602224-02", "602224-03"],
+    extra_info: "124%",
 
   },
   "T-602395-01-H-13-A-1":  {
     goes_with: ["602395-03-A"],
+    extra_info: "079%",
 
   },
   "550790":  {
     goes_with: ["DN0059"],
+    extra_info: "138%",
 
   },
   "M-2079":  {
     goes_with: ["M272079"],
+    extra_info: "Broached in LU45 cell",
 
   },
   "HD0305":  {
     goes_with: ["M243276"],
+    extra_info: "107% or 110%",
+
+  },
+  "DV0038":  {
+    goes_with: ["DV0038"],
+    extra_info: "none",
 
   },
   "T1753":  {
     goes_with: ["M246267"],
+    extra_info: "115%",
 
   },
   "M-2129":  {
     goes_with: ["079156-08-J"],
+    extra_info: "142%",
 
   },
   "M-2130":  {
     goes_with: ["079256-09-H", "079156-09-F", "079156-09-H", "079156-16-A", "079156-16-B", "079156-16-C", "079156-16-D", "079156-16-E", "079156-16-F", "079156-16-G", "079156-16-H"],
+    extra_info: "062%",
 
   },
   "M-2132":  {
     goes_with: ["079156-10-Adouble", "079156-10-Bdouble"],
+    extra_info: "116%",
 
   },
   "M-4127":  {
     goes_with: ["079156-10-Asingle", "079156-10-Bsingle"],
+    extra_info: "none",
 
   },
   "M-2131":  {
     goes_with: ["079156-11-A"],
+    extra_info: "none",
 
   },
   "M-3718":  {
     goes_with: ["079156-16-JT"],
+    extra_info: "120%",
 
   },
   "M-3343":  {
     goes_with: ["079207-03-C"],
+    extra_info: "none",
 
+  },
+  "DU0075":  {
+    goes_with: [""],
+    extra_info: "none",
+
+  },
+
+
+  index: {
+    index: []
   },
   /* real arbors */
   "HK1923":  {
@@ -1555,7 +1652,7 @@ export const ARBORS = {
     extra_lang: "",
     taper: ""
   },
-  "":  {
+  "112%":  {
     goes_with: [],
     bar_width: 0.749,
     most_likely_built_for: 0.751,
@@ -1579,7 +1676,7 @@ export const ARBORS = {
     extra_lang: "",
     taper: ""
   },
-  "71TT4024-307QUILL":  {
+  "71T4024-307QUILL":  {
     goes_with: [],
     bar_width: 0.992,
     most_likely_built_for: 1.001,
@@ -1600,7 +1697,7 @@ export const ARBORS = {
     dia_mesh_w_output: 3.000,
     keyway_to_underOD: 1.231,
     extra_info: "115%",
-    extra_lang: "T-17530 BF880",
+    extra_lang: "T1753 BF880",
     taper: ""
   },
   "M-2132":  {

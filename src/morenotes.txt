@@ -1,0 +1,18 @@
+Trying to find out M246261
+
+Keyway: 0.501
+Bore: 2.192
+Should use: 
+
+M244111
+
+Keyway: 0.626
+Bore: 2.192
+Uses: 44, 83, 107, 110
+
+
+HD0305
+
+Keyway: 0.501
+Bore: 2.192
+Uses: 44, 83, 107, 110

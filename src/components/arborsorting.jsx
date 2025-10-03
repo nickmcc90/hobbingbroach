@@ -7,7 +7,7 @@ export default function ArborSorting() {
   // console.log(BARS.tiers)
   const { tiers } = BARS
   const tier_letters = Object.keys(tiers).filter((n, i) => i % 2 === 0)
-  console.log(tier_letters)
+  // console.log(tier_letters)
 
 
   //organizing arbors based on mass variables
@@ -15,7 +15,7 @@ export default function ArborSorting() {
   let medium = 0;
   let heavy = 0;
 
-  console.log(ARBORS)
+  // console.log(ARBORS)
 
   // what is 009% and what is 030% ? M08FRG seems to be both. maybe just 030%
 

@@ -13,6 +13,11 @@ export default function TableCard(props) {
   // grabbing specific setup info from one part number
   const { partnum, broachbar, arbor, shims, extra } = props
 
+  //logic for getting the arbor percent from the arbor table
+  const arbor_percent = ARBORS[arbor]?.extra_info
+  console.log()
+
+
   // making an array for the labeled bars in the shop from the BARS object
   const labeledBars = Object.keys(BARS).filter(item => item.includes("BAR#"))
 
@@ -34,7 +39,11 @@ export default function TableCard(props) {
 
   //taking this key_width and using it to grab the letter associated from it within the tier_list
   const rec_letter = Object.keys(tier_list).filter((key) => tier_list[key] === key_width)
+  // console.log(rec_letter)
 
+  //logic for giving a recommended arbor color upon there not being an arbor.
+  const arbor_color = BARS.colors[rec_letter]
+  console.log(arbor_color)
 
   ////logic for getting the current day
   const today = new Date();
@@ -93,11 +102,11 @@ export default function TableCard(props) {
         </div>
         <div id="arbor container" class="flex justify-between p-2 border-l-4 border-r-4 border-b-4">
           <div>Arbor:</div>
-          <div>{arbor === '' ? <div>---</div> : arbor}</div>
+          <div>{arbor_percent === 'none' ? <div>{arbor_color}</div> : arbor_percent}</div>
         </div>
         <div id='plate container' class="flex justify-between p-2 border-l-4 border-r-4 border-b-4">
           <div>Adapter Plate:</div>
-          <div>{plate}{console.log(plate)}</div>
+          <div>{plate}</div>
         </div>
         <div id='puller container' class="flex text-[12px] items-center justify-between p-2 border-l-4 border-r-4 border-b-4">
           <div class='text-[16px]'>Puller:</div>
@@ -106,7 +115,8 @@ export default function TableCard(props) {
         <div id='shims container' class="flex justify-between p-2 border-l-4 border-r-4 border-b-4">
           <div>Shims used in previous setups:</div>
           <div id='shim situation container' class='flex'>
-          {shims.shims_used.length === 0 ? <div>---</div> : <ShimsCard shim_array={shims.shims_used} />}
+          {/* {shims.shims_used.length === 0 ? <div>---</div> : <ShimsCard shim_array={shims.shims_used} />} */}
+          <div>---</div>
           {/* {console.log(shims.shims_used)} */}
           </div>
         </div>
@@ -131,6 +141,7 @@ export default function TableCard(props) {
             </div>
             <div id='checker container' class='flex justify-between px-2 border-l-4 border-r-4 border-b-4'>
               <div>Approved By:</div>
+              <div></div>
             </div>
           </div>
         </div>
