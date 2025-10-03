@@ -1522,7 +1522,7 @@ export const ITEMS = {
     per_bobby: true,
     done_irl: false,
     page_in_old_notes: 12,
-    bar: "HK0225/HK0215",
+    bar: "",
     arbor: "551280-1.938",
     adapter: "",
     puller: "",
@@ -2084,7 +2084,7 @@ export const ITEMS = {
     done_irl: false,
     page_in_old_notes: 18,
     bar: "15-19-163",
-    arbor: "M05",
+    arbor: "M-2130-5",
     adapter: "",
     puller: "",
     shim_data: {

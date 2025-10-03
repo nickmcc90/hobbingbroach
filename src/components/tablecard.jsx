@@ -4,10 +4,13 @@ import { BARS } from '../utils/bars.js'
 import { ARBORS } from '../utils/arbors.js'
 import ShimsCard from './shimscard.jsx'
 
+let count = 0;
+
 // This is a component works together with setuptablemult.jsx
 // This component is the template for one single setup sheete
 
 export default function TableCard(props) {
+  count +=1
 
   ////logic for linking the labeledbars to what was in the setup sheet for a specific bar
   // grabbing specific setup info from one part number
@@ -133,7 +136,7 @@ export default function TableCard(props) {
             <div id='form container' class='flex justify-between px-2 border-l-4 border-r-4 border-b-4'>
               <div>Form Number:</div>
               <div id='num container' class='flex justify-between w-[100px]'>
-                <div id='num sign moved to left'>#</div>
+                <div id='num sign moved to left'># {count / 2}</div>
                 <div id='invisible div'></div>
               </div>
             </div>
